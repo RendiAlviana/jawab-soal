@@ -1,0 +1,556 @@
+{
+  "judul": "50 Soal Pilihan Ganda Pemrograman Dasar",
+  "jumlah_soal": 50,
+  "soal": [
+    {
+      "nomor": 1,
+      "pertanyaan": "Urutan langkah-langkah logis untuk memecahkan masalah yang disusun secara sistematis disebut...",
+      "pilihan": {
+        "a": "Program",
+        "b": "Algoritma",
+        "c": "Sintaks",
+        "d": "Pseudocode"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "nomor": 2,
+      "pertanyaan": "Bahasa pemrograman yang membutuhkan proses penerjemahan keseluruhan kode sumber sebelum dieksekusi disebut bahasa...",
+      "pilihan": {
+        "a": "Skrip",
+        "b": "Interpreted",
+        "c": "Compiled",
+        "d": "Markup"
+      },
+      "jawaban_benar": "c"
+    },
+    {
+      "nomor": 3,
+      "pertanyaan": "Tipe data yang digunakan untuk menyimpan bilangan bulat (tanpa pecahan) adalah...",
+      "pilihan": {
+        "a": "Float",
+        "b": "String",
+        "c": "Boolean",
+        "d": "Integer"
+      },
+      "jawaban_benar": "d"
+    },
+    {
+      "nomor": 4,
+      "pertanyaan": "Istilah yang digunakan untuk menyebut kesalahan dalam kode program adalah...",
+      "pilihan": {
+        "a": "Debugging",
+        "b": "Bug",
+        "c": "Compiler",
+        "d": "Source Code"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "nomor": 5,
+      "pertanyaan": "Struktur kontrol yang digunakan untuk mengambil keputusan berdasarkan suatu kondisi adalah...",
+      "pilihan": {
+        "a": "Perulangan (Looping)",
+        "b": "Percabangan (Conditional)",
+        "c": "Sequential",
+        "d": "Array"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "nomor": 6,
+      "pertanyaan": "Simbol yang digunakan untuk memulai dan mengakhiri suatu program dalam flowchart adalah...",
+      "pilihan": {
+        "a": "Jajar Genjang (Input/Output)",
+        "b": "Persegi Panjang (Proses)",
+        "c": "Oval/Terminator",
+        "d": "Belah Ketupat (Keputusan)"
+      },
+      "jawaban_benar": "c"
+    },
+    {
+      "nomor": 7,
+      "pertanyaan": "Operator aritmatika yang digunakan untuk mencari sisa hasil bagi adalah...",
+      "pilihan": {
+        "a": "/",
+        "b": "*",
+        "c": "% (Modulo)",
+        "d": "** (Pangkat)"
+      },
+      "jawaban_benar": "c"
+    },
+    {
+      "nomor": 8,
+      "pertanyaan": "Kumpulan karakter yang dianggap sebagai satu kesatuan data, seperti nama atau kalimat, disimpan dalam tipe data...",
+      "pilihan": {
+        "a": "Char",
+        "b": "String",
+        "c": "Boolean",
+        "d": "Integer"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "nomor": 9,
+      "pertanyaan": "Perintah `WHILE` dan `FOR` dalam pemrograman digunakan untuk mengimplementasikan struktur...",
+      "pilihan": {
+        "a": "Sequencing",
+        "b": "Branching",
+        "c": "Iteration",
+        "d": "Selection"
+      },
+      "jawaban_benar": "c"
+    },
+    {
+      "nomor": 10,
+      "pertanyaan": "Apa yang dimaksud dengan **Variabel**?",
+      "pilihan": {
+        "a": "Nilai tetap yang tidak dapat diubah.",
+        "b": "Perintah khusus dalam bahasa pemrograman.",
+        "c": "Tempat penyimpanan data di memori yang nilainya dapat berubah.",
+        "d": "Kesalahan dalam penulisan sintaks."
+      },
+      "jawaban_benar": "c"
+    },
+    {
+      "nomor": 11,
+      "pertanyaan": "Sintaks `if (kondisi) { ... } else { ... }` termasuk dalam kategori...",
+      "pilihan": {
+        "a": "Perulangan",
+        "b": "Deklarasi",
+        "c": "Kondisional",
+        "d": "Aritmatika"
+      },
+      "jawaban_benar": "c"
+    },
+    {
+      "nomor": 12,
+      "pertanyaan": "Apa output dari ekspresi Boolean `True AND False`?",
+      "pilihan": {
+        "a": "True",
+        "b": "False",
+        "c": "Null",
+        "d": "Error"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "nomor": 13,
+      "pertanyaan": "Suatu blok kode yang dirancang untuk menjalankan tugas tertentu dan dapat dipanggil berulang kali disebut...",
+      "pilihan": {
+        "a": "Variabel",
+        "b": "Komentar",
+        "c": "Fungsi/Prosedur",
+        "d": "Konstanta"
+      },
+      "jawaban_benar": "c"
+    },
+    {
+      "nomor": 14,
+      "pertanyaan": "Proses penerjemahan baris per baris kode sumber saat program sedang berjalan disebut...",
+      "pilihan": {
+        "a": "Kompilasi",
+        "b": "Linker",
+        "c": "Debugging",
+        "d": "Interpretasi"
+      },
+      "jawaban_benar": "d"
+    },
+    {
+      "nomor": 15,
+      "pertanyaan": "Simbol belah ketupat dalam flowchart melambangkan...",
+      "pilihan": {
+        "a": "Input/Output",
+        "b": "Proses",
+        "c": "Keputusan/Kondisi",
+        "d": "Penghubung"
+      },
+      "jawaban_benar": "c"
+    },
+    {
+      "nomor": 16,
+      "pertanyaan": "Apa yang dimaksud dengan **Konstanta**?",
+      "pilihan": {
+        "a": "Nilai yang dapat diubah selama eksekusi program.",
+        "b": "Perintah untuk menampilkan data.",
+        "c": "Nilai tetap yang tidak dapat diubah setelah didefinisikan.",
+        "d": "Urutan langkah-langkah dalam algoritma."
+      },
+      "jawaban_benar": "c"
+    },
+    {
+      "nomor": 17,
+      "pertanyaan": "Operator perbandingan (relasional) yang memiliki arti 'Tidak Sama Dengan' adalah...",
+      "pilihan": {
+        "a": "==",
+        "b": "=>",
+        "c": "!=",
+        "d": "<="
+      },
+      "jawaban_benar": "c"
+    },
+    {
+      "nomor": 18,
+      "pertanyaan": "Tipe data `Char` digunakan untuk menyimpan...",
+      "pilihan": {
+        "a": "Bilangan pecahan",
+        "b": "Satu karakter tunggal",
+        "c": "Deretan karakter (kalimat)",
+        "d": "Nilai True atau False"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "nomor": 19,
+      "pertanyaan": "Sebuah struktur data yang menyimpan sekumpulan elemen dengan tipe data yang sama dan diakses menggunakan indeks disebut...",
+      "pilihan": {
+        "a": "Struct",
+        "b": "Array",
+        "c": "Pointer",
+        "d": "Queue"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "nomor": 20,
+      "pertanyaan": "Bagian dari kode program yang diabaikan oleh compiler/interpreter dan berfungsi sebagai penjelasan untuk programmer disebut...",
+      "pilihan": {
+        "a": "Statement",
+        "b": "Expression",
+        "c": "Comment",
+        "d": "Directive"
+      },
+      "jawaban_benar": "c"
+    },
+    {
+      "nomor": 21,
+      "pertanyaan": "Perintah yang digunakan untuk mengambil masukan (input) dari pengguna melalui keyboard adalah...",
+      "pilihan": {
+        "a": "Print",
+        "b": "Output",
+        "c": "Read/Input",
+        "d": "Write"
+      },
+      "jawaban_benar": "c"
+    },
+    {
+      "nomor": 22,
+      "pertanyaan": "Proses pencarian dan penghilangan 'bug' atau kesalahan pada program disebut...",
+      "pilihan": {
+        "a": "Compilation",
+        "b": "Debugging",
+        "c": "Testing",
+        "d": "Coding"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "nomor": 23,
+      "pertanyaan": "Penyajian algoritma yang menggunakan bahasa atau simbol menyerupai bahasa pemrograman tetapi tidak terikat pada sintaks bahasa tertentu disebut...",
+      "pilihan": {
+        "a": "Flowchart",
+        "b": "Source Code",
+        "c": "Pseudocode",
+        "d": "Diagram Blok"
+      },
+      "jawaban_benar": "c"
+    },
+    {
+      "nomor": 24,
+      "pertanyaan": "Dalam perulangan `FOR`, bagian yang menentukan berapa kali perulangan akan dijalankan disebut...",
+      "pilihan": {
+        "a": "Inisialisasi",
+        "b": "Kondisi Berhenti",
+        "c": "Counter/Iterasi",
+        "d": "Semua benar"
+      },
+      "jawaban_benar": "d"
+    },
+    {
+      "nomor": 25,
+      "pertanyaan": "Tipe data yang digunakan untuk menyimpan bilangan dengan titik desimal (pecahan) adalah...",
+      "pilihan": {
+        "a": "Integer",
+        "b": "Float/Double",
+        "c": "Character",
+        "d": "Long"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "nomor": 26,
+      "pertanyaan": "Dalam operasi logika, ekspresi `NOT True` akan menghasilkan...",
+      "pilihan": {
+        "a": "True",
+        "b": "False",
+        "c": "Error",
+        "d": "Null"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "nomor": 27,
+      "pertanyaan": "Apa fungsi utama dari **Compiler**?",
+      "pilihan": {
+        "a": "Menampilkan output ke layar.",
+        "b": "Mengubah kode sumber menjadi kode mesin.",
+        "c": "Menerima input dari pengguna.",
+        "d": "Memperbaiki kesalahan sintaks secara otomatis."
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "nomor": 28,
+      "pertanyaan": "Simbol persegi panjang dalam flowchart digunakan untuk merepresentasikan...",
+      "pilihan": {
+        "a": "Awal/Akhir Program",
+        "b": "Input/Output Data",
+        "c": "Proses/Perhitungan",
+        "d": "Keputusan"
+      },
+      "jawaban_benar": "c"
+    },
+    {
+      "nomor": 29,
+      "pertanyaan": "Perintah `break` dalam perulangan digunakan untuk...",
+      "pilihan": {
+        "a": "Melanjutkan ke iterasi berikutnya.",
+        "b": "Menghentikan perulangan saat itu juga.",
+        "c": "Mengulang perulangan dari awal.",
+        "d": "Menampilkan hasil perulangan."
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "nomor": 30,
+      "pertanyaan": "Contoh bahasa pemrograman yang termasuk 'High-Level Language' adalah...",
+      "pilihan": {
+        "a": "Assembly Language",
+        "b": "Machine Code",
+        "c": "Python, Java, C++",
+        "d": "Binary Code"
+      },
+      "jawaban_benar": "c"
+    },
+    {
+      "nomor": 31,
+      "pertanyaan": "Apa yang dimaksud dengan **Sintaks**?",
+      "pilihan": {
+        "a": "Logika pemecahan masalah.",
+        "b": "Aturan penulisan kode dalam bahasa pemrograman.",
+        "c": "Nilai variabel.",
+        "d": "Kesalahan dalam program."
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "nomor": 32,
+      "pertanyaan": "Dalam pemrograman, ekspresi `$a = $a + 1;` adalah contoh dari operator...",
+      "pilihan": {
+        "a": "Relasional",
+        "b": "Logika",
+        "c": "Aritmatika",
+        "d": "Assignment"
+      },
+      "jawaban_benar": "d"
+    },
+    {
+      "nomor": 33,
+      "pertanyaan": "Nilai indeks pertama (awal) dari sebuah Array di banyak bahasa pemrograman (seperti C, Java, Python) adalah...",
+      "pilihan": {
+        "a": "1",
+        "b": "0",
+        "c": "-1",
+        "d": "Random"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "nomor": 34,
+      "pertanyaan": "Bahasa pemrograman yang sangat dekat dengan bahasa mesin, seperti Assembly Language, disebut...",
+      "pilihan": {
+        "a": "Low-Level Language",
+        "b": "High-Level Language",
+        "c": "Scripting Language",
+        "d": "Object-Oriented Language"
+      },
+      "jawaban_benar": "a"
+    },
+    {
+      "nomor": 35,
+      "pertanyaan": "Apa yang terjadi jika suatu perulangan tidak memiliki kondisi berhenti (infinite loop)?",
+      "pilihan": {
+        "a": "Program akan berhenti secara otomatis.",
+        "b": "Program akan berjalan terus menerus hingga sumber daya habis.",
+        "c": "Program akan melompati perulangan tersebut.",
+        "d": "Compiler akan memberikan peringatan."
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "nomor": 36,
+      "pertanyaan": "Tipe data Boolean digunakan untuk hasil dari operator...",
+      "pilihan": {
+        "a": "Aritmatika",
+        "b": "Assignment",
+        "c": "Relasional/Perbandingan",
+        "d": "String Concatenation"
+      },
+      "jawaban_benar": "c"
+    },
+    {
+      "nomor": 37,
+      "pertanyaan": "Aliran instruksi dari atas ke bawah tanpa adanya percabangan atau perulangan disebut struktur...",
+      "pilihan": {
+        "a": "Iterasi",
+        "b": "Seleksi",
+        "c": "Sequential",
+        "d": "Modular"
+      },
+      "jawaban_benar": "c"
+    },
+    {
+      "nomor": 38,
+      "pertanyaan": "Dalam pseudocode, perintah untuk mendapatkan nilai masukan dari user biasanya adalah...",
+      "pilihan": {
+        "a": "WRITE",
+        "b": "PROCESS",
+        "c": "OUTPUT",
+        "d": "READ"
+      },
+      "jawaban_benar": "d"
+    },
+    {
+      "nomor": 39,
+      "pertanyaan": "Kesalahan yang terjadi akibat ketidaksesuaian aturan penulisan bahasa pemrograman (tata bahasa) disebut...",
+      "pilihan": {
+        "a": "Logical Error",
+        "b": "Runtime Error",
+        "c": "Syntax Error",
+        "d": "Semantic Error"
+      },
+      "jawaban_benar": "c"
+    },
+    {
+      "nomor": 40,
+      "pertanyaan": "Bagian dari kode program yang memiliki ruang lingkup (scope) tersendiri dan dapat menerima parameter serta mengembalikan nilai adalah...",
+      "pilihan": {
+        "a": "Class",
+        "b": "Method/Fungsi",
+        "c": "Block",
+        "d": "Statement"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "nomor": 41,
+      "pertanyaan": "Operator logika yang menghasilkan True jika **salah satu** operand-nya True adalah...",
+      "pilihan": {
+        "a": "AND",
+        "b": "NOT",
+        "c": "OR",
+        "d": "XOR"
+      },
+      "jawaban_benar": "c"
+    },
+    {
+      "nomor": 42,
+      "pertanyaan": "Tanda panah dalam flowchart berfungsi sebagai...",
+      "pilihan": {
+        "a": "Proses",
+        "b": "Kondisi",
+        "c": "Arah Aliran Data/Instruksi",
+        "d": "Input"
+      },
+      "jawaban_benar": "c"
+    },
+    {
+      "nomor": 43,
+      "pertanyaan": "Perulangan yang mengecek kondisi di awal sebelum blok kode dijalankan minimal sekali adalah...",
+      "pilihan": {
+        "a": "Do-While",
+        "b": "Repeat-Until",
+        "c": "While",
+        "d": "For"
+      },
+      "jawaban_benar": "c"
+    },
+    {
+      "nomor": 44,
+      "pertanyaan": "Apa yang dimaksud dengan **Tipe Data Abstrak (ADT)**?",
+      "pilihan": {
+        "a": "Tipe data yang hanya ada di bahasa C.",
+        "b": "Model data yang fokus pada perilaku, bukan implementasi internal.",
+        "c": "Tipe data yang nilainya dapat berubah-ubah.",
+        "d": "Tipe data primitif seperti integer dan float."
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "nomor": 45,
+      "pertanyaan": "Konsep di mana data dan fungsi yang mengoperasikannya dibungkus menjadi satu kesatuan (objek) disebut...",
+      "pilihan": {
+        "a": "Inheritance",
+        "b": "Polymorphism",
+        "c": "Encapsulation",
+        "d": "Abstraction"
+      },
+      "jawaban_benar": "c"
+    },
+    {
+      "nomor": 46,
+      "pertanyaan": "Kesalahan yang tidak terdeteksi oleh compiler/interpreter tetapi menyebabkan program menghasilkan output yang salah atau tidak sesuai logika adalah...",
+      "pilihan": {
+        "a": "Syntax Error",
+        "b": "Runtime Error",
+        "c": "Logical Error",
+        "d": "Linking Error"
+      },
+      "jawaban_benar": "c"
+    },
+    {
+      "nomor": 47,
+      "pertanyaan": "Pada bahasa pemrograman yang menggunakan kompiler, proses penerjemahan dilakukan sebelum program dieksekusi, ini disebut...",
+      "pilihan": {
+        "a": "Just-in-Time (JIT) Compilation",
+        "b": "Ahead-of-Time (AOT) Compilation",
+        "c": "Dynamic Interpretation",
+        "d": "Static Execution"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "nomor": 48,
+      "pertanyaan": "Nama yang diberikan kepada variabel, fungsi, atau entitas program lainnya disebut...",
+      "pilihan": {
+        "a": "Keyword",
+        "b": "Identifier",
+        "c": "Operator",
+        "d": "Literal"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "nomor": 49,
+      "pertanyaan": "Untuk menentukan apakah dua variabel memiliki nilai yang **sama** (perbandingan), operator yang digunakan adalah...",
+      "pilihan": {
+        "a": "=",
+        "b": "+=",
+        "c": "==",
+        "d": "==="
+      },
+      "jawaban_benar": "c"
+    },
+    {
+      "nomor": 50,
+      "pertanyaan": "Di lingkungan pemrograman, **IDE** adalah singkatan dari...",
+      "pilihan": {
+        "a": "Integrated Data Environment",
+        "b": "Internet Development Explorer",
+        "c": "Intelligent Design Engine",
+        "d": "Integrated Development Environment"
+      },
+      "jawaban_benar": "d"
+    }
+  ]
+}

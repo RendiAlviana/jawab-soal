@@ -1,0 +1,556 @@
+{
+  "judul": "50 Soal Pilihan Ganda Elektronika Dasar",
+  "jumlah_soal": 50,
+  "soal": [
+    {
+      "nomor": 1,
+      "pertanyaan": "Satuan dasar dari arus listrik adalah...",
+      "pilihan": {
+        "a": "Volt",
+        "b": "Ohm",
+        "c": "Ampere",
+        "d": "Watt"
+      },
+      "jawaban_benar": "c"
+    },
+    {
+      "nomor": 2,
+      "pertanyaan": "Komponen yang berfungsi untuk menghambat aliran arus listrik adalah...",
+      "pilihan": {
+        "a": "Kapasitor",
+        "b": "Induktor",
+        "c": "Dioda",
+        "d": "Resistor"
+      },
+      "jawaban_benar": "d"
+    },
+    {
+      "nomor": 3,
+      "pertanyaan": "Satuan dari tegangan listrik (beda potensial) adalah...",
+      "pilihan": {
+        "a": "Ohm",
+        "b": "Volt",
+        "c": "Farad",
+        "d": "Henry"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "nomor": 4,
+      "pertanyaan": "Hukum yang menyatakan hubungan antara tegangan (V), arus (I), dan hambatan (R) adalah...",
+      "pilihan": {
+        "a": "Hukum Kirchoff",
+        "b": "Hukum Faraday",
+        "c": "Hukum Ohm",
+        "d": "Hukum Lenz"
+      },
+      "jawaban_benar": "c"
+    },
+    {
+      "nomor": 5,
+      "pertanyaan": "Elektron bergerak dari potensial...",
+      "pilihan": {
+        "a": "Positif ke negatif",
+        "b": "Nol ke positif",
+        "c": "Negatif ke positif",
+        "d": "Tinggi ke rendah (tidak ada hubungannya dengan polaritas)"
+      },
+      "jawaban_benar": "c"
+    },
+    {
+      "nomor": 6,
+      "pertanyaan": "Komponen elektronika yang berfungsi untuk menyimpan energi dalam bentuk medan listrik adalah...",
+      "pilihan": {
+        "a": "Resistor",
+        "b": "Induktor",
+        "c": "Kapasitor",
+        "d": "Transformator"
+      },
+      "jawaban_benar": "c"
+    },
+    {
+      "nomor": 7,
+      "pertanyaan": "Satuan dari kapasitansi adalah...",
+      "pilihan": {
+        "a": "Henry",
+        "b": "Farad",
+        "c": "Ohm",
+        "d": "Siemens"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "nomor": 8,
+      "pertanyaan": "Satuan dari induktansi adalah...",
+      "pilihan": {
+        "a": "Farad",
+        "b": "Ohm",
+        "c": "Volt",
+        "d": "Henry"
+      },
+      "jawaban_benar": "d"
+    },
+    {
+      "nomor": 9,
+      "pertanyaan": "Apa fungsi utama dari sebuah transformator?",
+      "pilihan": {
+        "a": "Menyimpan muatan listrik",
+        "b": "Mengubah level tegangan AC",
+        "c": "Menyearahkan arus",
+        "d": "Menghambat arus listrik"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "nomor": 10,
+      "pertanyaan": "Energi yang dihamburkan oleh suatu komponen dalam bentuk panas dikenal sebagai...",
+      "pilihan": {
+        "a": "Tegangan",
+        "b": "Arus",
+        "c": "Daya",
+        "d": "Frekuensi"
+      },
+      "jawaban_benar": "c"
+    },
+    {
+      "nomor": 11,
+      "pertanyaan": "Kode warna pada resistor dengan urutan Merah - Merah - Merah - Emas memiliki nilai resistansi...",
+      "pilihan": {
+        "a": "220 Ω dengan toleransi ±5%",
+        "b": "2.2 kΩ dengan toleransi ±10%",
+        "c": "2.2 kΩ dengan toleransi ±5%",
+        "d": "22 kΩ dengan toleransi ±5%"
+      },
+      "jawaban_benar": "c"
+    },
+    {
+      "nomor": 12,
+      "pertanyaan": "Jenis resistor yang nilainya dapat berubah-ubah dengan cara diputar adalah...",
+      "pilihan": {
+        "a": "LDR",
+        "b": "NTC",
+        "c": "Potensiometer",
+        "d": "VDR"
+      },
+      "jawaban_benar": "c"
+    },
+    {
+      "nomor": 13,
+      "pertanyaan": "Jika dua buah resistor 10 Ω dirangkai secara seri, maka hambatan totalnya adalah...",
+      "pilihan": {
+        "a": "5 Ω",
+        "b": "10 Ω",
+        "c": "20 Ω",
+        "d": "100 Ω"
+      },
+      "jawaban_benar": "c"
+    },
+    {
+      "nomor": 14,
+      "pertanyaan": "Jika dua buah kapasitor 10 μF dirangkai secara paralel, maka kapasitansi totalnya adalah...",
+      "pilihan": {
+        "a": "5 μF",
+        "b": "10 μF",
+        "c": "100 μF",
+        "d": "20 μF"
+      },
+      "jawaban_benar": "d"
+    },
+    {
+      "nomor": 15,
+      "pertanyaan": "Kapasitor yang memiliki polaritas positif dan negatif (tidak boleh terbalik dalam pemasangan) adalah...",
+      "pilihan": {
+        "a": "Kapasitor Keramik",
+        "b": "Kapasitor Mika",
+        "c": "Kapasitor Elektrolit (Elco)",
+        "d": "Kapasitor Mylar"
+      },
+      "jawaban_benar": "c"
+    },
+    {
+      "nomor": 16,
+      "pertanyaan": "Komponen semikonduktor yang berfungsi sebagai penyearah arus (memperbolehkan arus mengalir hanya satu arah) adalah...",
+      "pilihan": {
+        "a": "Resistor",
+        "b": "Kapasitor",
+        "c": "Dioda",
+        "d": "Transistor"
+      },
+      "jawaban_benar": "c"
+    },
+    {
+      "nomor": 17,
+      "pertanyaan": "Bahan semikonduktor yang paling umum digunakan dalam pembuatan komponen elektronika adalah...",
+      "pilihan": {
+        "a": "Aluminium dan Tembaga",
+        "b": "Silikon dan Germanium",
+        "c": "Emas dan Perak",
+        "d": "Besi dan Nikel"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "nomor": 18,
+      "pertanyaan": "Jenis dioda yang digunakan sebagai pengatur tegangan (voltage regulator) pada rangkaian adalah...",
+      "pilihan": {
+        "a": "Dioda LED",
+        "b": "Dioda Penyearah",
+        "c": "Dioda Zener",
+        "d": "Dioda Schottky"
+      },
+      "jawaban_benar": "c"
+    },
+    {
+      "nomor": 19,
+      "pertanyaan": "Transistor Bipolar (BJT) memiliki tiga kaki, yaitu...",
+      "pilihan": {
+        "a": "Gate, Drain, Source",
+        "b": "Anoda, Katoda, Gate",
+        "c": "Kolektor, Basis, Emitor",
+        "d": "Drain, Gate, Emitor"
+      },
+      "jawaban_benar": "c"
+    },
+    {
+      "nomor": 20,
+      "pertanyaan": "Fungsi utama dari transistor dalam rangkaian elektronika adalah sebagai...",
+      "pilihan": {
+        "a": "Penyimpan muatan dan penyaring frekuensi",
+        "b": "Penyearah arus dan pengatur tegangan",
+        "c": "Penghambat arus dan penyimpan energi",
+        "d": "Sakelar dan Penguat (Amplifier)"
+      },
+      "jawaban_benar": "d"
+    },
+    {
+      "nomor": 21,
+      "pertanyaan": "Ketika sebuah dioda diberi tegangan bias maju (forward bias), maka...",
+      "pilihan": {
+        "a": "Dioda akan berfungsi sebagai isolator",
+        "b": "Arus akan mengalir",
+        "c": "Dioda akan rusak",
+        "d": "Tegangan pada dioda menjadi nol"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "nomor": 22,
+      "pertanyaan": "Jenis transistor yang dikontrol oleh arus pada kaki basisnya adalah...",
+      "pilihan": {
+        "a": "MOSFET",
+        "b": "JFET",
+        "c": "BJT",
+        "d": "IGBT"
+      },
+      "jawaban_benar": "c"
+    },
+    {
+      "nomor": 23,
+      "pertanyaan": "Alat ukur yang digunakan untuk mengukur tegangan, arus, dan hambatan secara umum adalah...",
+      "pilihan": {
+        "a": "Osiloskop",
+        "b": "Frekuensi Meter",
+        "c": "Generator Sinyal",
+        "d": "Multimeter (Avometer)"
+      },
+      "jawaban_benar": "d"
+    },
+    {
+      "nomor": 24,
+      "pertanyaan": "Saat mengukur tegangan listrik, multimeter harus dipasang secara...",
+      "pilihan": {
+        "a": "Paralel",
+        "b": "Seri",
+        "c": "Seri-Paralel",
+        "d": "Bebas, tidak ada aturan"
+      },
+      "jawaban_benar": "a"
+    },
+    {
+      "nomor": 25,
+      "pertanyaan": "Saat mengukur arus listrik, multimeter harus dipasang secara...",
+      "pilihan": {
+        "a": "Paralel",
+        "b": "Seri",
+        "c": "Seri-Paralel",
+        "d": "Bebas, tidak ada aturan"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "nomor": 26,
+      "pertanyaan": "Rangkaian yang mengubah arus bolak-balik (AC) menjadi arus searah (DC) disebut...",
+      "pilihan": {
+        "a": "Rangkaian Filter",
+        "b": "Rangkaian Penguat",
+        "c": "Rangkaian Osilator",
+        "d": "Rangkaian Penyearah (Rectifier)"
+      },
+      "jawaban_benar": "d"
+    },
+    {
+      "nomor": 27,
+      "pertanyaan": "Komponen yang digunakan untuk menstabilkan dan mengurangi riak (ripple) pada tegangan DC hasil penyearahan adalah...",
+      "pilihan": {
+        "a": "Resistor",
+        "b": "Dioda",
+        "c": "Transformator",
+        "d": "Kapasitor (sebagai filter)"
+      },
+      "jawaban_benar": "d"
+    },
+    {
+      "nomor": 28,
+      "pertanyaan": "IC (Integrated Circuit) yang paling umum digunakan sebagai penguat tegangan atau pembanding adalah...",
+      "pilihan": {
+        "a": "Op-Amp (Operational Amplifier)",
+        "b": "Mikroprosesor",
+        "c": "Timer 555",
+        "d": "IC Regulator"
+      },
+      "jawaban_benar": "a"
+    },
+    {
+      "nomor": 29,
+      "pertanyaan": "Dalam rangkaian seri, nilai yang sama di setiap komponen adalah...",
+      "pilihan": {
+        "a": "Tegangan",
+        "b": "Arus",
+        "c": "Daya",
+        "d": "Kapasitansi"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "nomor": 30,
+      "pertanyaan": "Dalam rangkaian paralel, nilai yang sama di setiap komponen adalah...",
+      "pilihan": {
+        "a": "Arus",
+        "b": "Hambatan",
+        "c": "Tegangan",
+        "d": "Daya"
+      },
+      "jawaban_benar": "c"
+    },
+    {
+      "nomor": 31,
+      "pertanyaan": "Sistem bilangan yang hanya menggunakan angka 0 dan 1 disebut...",
+      "pilihan": {
+        "a": "Desimal",
+        "b": "Heksadesimal",
+        "c": "Oktal",
+        "d": "Biner"
+      },
+      "jawaban_benar": "d"
+    },
+    {
+      "nomor": 32,
+      "pertanyaan": "Gerbang logika yang outputnya akan bernilai '1' hanya jika semua inputnya bernilai '1' adalah...",
+      "pilihan": {
+        "a": "Gerbang OR",
+        "b": "Gerbang NOT",
+        "c": "Gerbang AND",
+        "d": "Gerbang XOR"
+      },
+      "jawaban_benar": "c"
+    },
+    {
+      "nomor": 33,
+      "pertanyaan": "Gerbang logika yang outputnya akan bernilai '0' jika semua inputnya bernilai '1' adalah...",
+      "pilihan": {
+        "a": "Gerbang AND",
+        "b": "Gerbang OR",
+        "c": "Gerbang NAND",
+        "d": "Gerbang NOR"
+      },
+      "jawaban_benar": "c"
+    },
+    {
+      "nomor": 34,
+      "pertanyaan": "Komponen yang berfungsi mengubah energi listrik menjadi energi cahaya adalah...",
+      "pilihan": {
+        "a": "LDR",
+        "b": "LED",
+        "c": "NTC",
+        "d": "Transistor"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "nomor": 35,
+      "pertanyaan": "Apa kepanjangan dari LDR?",
+      "pilihan": {
+        "a": "Long Distance Resistance",
+        "b": "Light Dependent Resistance",
+        "c": "Light Dependent Resistor",
+        "d": "Low Density Resistance"
+      },
+      "jawaban_benar": "c"
+    },
+    {
+      "nomor": 36,
+      "pertanyaan": "Alat yang digunakan untuk melihat bentuk gelombang dan mengukur frekuensi sinyal listrik adalah...",
+      "pilihan": {
+        "a": "Multimeter",
+        "b": "Spektrum Analyzer",
+        "c": "Osiloskop",
+        "d": "Function Generator"
+      },
+      "jawaban_benar": "c"
+    },
+    {
+      "nomor": 37,
+      "pertanyaan": "Komponen yang digunakan untuk memproses data dan menjalankan program dalam sistem digital adalah...",
+      "pilihan": {
+        "a": "Op-Amp",
+        "b": "Kapasitor",
+        "c": "Transistor",
+        "d": "Mikrokontroler/Mikroprosesor"
+      },
+      "jawaban_benar": "d"
+    },
+    {
+      "nomor": 38,
+      "pertanyaan": "IC NE555 paling sering digunakan dalam aplikasi...",
+      "pilihan": {
+        "a": "Penguat daya tinggi",
+        "b": "Filter frekuensi",
+        "c": "Timer atau Osilator",
+        "d": "Regulator tegangan"
+      },
+      "jawaban_benar": "c"
+    },
+    {
+      "nomor": 39,
+      "pertanyaan": "Ketika sebuah rangkaian menghasilkan sinyal bolak-balik secara mandiri tanpa input eksternal, rangkaian tersebut disebut...",
+      "pilihan": {
+        "a": "Amplifier",
+        "b": "Filter",
+        "c": "Rectifier",
+        "d": "Osilator"
+      },
+      "jawaban_benar": "d"
+    },
+    {
+      "nomor": 40,
+      "pertanyaan": "Apa yang dimaksud dengan pull-up resistor pada rangkaian digital?",
+      "pilihan": {
+        "a": "Resistor yang menarik tegangan output ke ground.",
+        "b": "Resistor yang menarik tegangan input ke VCC (High).",
+        "c": "Resistor yang menahan arus agar tidak terlalu besar.",
+        "d": "Resistor yang digunakan sebagai pembagi tegangan."
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "nomor": 41,
+      "pertanyaan": "Efek yang menyebabkan tegangan induksi pada kumparan ketika terjadi perubahan medan magnet disebut...",
+      "pilihan": {
+        "a": "Efek Peltier",
+        "b": "Efek Hall",
+        "c": "Induksi Elektromagnetik",
+        "d": "Efek Edison"
+      },
+      "jawaban_benar": "c"
+    },
+    {
+      "nomor": 42,
+      "pertanyaan": "Komponen yang nilainya berubah berdasarkan suhu adalah...",
+      "pilihan": {
+        "a": "VDR",
+        "b": "LDR",
+        "c": "Termistor (NTC/PTC)",
+        "d": "Varistor"
+      },
+      "jawaban_benar": "c"
+    },
+    {
+      "nomor": 43,
+      "pertanyaan": "NTC adalah singkatan dari Negative Temperature Coefficient, yang berarti...",
+      "pilihan": {
+        "a": "Hambatan meningkat jika suhu turun.",
+        "b": "Hambatan menurun jika suhu meningkat.",
+        "c": "Hambatan tidak dipengaruhi oleh suhu.",
+        "d": "Hambatan selalu bernilai negatif."
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "nomor": 44,
+      "pertanyaan": "Komponen yang digunakan untuk melindungi rangkaian dari lonjakan tegangan (voltage surge) adalah...",
+      "pilihan": {
+        "a": "Resistor",
+        "b": "Induktor",
+        "c": "Kapasitor",
+        "d": "Varistor (VDR)"
+      },
+      "jawaban_benar": "d"
+    },
+    {
+      "nomor": 45,
+      "pertanyaan": "Apa fungsi dari heat sink pada komponen elektronika seperti transistor daya?",
+      "pilihan": {
+        "a": "Menyimpan energi panas untuk kemudian dilepaskan.",
+        "b": "Membantu pembuangan panas ke lingkungan.",
+        "c": "Meningkatkan hambatan termal.",
+        "d": "Melindungi komponen dari kelembaban."
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "nomor": 46,
+      "pertanyaan": "Istilah frekuensi dalam konteks gelombang AC mengacu pada...",
+      "pilihan": {
+        "a": "Tinggi rendahnya gelombang (Amplitudo).",
+        "b": "Jarak antar puncak gelombang (Panjang gelombang).",
+        "c": "Jumlah siklus gelombang per detik.",
+        "d": "Kecepatan rambat gelombang."
+      },
+      "jawaban_benar": "c"
+    },
+    {
+      "nomor": 47,
+      "pertanyaan": "Apa satuan dari frekuensi?",
+      "pilihan": {
+        "a": "Watt",
+        "b": "Volt",
+        "c": "Hertz",
+        "d": "Decibel"
+      },
+      "jawaban_benar": "c"
+    },
+    {
+      "nomor": 48,
+      "pertanyaan": "Sinyal yang hanya memiliki dua level tegangan (High dan Low) disebut sinyal...",
+      "pilihan": {
+        "a": "Analog",
+        "b": "Sinusoidal",
+        "c": "Digital",
+        "d": "Modulasi"
+      },
+      "jawaban_benar": "c"
+    },
+    {
+      "nomor": 49,
+      "pertanyaan": "Kopling kapasitor pada rangkaian penguat audio digunakan untuk...",
+      "pilihan": {
+        "a": "Memperkuat sinyal AC.",
+        "b": "Menghilangkan noise.",
+        "c": "Memblokir komponen DC tetapi melewatkan komponen AC.",
+        "d": "Menyearahkan sinyal AC."
+      },
+      "jawaban_benar": "c"
+    },
+    {
+      "nomor": 50,
+      "pertanyaan": "Sebuah dioda ideal akan memiliki hambatan nol saat diberikan bias...",
+      "pilihan": {
+        "a": "Mundur",
+        "b": "Terbalik",
+        "c": "Maju",
+        "d": "Netral"
+      },
+      "jawaban_benar": "c"
+    }
+  ]
+}

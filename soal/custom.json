@@ -1,0 +1,28 @@
+{
+  "judul": "Masukan judul",
+  "jumlah_soal": 2,
+  "soal": [
+    {
+      "nomor": 1,
+      "pertanyaan": "soal ke 1",
+      "pilihan": {
+        "a": "a",
+        "b": "b",
+        "c": "c",
+        "d": "d"
+      },
+      "jawaban_benar": "c"
+    },
+    {
+      "nomor": 2,
+      "pertanyaan": "soal ke 2",
+      "pilihan": {
+        "a": "a",
+        "b": "b",
+        "c": "c",
+        "d": "d"
+      },
+      "jawaban_benar": "a"
+    }
+  ]
+}

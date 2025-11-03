@@ -1,0 +1,666 @@
+{
+  "judul": "60 Soal Pilihan Ganda HTML, CSS, dan JavaScript",
+  "jumlah_soal": 60,
+  "soal": [
+    {
+      "nomor": 1,
+      "pertanyaan": "Tag HTML yang digunakan untuk membuat judul utama (heading level tertinggi) adalah...",
+      "pilihan": {
+        "a": "<head>",
+        "b": "<title>",
+        "c": "<h1>",
+        "d": "<header>"
+      },
+      "jawaban_benar": "c"
+    },
+    {
+      "nomor": 2,
+      "pertanyaan": "Tag yang berfungsi sebagai wadah untuk semua konten yang terlihat oleh pengguna pada halaman web adalah...",
+      "pilihan": {
+        "a": "<head>",
+        "b": "<html>",
+        "c": "<body>",
+        "d": "<main>"
+      },
+      "jawaban_benar": "c"
+    },
+    {
+      "nomor": 3,
+      "pertanyaan": "Atribut HTML yang digunakan untuk menentukan URL tujuan pada tag `<a>` adalah...",
+      "pilihan": {
+        "a": "src",
+        "b": "link",
+        "c": "href",
+        "d": "url"
+      },
+      "jawaban_benar": "c"
+    },
+    {
+      "nomor": 4,
+      "pertanyaan": "Tag yang digunakan untuk menyisipkan gambar pada halaman HTML adalah...",
+      "pilihan": {
+        "a": "<picture>",
+        "b": "<image>",
+        "c": "<img>",
+        "d": "<graphic>"
+      },
+      "jawaban_benar": "c"
+    },
+    {
+      "nomor": 5,
+      "pertanyaan": "Elemen HTML yang digunakan untuk membuat daftar tidak berurutan (unordered list) adalah...",
+      "pilihan": {
+        "a": "<ol>",
+        "b": "<list>",
+        "c": "<ul>",
+        "d": "<dl>"
+      },
+      "jawaban_benar": "c"
+    },
+    {
+      "nomor": 6,
+      "pertanyaan": "Versi HTML standar terbaru yang banyak digunakan saat ini adalah...",
+      "pilihan": {
+        "a": "HTML 4.01",
+        "b": "XHTML",
+        "c": "HTML 5",
+        "d": "DHTML"
+      },
+      "jawaban_benar": "c"
+    },
+    {
+      "nomor": 7,
+      "pertanyaan": "Sintaks yang benar untuk membuat komentar di HTML adalah...",
+      "pilihan": {
+        "a": "// Ini komentar",
+        "b": "/* Ini komentar */",
+        "c": "",
+        "d": "<comment> Ini komentar </comment>"
+      },
+      "jawaban_benar": "c"
+    },
+    {
+      "nomor": 8,
+      "pertanyaan": "Elemen HTML yang wajib ada di dalam tag `<head>` dan berisi judul halaman yang muncul di tab browser adalah...",
+      "pilihan": {
+        "a": "<meta>",
+        "b": "<title>",
+        "c": "<header>",
+        "d": "<nav>"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "nomor": 9,
+      "pertanyaan": "Atribut `placeholder` pada elemen `<input>` berfungsi untuk...",
+      "pilihan": {
+        "a": "Menetapkan nilai default input.",
+        "b": "Memberikan petunjuk singkat di dalam kolom input.",
+        "c": "Membuat input menjadi wajib diisi.",
+        "d": "Menentukan jenis input (misalnya text, password)."
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "nomor": 10,
+      "pertanyaan": "Tag HTML yang digunakan untuk mengelompokkan elemen secara inline (segaris) adalah...",
+      "pilihan": {
+        "a": "<div>",
+        "b": "<section>",
+        "c": "<p>",
+        "d": "<span>"
+      },
+      "jawaban_benar": "d"
+    },
+    {
+      "nomor": 11,
+      "pertanyaan": "Tag `DOCTYPE html` harus diletakkan di...",
+      "pilihan": {
+        "a": "Akhir file HTML.",
+        "b": "Di dalam tag `<head>`.",
+        "c": "Baris pertama file HTML.",
+        "d": "Sebelum tag `<body>`."
+      },
+      "jawaban_benar": "c"
+    },
+    {
+      "nomor": 12,
+      "pertanyaan": "Tag yang digunakan untuk membuat baris baru (line break) tanpa membuat paragraf baru adalah...",
+      "pilihan": {
+        "a": "<new>",
+        "b": "<p>",
+        "c": "<br>",
+        "d": "<line>"
+      },
+      "jawaban_benar": "c"
+    },
+    {
+      "nomor": 13,
+      "pertanyaan": "Tag HTML yang digunakan untuk membuat input tipe checkbox adalah...",
+      "pilihan": {
+        "a": "<input type='radio'>",
+        "b": "<input type='check'>",
+        "c": "<input type='box'>",
+        "d": "<input type='checkbox'>"
+      },
+      "jawaban_benar": "d"
+    },
+    {
+      "nomor": 14,
+      "pertanyaan": "Untuk membuat tabel di HTML, tag yang digunakan adalah...",
+      "pilihan": {
+        "a": "<list>",
+        "b": "<table>",
+        "c": "<data>",
+        "d": "<grid>"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "nomor": 15,
+      "pertanyaan": "Atribut yang digunakan untuk menggabungkan beberapa baris dalam satu sel tabel adalah...",
+      "pilihan": {
+        "a": "colspan",
+        "b": "cellspan",
+        "c": "rowspan",
+        "d": "mergerows"
+      },
+      "jawaban_benar": "c"
+    },
+    {
+      "nomor": 16,
+      "pertanyaan": "Elemen HTML5 yang digunakan untuk mengelompokkan konten mandiri (self-contained content), seperti postingan blog atau artikel, adalah...",
+      "pilihan": {
+        "a": "<section>",
+        "b": "<article>",
+        "c": "<aside>",
+        "d": "<div>"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "nomor": 17,
+      "pertanyaan": "Tag `<form>` di HTML digunakan untuk...",
+      "pilihan": {
+        "a": "Membuat teks tebal.",
+        "b": "Menyimpan data sementara.",
+        "c": "Mengumpulkan input dari pengguna.",
+        "d": "Menampilkan gambar bergerak."
+      },
+      "jawaban_benar": "c"
+    },
+    {
+      "nomor": 18,
+      "pertanyaan": "Atribut yang digunakan untuk memberikan identitas unik pada elemen HTML adalah...",
+      "pilihan": {
+        "a": "class",
+        "b": "name",
+        "c": "id",
+        "d": "style"
+      },
+      "jawaban_benar": "c"
+    },
+    {
+      "nomor": 19,
+      "pertanyaan": "Tag yang digunakan untuk teks miring (italic) adalah...",
+      "pilihan": {
+        "a": "<bold>",
+        "b": "<it>",
+        "c": "<i>",
+        "d": "<em>"
+      },
+      "jawaban_benar": "c"
+    },
+    {
+      "nomor": 20,
+      "pertanyaan": "Untuk menentukan karakter encoding pada dokumen HTML, kita menggunakan tag `<meta>` dengan atribut...",
+      "pilihan": {
+        "a": "type",
+        "b": "charset",
+        "c": "content",
+        "d": "encoding"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "nomor": 21,
+      "pertanyaan": "Apa kepanjangan dari CSS?",
+      "pilihan": {
+        "a": "Creative Style Sheets",
+        "b": "Cascading Style Sheets",
+        "c": "Computer Style Syntax",
+        "d": "Colorful Styling System"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "nomor": 22,
+      "pertanyaan": "Selector CSS yang digunakan untuk menargetkan elemen berdasarkan atribut `id` adalah...",
+      "pilihan": {
+        "a": ".",
+        "b": "#",
+        "c": "!",
+        "d": "*"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "nomor": 23,
+      "pertanyaan": "Properti CSS yang digunakan untuk mengubah warna latar belakang sebuah elemen adalah...",
+      "pilihan": {
+        "a": "color",
+        "b": "font-color",
+        "c": "background-color",
+        "d": "bgcolor"
+      },
+      "jawaban_benar": "c"
+    },
+    {
+      "nomor": 24,
+      "pertanyaan": "Cara paling umum dan disarankan untuk menghubungkan file CSS eksternal ke dokumen HTML adalah menggunakan tag...",
+      "pilihan": {
+        "a": "<style>",
+        "b": "<link>",
+        "c": "<script>",
+        "d": "<meta>"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "nomor": 25,
+      "pertanyaan": "Dalam model kotak (Box Model) CSS, urutan dari dalam ke luar adalah...",
+      "pilihan": {
+        "a": "Margin, Border, Padding, Content",
+        "b": "Content, Padding, Margin, Border",
+        "c": "Content, Padding, Border, Margin",
+        "d": "Content, Border, Padding, Margin"
+      },
+      "jawaban_benar": "c"
+    },
+    {
+      "nomor": 26,
+      "pertanyaan": "Properti CSS yang digunakan untuk mengontrol jarak di dalam (internal) sebuah elemen adalah...",
+      "pilihan": {
+        "a": "margin",
+        "b": "spacing",
+        "c": "padding",
+        "d": "border"
+      },
+      "jawaban_benar": "c"
+    },
+    {
+      "nomor": 27,
+      "pertanyaan": "Untuk membuat teks menjadi tebal di CSS, properti yang digunakan adalah...",
+      "pilihan": {
+        "a": "text-style",
+        "b": "font-weight",
+        "c": "text-bold",
+        "d": "font-size"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "nomor": 28,
+      "pertanyaan": "Nilai default properti `position` CSS untuk sebagian besar elemen adalah...",
+      "pilihan": {
+        "a": "relative",
+        "b": "absolute",
+        "c": "static",
+        "d": "fixed"
+      },
+      "jawaban_benar": "c"
+    },
+    {
+      "nomor": 29,
+      "pertanyaan": "Properti yang digunakan untuk menyembunyikan sebuah elemen dari tampilan tanpa menghilangkan ruang yang ditempati elemen tersebut adalah...",
+      "pilihan": {
+        "a": "display: none;",
+        "b": "visibility: hidden;",
+        "c": "opacity: 0;",
+        "d": "position: absolute;"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "nomor": 30,
+      "pertanyaan": "Dalam CSS, selector `.nama` digunakan untuk menargetkan elemen berdasarkan...",
+      "pilihan": {
+        "a": "Tag HTML",
+        "b": "Atribut id",
+        "c": "Atribut class",
+        "d": "Atribut name"
+      },
+      "jawaban_benar": "c"
+    },
+    {
+      "nomor": 31,
+      "pertanyaan": "Unit pengukuran CSS yang merupakan singkatan dari 'Viewpoint Width' adalah...",
+      "pilihan": {
+        "a": "vh",
+        "b": "vw",
+        "c": "em",
+        "d": "rem"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "nomor": 32,
+      "pertanyaan": "Properti CSS `float` digunakan untuk...",
+      "pilihan": {
+        "a": "Mengubah warna teks.",
+        "b": "Menggeser elemen ke kiri atau kanan.",
+        "c": "Menetapkan ketinggian elemen.",
+        "d": "Membuat animasi."
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "nomor": 33,
+      "pertanyaan": "Sintaks yang benar untuk menerapkan gaya CSS inline adalah...",
+      "pilihan": {
+        "a": "<p style:'color: red;'>Teks</p>",
+        "b": "<p style='color: red;'>Teks</p>",
+        "c": "<style p>color: red;</style>",
+        "d": "<p css='color: red;'>Teks</p>"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "nomor": 34,
+      "pertanyaan": "Properti yang mengatur jarak di luar (eksternal) batas elemen (di antara elemen lain) adalah...",
+      "pilihan": {
+        "a": "padding",
+        "b": "border",
+        "c": "margin",
+        "d": "clear"
+      },
+      "jawaban_benar": "c"
+    },
+    {
+      "nomor": 35,
+      "pertanyaan": "Untuk menerapkan gaya pada elemen `<a>` ketika kursor berada di atasnya (hover), digunakan **pseudo-class**...",
+      "pilihan": {
+        "a": ":link",
+        "b": ":active",
+        "c": ":hover",
+        "d": ":visited"
+      },
+      "jawaban_benar": "c"
+    },
+    {
+      "nomor": 36,
+      "pertanyaan": "Metode penulisan CSS yang memiliki prioritas tertinggi (paling kuat) adalah...",
+      "pilihan": {
+        "a": "Internal CSS",
+        "b": "External CSS",
+        "c": "Inline CSS",
+        "d": "User Agent Styles"
+      },
+      "jawaban_benar": "c"
+    },
+    {
+      "nomor": 37,
+      "pertanyaan": "Properti yang digunakan untuk mengubah jenis huruf (font) adalah...",
+      "pilihan": {
+        "a": "font-family",
+        "b": "text-type",
+        "c": "font-style",
+        "d": "font-size"
+      },
+      "jawaban_benar": "a"
+    },
+    {
+      "nomor": 38,
+      "pertanyaan": "Untuk membuat elemen dapat disusun secara baris atau kolom dengan mudah (fleksibel), digunakan properti `display` dengan nilai...",
+      "pilihan": {
+        "a": "block",
+        "b": "inline",
+        "c": "flex",
+        "d": "grid"
+      },
+      "jawaban_benar": "c"
+    },
+    {
+      "nomor": 39,
+      "pertanyaan": "Dalam sintaks `p { color: blue; }`, `color` disebut sebagai...",
+      "pilihan": {
+        "a": "Selector",
+        "b": "Value",
+        "c": "Property",
+        "d": "Declaration"
+      },
+      "jawaban_benar": "c"
+    },
+    {
+      "nomor": 40,
+      "pertanyaan": "Aturan yang mengatur tampilan untuk layar dengan ukuran tertentu (misalnya untuk responsif) adalah...",
+      "pilihan": {
+        "a": "Transition",
+        "b": "@keyframes",
+        "c": "@font-face",
+        "d": "@media"
+      },
+      "jawaban_benar": "d"
+    },
+    {
+      "nomor": 41,
+      "pertanyaan": "Dalam JavaScript, kata kunci yang digunakan untuk mendeklarasikan variabel yang nilainya bisa diubah (re-assigned) adalah...",
+      "pilihan": {
+        "a": "const",
+        "b": "let",
+        "c": "var",
+        "d": "variable"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "nomor": 42,
+      "pertanyaan": "Sintaks yang benar untuk menampilkan pesan peringatan (alert) kepada pengguna adalah...",
+      "pilihan": {
+        "a": "msgBox('Halo');",
+        "b": "alert('Halo');",
+        "c": "console.log('Halo');",
+        "d": "prompt('Halo');"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "nomor": 43,
+      "pertanyaan": "Dalam JavaScript, operator `===` berfungsi untuk...",
+      "pilihan": {
+        "a": "Membandingkan nilai.",
+        "b": "Membandingkan tipe data.",
+        "c": "Membandingkan nilai dan tipe data.",
+        "d": "Menetapkan nilai."
+      },
+      "jawaban_benar": "c"
+    },
+    {
+      "nomor": 44,
+      "pertanyaan": "Objek standar JavaScript yang digunakan untuk memanipulasi elemen-elemen HTML adalah...",
+      "pilihan": {
+        "a": "BOM (Browser Object Model)",
+        "b": "Window Object",
+        "c": "DOM (Document Object Model)",
+        "d": "JavaScript Engine"
+      },
+      "jawaban_benar": "c"
+    },
+    {
+      "nomor": 45,
+      "pertanyaan": "Metode DOM yang digunakan untuk mendapatkan elemen HTML berdasarkan atribut `id`-nya adalah...",
+      "pilihan": {
+        "a": "getElementById()",
+        "b": "getElementsByClass()",
+        "c": "querySelector()",
+        "d": "getElementsById()"
+      },
+      "jawaban_benar": "a"
+    },
+    {
+      "nomor": 46,
+      "pertanyaan": "Event JavaScript yang dipicu ketika tombol mouse dilepaskan dari sebuah elemen adalah...",
+      "pilihan": {
+        "a": "onclick",
+        "b": "onmousedown",
+        "c": "onmouseup",
+        "d": "onmousemove"
+      },
+      "jawaban_benar": "c"
+    },
+    {
+      "nomor": 47,
+      "pertanyaan": "Apa hasil dari operasi `5 + '5'` di JavaScript?",
+      "pilihan": {
+        "a": "10",
+        "b": "'10'",
+        "c": "'55'",
+        "d": "Error"
+      },
+      "jawaban_benar": "c"
+    },
+    {
+      "nomor": 48,
+      "pertanyaan": "Untuk membuat fungsi anonim (fungsi tanpa nama) yang dapat dieksekusi segera setelah didefinisikan, digunakan...",
+      "pilihan": {
+        "a": "Closure",
+        "b": "IIFE (Immediately Invoked Function Expression)",
+        "c": "Callback Function",
+        "d": "Hoisting"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "nomor": 49,
+      "pertanyaan": "Dalam JavaScript modern (ES6+), kata kunci yang digunakan untuk mendeklarasikan variabel yang bersifat konstan (tidak dapat diubah setelah dideklarasikan) adalah...",
+      "pilihan": {
+        "a": "let",
+        "b": "static",
+        "c": "const",
+        "d": "final"
+      },
+      "jawaban_benar": "c"
+    },
+    {
+      "nomor": 50,
+      "pertanyaan": "Struktur kontrol `if (a > b) { ... } else { ... }` adalah contoh dari...",
+      "pilihan": {
+        "a": "Perulangan",
+        "b": "Percabangan",
+        "c": "Fungsi",
+        "d": "Array"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "nomor": 51,
+      "pertanyaan": "Metode yang digunakan untuk menambahkan elemen baru ke akhir sebuah Array di JavaScript adalah...",
+      "pilihan": {
+        "a": "shift()",
+        "b": "pop()",
+        "c": "push()",
+        "d": "join()"
+      },
+      "jawaban_benar": "c"
+    },
+    {
+      "nomor": 52,
+      "pertanyaan": "Sintaks yang digunakan untuk perulangan (looping) dengan kondisi di awal adalah...",
+      "pilihan": {
+        "a": "for",
+        "b": "while",
+        "c": "do-while",
+        "d": "switch"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "nomor": 53,
+      "pertanyaan": "Dalam JavaScript, tempat terbaik untuk menempatkan tag `<script>` untuk meningkatkan kecepatan pemuatan halaman adalah...",
+      "pilihan": {
+        "a": "Di dalam `<head>`.",
+        "b": "Tepat sebelum tag penutup `</body>`.",
+        "c": "Di dalam tag `<title>`.",
+        "d": "Setelah `DOCTYPE`."
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "nomor": 54,
+      "pertanyaan": "Fungsi yang akan dijalankan setelah tugas tertentu selesai, biasanya dalam operasi asinkron, disebut...",
+      "pilihan": {
+        "a": "Immediately Invoked Function",
+        "b": "Event Handler",
+        "c": "Callback Function",
+        "d": "Recursive Function"
+      },
+      "jawaban_benar": "c"
+    },
+    {
+      "nomor": 55,
+      "pertanyaan": "Sintaks yang benar untuk mendeklarasikan sebuah fungsi di JavaScript adalah...",
+      "pilihan": {
+        "a": "function = myFunction()",
+        "b": "myFunction : function()",
+        "c": "function myFunction()",
+        "d": "def myFunction()"
+      },
+      "jawaban_benar": "c"
+    },
+    {
+      "nomor": 56,
+      "pertanyaan": "Objek yang digunakan untuk membuat perhitungan matematis seperti akar kuadrat atau trigonometri adalah...",
+      "pilihan": {
+        "a": "Calculator",
+        "b": "Number",
+        "c": "Math",
+        "d": "Algebra"
+      },
+      "jawaban_benar": "c"
+    },
+    {
+      "nomor": 57,
+      "pertanyaan": "Properti DOM yang digunakan untuk mendapatkan atau mengatur konten teks sebuah elemen adalah...",
+      "pilihan": {
+        "a": "innerHTML",
+        "b": "textContent",
+        "c": "nodeValue",
+        "d": "innerText"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "nomor": 58,
+      "pertanyaan": "Tipe data di JavaScript yang merepresentasikan ketidakadaan nilai yang disengaja adalah...",
+      "pilihan": {
+        "a": "undefined",
+        "b": "null",
+        "c": "NaN",
+        "d": "false"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "nomor": 59,
+      "pertanyaan": "Sintaks `const arr = [1, 2, 3];` mendefinisikan tipe data...",
+      "pilihan": {
+        "a": "Object",
+        "b": "Array",
+        "c": "String",
+        "d": "Tuple"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "nomor": 60,
+      "pertanyaan": "Untuk menjalankan sebuah fungsi atau kode berulang kali dengan interval waktu tertentu, digunakan metode...",
+      "pilihan": {
+        "a": "setTimeout()",
+        "b": "clearTimeout()",
+        "c": "setInterval()",
+        "d": "requestAnimationFrame()"
+      },
+      "jawaban_benar": "c"
+    }
+  ]
+}

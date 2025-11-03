@@ -1,0 +1,556 @@
+{
+  "judul": "50 Soal Pilihan Ganda Gerbang Logika (Latihan SMK)",
+  "jumlah_soal": 50,
+  "soal": [
+    {
+      "nomor": 1,
+      "pertanyaan": "Gerbang logika dasar yang keluarannya akan berlogika '1' hanya jika **semua masukannya berlogika '1'** adalah gerbang...",
+      "pilihan": {
+        "a": "OR",
+        "b": "NOT",
+        "c": "AND",
+        "d": "NOR"
+      },
+      "jawaban_benar": "c"
+    },
+    {
+      "nomor": 2,
+      "pertanyaan": "Jika masukan (input) gerbang NOT adalah '1', maka keluarannya (output) adalah...",
+      "pilihan": {
+        "a": "0",
+        "b": "1",
+        "c": "X",
+        "d": "Z"
+      },
+      "jawaban_benar": "a"
+    },
+    {
+      "nomor": 3,
+      "pertanyaan": "Gerbang logika yang merupakan kebalikan dari gerbang OR adalah...",
+      "pilihan": {
+        "a": "AND",
+        "b": "NOR",
+        "c": "NAND",
+        "d": "XOR"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "nomor": 4,
+      "pertanyaan": "Gerbang universal yang dapat digunakan untuk membentuk semua jenis gerbang logika dasar adalah...",
+      "pilihan": {
+        "a": "OR dan AND",
+        "b": "NOT dan OR",
+        "c": "XOR dan XNOR",
+        "d": "NAND dan NOR"
+      },
+      "jawaban_benar": "d"
+    },
+    {
+      "nomor": 5,
+      "pertanyaan": "Gerbang logika dua masukan akan menghasilkan output '0' jika **kedua masukannya berbeda** merupakan ciri dari gerbang...",
+      "pilihan": {
+        "a": "OR",
+        "b": "AND",
+        "c": "XOR",
+        "d": "XNOR"
+      },
+      "jawaban_benar": "d"
+    },
+    {
+      "nomor": 6,
+      "pertanyaan": "Berapa jumlah baris dalam tabel kebenaran untuk gerbang logika dengan **3 masukan**?",
+      "pilihan": {
+        "a": "4",
+        "b": "6",
+        "c": "8",
+        "d": "16"
+      },
+      "jawaban_benar": "c"
+    },
+    {
+      "nomor": 7,
+      "pertanyaan": "Persamaan Boolean yang mewakili gerbang NAND dengan masukan A dan B adalah...",
+      "pilihan": {
+        "a": "$Y = A \\cdot B$",
+        "b": "$Y = A + B$",
+        "c": "$Y = \\overline{A + B}$",
+        "d": "$Y = \\overline{A \\cdot B}$"
+      },
+      "jawaban_benar": "d"
+    },
+    {
+      "nomor": 8,
+      "pertanyaan": "Jika salah satu masukan gerbang OR berlogika '1', maka keluarannya pasti...",
+      "pilihan": {
+        "a": "0",
+        "b": "1",
+        "c": "Berubah-ubah",
+        "d": "Tergantung masukan lain"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "nomor": 9,
+      "pertanyaan": "Gerbang logika yang berfungsi sebagai **pembalik** sinyal input adalah...",
+      "pilihan": {
+        "a": "OR",
+        "b": "AND",
+        "c": "XOR",
+        "d": "NOT"
+      },
+      "jawaban_benar": "d"
+    },
+    {
+      "nomor": 10,
+      "pertanyaan": "Output gerbang XOR akan berlogika '1' jika...",
+      "pilihan": {
+        "a": "Kedua masukan berlogika '1'",
+        "b": "Kedua masukan berlogika '0'",
+        "c": "Masukan berjumlah ganjil berlogika '1'",
+        "d": "Masukan berjumlah genap berlogika '1'"
+      },
+      "jawaban_benar": "c"
+    },
+    {
+      "nomor": 11,
+      "pertanyaan": "Bilangan desimal 12 dikonversi menjadi bilangan biner adalah...",
+      "pilihan": {
+        "a": "1000",
+        "b": "1010",
+        "c": "1100",
+        "d": "1111"
+      },
+      "jawaban_benar": "c"
+    },
+    {
+      "nomor": 12,
+      "pertanyaan": "Bilangan biner 1011 dikonversi menjadi bilangan desimal adalah...",
+      "pilihan": {
+        "a": "9",
+        "b": "10",
+        "c": "11",
+        "d": "12"
+      },
+      "jawaban_benar": "c"
+    },
+    {
+      "nomor": 13,
+      "pertanyaan": "Sistem bilangan yang hanya mengenal angka 0 dan 1 disebut sistem...",
+      "pilihan": {
+        "a": "Desimal",
+        "b": "Heksadesimal",
+        "c": "Oktal",
+        "d": "Biner"
+      },
+      "jawaban_benar": "d"
+    },
+    {
+      "nomor": 14,
+      "pertanyaan": "Pada rangkaian gerbang logika $Y = \\overline{A + B}$, jika A = 1 dan B = 0, maka Y adalah...",
+      "pilihan": {
+        "a": "0",
+        "b": "1",
+        "c": "X",
+        "d": "Z"
+      },
+      "jawaban_benar": "a"
+    },
+    {
+      "nomor": 15,
+      "pertanyaan": "Hukum De Morgan yang benar untuk $\\overline{A \\cdot B}$ adalah...",
+      "pilihan": {
+        "a": "$A + B$",
+        "b": "$\\overline{A} \\cdot \\overline{B}$",
+        "c": "$A \\cdot B$",
+        "d": "$\\overline{A} + \\overline{B}$"
+      },
+      "jawaban_benar": "d"
+    },
+    {
+      "nomor": 16,
+      "pertanyaan": "Rangkaian yang berfungsi untuk menjumlahkan dua bit bilangan biner disebut...",
+      "pilihan": {
+        "a": "Multiplexer",
+        "b": "Decoder",
+        "c": "Encoder",
+        "d": "Half Adder"
+      },
+      "jawaban_benar": "d"
+    },
+    {
+      "nomor": 17,
+      "pertanyaan": "Jika pada gerbang NAND 2 masukan (A dan B) menghasilkan output '0', maka kondisi inputnya adalah...",
+      "pilihan": {
+        "a": "A=0, B=0",
+        "b": "A=0, B=1",
+        "c": "A=1, B=0",
+        "d": "A=1, B=1"
+      },
+      "jawaban_benar": "d"
+    },
+    {
+      "nomor": 18,
+      "pertanyaan": "Dalam gerbang NOR 2 masukan, output akan berlogika '1' hanya jika...",
+      "pilihan": {
+        "a": "Semua masukan '1'",
+        "b": "Salah satu masukan '1'",
+        "c": "Masukan berbeda",
+        "d": "Semua masukan '0'"
+      },
+      "jawaban_benar": "d"
+    },
+    {
+      "nomor": 19,
+      "pertanyaan": "Output gerbang XNOR pada kondisi masukan A=1, B=0 adalah...",
+      "pilihan": {
+        "a": "0",
+        "b": "1",
+        "c": "X",
+        "d": "Y"
+      },
+      "jawaban_benar": "a"
+    },
+    {
+      "nomor": 20,
+      "pertanyaan": "Rangkaian yang dapat memilih salah satu dari beberapa masukan data untuk diteruskan ke satu keluaran tunggal disebut...",
+      "pilihan": {
+        "a": "Decoder",
+        "b": "Encoder",
+        "c": "Multiplexer (MUX)",
+        "d": "Demultiplexer (DEMUX)"
+      },
+      "jawaban_benar": "c"
+    },
+    {
+      "nomor": 21,
+      "pertanyaan": "Jika sebuah rangkaian memiliki persamaan $Y = A + (\\overline{B} \\cdot C)$, dan A=0, B=1, C=1, maka Y adalah...",
+      "pilihan": {
+        "a": "0",
+        "b": "1",
+        "c": "2",
+        "d": "-1"
+      },
+      "jawaban_benar": "a"
+    },
+    {
+      "nomor": 22,
+      "pertanyaan": "Berdasarkan Hukum Idempoten dalam Aljabar Boolean, $A \\cdot A$ sama dengan...",
+      "pilihan": {
+        "a": "0",
+        "b": "1",
+        "c": "A",
+        "d": "$2A$"
+      },
+      "jawaban_benar": "c"
+    },
+    {
+      "nomor": 23,
+      "pertanyaan": "Dalam Aljabar Boolean, ekspresi $A + 1$ hasilnya adalah...",
+      "pilihan": {
+        "a": "0",
+        "b": "1",
+        "c": "A",
+        "d": "$\\overline{A}$"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "nomor": 24,
+      "pertanyaan": "Gerbang logika yang setara dengan gerbang NOT yang diikuti oleh gerbang OR adalah...",
+      "pilihan": {
+        "a": "AND",
+        "b": "NOR",
+        "c": "NAND",
+        "d": "XOR"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "nomor": 25,
+      "pertanyaan": "Rangkaian yang memiliki elemen memori atau umpan balik sehingga keluarannya bergantung pada masukan saat ini dan masukan sebelumnya disebut rangkaian...",
+      "pilihan": {
+        "a": "Kombinasional",
+        "b": "Sekuensial",
+        "c": "Arithmatik",
+        "d": "Kontrol"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "nomor": 26,
+      "pertanyaan": "Sebuah Multiplexer 8-ke-1 memerlukan berapa jumlah saluran pemilih (selector lines)?",
+      "pilihan": {
+        "a": "1",
+        "b": "2",
+        "c": "3",
+        "d": "4"
+      },
+      "jawaban_benar": "c"
+    },
+    {
+      "nomor": 27,
+      "pertanyaan": "Gerbang logika yang dikenal juga sebagai 'Komparator Ketidaksamaan' adalah...",
+      "pilihan": {
+        "a": "AND",
+        "b": "OR",
+        "c": "NAND",
+        "d": "XOR"
+      },
+      "jawaban_benar": "d"
+    },
+    {
+      "nomor": 28,
+      "pertanyaan": "Gerbang logika yang memiliki gelembung (lingkaran kecil) pada simbol outputnya menunjukkan fungsi...",
+      "pilihan": {
+        "a": "Inversi (NOT)",
+        "b": "Buffer",
+        "c": "Eksklusif",
+        "d": "Peningkatan arus"
+      },
+      "jawaban_benar": "a"
+    },
+    {
+      "nomor": 29,
+      "pertanyaan": "Jika gerbang NAND digunakan untuk membuat gerbang NOT, kedua masukannya harus...",
+      "pilihan": {
+        "a": "Dihubungkan ke '1'",
+        "b": "Dihubungkan ke '0'",
+        "c": "Dihubungkan bersama (di-short)",
+        "d": "Salah satunya dihubungkan ke '1'"
+      },
+      "jawaban_benar": "c"
+    },
+    {
+      "nomor": 30,
+      "pertanyaan": "Berapa nilai keluaran $Y$ dari persamaan $Y = \\overline{A} \\cdot B$ jika $A=0$ dan $B=1$?",
+      "pilihan": {
+        "a": "0",
+        "b": "1",
+        "c": "2",
+        "d": "$A$"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "nomor": 31,
+      "pertanyaan": "Perangkat yang digunakan untuk mengubah kode biner menjadi sinyal diskrit (misalnya, mengaktifkan salah satu dari $2^n$ jalur) adalah...",
+      "pilihan": {
+        "a": "Multiplexer",
+        "b": "Encoder",
+        "c": "Decoder",
+        "d": "Flip-Flop"
+      },
+      "jawaban_benar": "c"
+    },
+    {
+      "nomor": 32,
+      "pertanyaan": "Berdasarkan Hukum Asosiatif dalam Aljabar Boolean, $(A \\cdot B) \\cdot C$ sama dengan...",
+      "pilihan": {
+        "a": "$A \\cdot (B + C)$",
+        "b": "$\\overline{A \\cdot B \\cdot C}$",
+        "c": "$A \\cdot (B \\cdot C)$",
+        "d": "$A + (B \\cdot C)$"
+      },
+      "jawaban_benar": "c"
+    },
+    {
+      "nomor": 33,
+      "pertanyaan": "Gerbang logika yang memiliki karakteristik bahwa outputnya adalah '1' jika **minimal salah satu masukan '1'** adalah...",
+      "pilihan": {
+        "a": "AND",
+        "b": "OR",
+        "c": "NAND",
+        "d": "NOR"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "nomor": 34,
+      "pertanyaan": "Bilangan heksadesimal $F_{16}$ dikonversi menjadi bilangan desimal adalah...",
+      "pilihan": {
+        "a": "10",
+        "b": "14",
+        "c": "15",
+        "d": "16"
+      },
+      "jawaban_benar": "c"
+    },
+    {
+      "nomor": 35,
+      "pertanyaan": "Sebuah Encoder memiliki $2^n$ masukan dan $n$ keluaran. Jika memiliki 10 masukan, berapa keluaran (bit) yang dibutuhkan?",
+      "pilihan": {
+        "a": "2",
+        "b": "3",
+        "c": "4",
+        "d": "5"
+      },
+      "jawaban_benar": "c"
+    },
+    {
+      "nomor": 36,
+      "pertanyaan": "Persamaan Boolean untuk gerbang XNOR dengan masukan A dan B adalah...",
+      "pilihan": {
+        "a": "$Y = \\overline{A \\oplus B}$",
+        "b": "$Y = A \\oplus B$",
+        "c": "$Y = A \\cdot B$",
+        "d": "$Y = \\overline{A} + \\overline{B}$"
+      },
+      "jawaban_benar": "a"
+    },
+    {
+      "nomor": 37,
+      "pertanyaan": "Gerbang logika yang ideal untuk rangkaian Parity Checker/Generator (pemeriksa/pembangkit paritas) adalah...",
+      "pilihan": {
+        "a": "NAND",
+        "b": "XOR",
+        "c": "NOT",
+        "d": "AND"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "nomor": 38,
+      "pertanyaan": "Sinyal yang memiliki dua keadaan diskrit, yaitu 'tinggi' (High/1) dan 'rendah' (Low/0), disebut sinyal...",
+      "pilihan": {
+        "a": "Analog",
+        "b": "Digital",
+        "c": "Kombinasional",
+        "d": "Sekuensial"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "nomor": 39,
+      "pertanyaan": "Output gerbang AND 3-masukan (A, B, C) akan berlogika '0' jika...",
+      "pilihan": {
+        "a": "Semua masukan '1'",
+        "b": "Minimal satu masukan '0'",
+        "c": "Masukan A dan B '1'",
+        "d": "Masukan A, B, dan C berbeda"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "nomor": 40,
+      "pertanyaan": "Jika gerbang NOR digunakan sebagai pengganti gerbang OR, maka output dari NOR harus...",
+      "pilihan": {
+        "a": "Dihubungkan ke gerbang OR",
+        "b": "Dihubungkan ke gerbang NOT",
+        "c": "Dibiarkan terbuka",
+        "d": "Dihubungkan ke gerbang XOR"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "nomor": 41,
+      "pertanyaan": "Rangkaian yang berfungsi untuk mengurangi (demultiplex) satu saluran masukan data menjadi beberapa saluran keluaran adalah...",
+      "pilihan": {
+        "a": "MUX",
+        "b": "DEMUX",
+        "c": "Encoder",
+        "d": "Decoder"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "nomor": 42,
+      "pertanyaan": "Penyederhanaan persamaan $Y = A \\cdot \\overline{A}$ menghasilkan...",
+      "pilihan": {
+        "a": "0",
+        "b": "1",
+        "c": "A",
+        "d": "$\\overline{A}$"
+      },
+      "jawaban_benar": "a"
+    },
+    {
+      "nomor": 43,
+      "pertanyaan": "Hukum Komutatif dalam Aljabar Boolean menyatakan bahwa $A + B$ sama dengan...",
+      "pilihan": {
+        "a": "$A \\cdot B$",
+        "b": "$B + A$",
+        "c": "$\\overline{A + B}$",
+        "d": "$A$"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "nomor": 44,
+      "pertanyaan": "Pada rangkaian $Y = A \\cdot (A + B)$, penyederhanaan berdasarkan Hukum Absorpsi menghasilkan...",
+      "pilihan": {
+        "a": "$A + B$",
+        "b": "$A \\cdot B$",
+        "c": "$A$",
+        "d": "$B$"
+      },
+      "jawaban_benar": "c"
+    },
+    {
+      "nomor": 45,
+      "pertanyaan": "Komponen utama yang digunakan dalam membangun gerbang logika adalah...",
+      "pilihan": {
+        "a": "Resistor",
+        "b": "Kapasitor",
+        "c": "Induktor",
+        "d": "Transistor"
+      },
+      "jawaban_benar": "d"
+    },
+    {
+      "nomor": 46,
+      "pertanyaan": "Gerbang XNOR menghasilkan output '1' jika masukannya...",
+      "pilihan": {
+        "a": "Berjumlah ganjil '1'",
+        "b": "Sama (kembar)",
+        "c": "Berbeda",
+        "d": "Salah satu '1'"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "nomor": 47,
+      "pertanyaan": "Simbol untuk gerbang NOR adalah simbol gerbang OR yang diikuti oleh...",
+      "pilihan": {
+        "a": "Segitiga",
+        "b": "Garis lurus",
+        "c": "Lingkaran kecil (gelembung)",
+        "d": "Tanda tambah (+)"
+      },
+      "jawaban_benar": "c"
+    },
+    {
+      "nomor": 48,
+      "pertanyaan": "Fungsi $Y = A \\cdot B \\cdot C \\cdot \\ldots$ merupakan representasi dari gerbang...",
+      "pilihan": {
+        "a": "OR",
+        "b": "XOR",
+        "c": "AND",
+        "d": "NOR"
+      },
+      "jawaban_benar": "c"
+    },
+    {
+      "nomor": 49,
+      "pertanyaan": "Jika gerbang NOR 2-masukan digunakan untuk membuat gerbang AND, dibutuhkan berapa gerbang NOR?",
+      "pilihan": {
+        "a": "1",
+        "b": "2",
+        "c": "3",
+        "d": "4"
+      },
+      "jawaban_benar": "c"
+    },
+    {
+      "nomor": 50,
+      "pertanyaan": "Berapa nilai keluaran $Y$ dari persamaan $Y = (A \\oplus B) + C$ jika $A=1$, $B=1$, dan $C=0$?",
+      "pilihan": {
+        "a": "0",
+        "b": "1",
+        "c": "2",
+        "d": "-1"
+      },
+      "jawaban_benar": "a"
+    }
+  ]
+}
