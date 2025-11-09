@@ -81,7 +81,7 @@ tombol.addEventListener("click", (element) => {
       else nilaiUser.style.color = "red";
       nilaiUser.parentElement.parentElement.style.display = "block";
     }
-  }
+  }¬
   mencetakLembarSoal(dataHasil);
   gantiNoAktif();
   aktifKanOpsi();
