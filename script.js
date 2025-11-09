@@ -14,26 +14,48 @@ Pesan :
 
   Hubungi saya di DM Instagram, jika ada bug atau saran tentang program ini !!
 */
-let url = "";
 let soalKe = 0;
 let jawabanUser = [];
 const seluruhNoSoal = document.querySelector(".seluruh-nomor-soal");
 const seluruhOpsi = document.querySelectorAll(".pilihan-ganda li input");
 let selesai = false;
 let dataHasil = "";
-
 // Ketika tombol info di klik
 const footer = document.querySelector("footer");
 document
   .querySelector(".info")
   .addEventListener("click", () => (footer.style.display = "flex"));
-
 // ketik tombol tutup di klik
-footer.lastElementChild.addEventListener("click", (element) => {
+footer.lastElementChild.addEventListener("click", async (element) => {
   footer.style.display = "none";
-  url = ambilURL();
-  main();
-  // Riset Lemabr Soal
+  dataHasil = await ambilData();
+  console.log(dataHasil);
+
+  // Mengganti judul soal sesuai data
+  const judul = document.querySelector(".judul h3");
+  judul.innerHTML = dataHasil.judul;
+  // Menggati seluruh nomor soal sesuai data yang ada di data base
+  let nomor = "";
+  for (let i = 0; i < dataHasil.jumlah_soal; i++) {
+    nomor += `<span>${i + 1}</span>`;
+  }
+  seluruhNoSoal.innerHTML = nomor;
+  seluruhNoSoal.childNodes[soalKe].classList.add("aktif");
+  // Mencetak Lembar Soal Ke documen
+  mencetakLembarSoal(dataHasil);
+
+  // Ketika no soal di klik
+  seluruhNoSoal.childNodes.forEach((noSoal) => {
+    noSoal.addEventListener("click", () => {
+      soalKe = parseInt(noSoal.innerHTML) - 1;
+      console.log(soalKe);
+      mencetakLembarSoal(dataHasil);
+      gantiNoAktif();
+      aktifKanOpsi();
+    });
+  });
+
+  // Riset Lembar Soal
   soalKe = 0;
   jawabanUser = [];
   seluruhOpsi.forEach((opsi) => {
@@ -45,7 +67,6 @@ footer.lastElementChild.addEventListener("click", (element) => {
   document.querySelector(".hasil").style.display = "none";
   document.querySelector(".jawaban-benar").style.display = "none";
 });
-
 // Ketika tombol selanjutnya, sebelumnya, atau selesai diklik
 const tombol = document.querySelector(".tombol");
 tombol.addEventListener("click", (element) => {
@@ -81,12 +102,11 @@ tombol.addEventListener("click", (element) => {
       else nilaiUser.style.color = "red";
       nilaiUser.parentElement.parentElement.style.display = "block";
     }
-  }¬
+  }
   mencetakLembarSoal(dataHasil);
   gantiNoAktif();
   aktifKanOpsi();
 });
-
 // Ketika pilihan ganda atau opsi diklik
 seluruhOpsi.forEach((opsi) => {
   opsi.addEventListener("click", (element) => {
@@ -99,42 +119,11 @@ seluruhOpsi.forEach((opsi) => {
   });
 });
 
-function ambilURL() {
-  return `soal/${document.querySelector("footer select").value}.json`;
-}
-
-function main() {
-  fetch(url)
+function ambilData() {
+  return fetch(`soal/${document.querySelector("footer select").value}.json`)
     .then((result) => result.json())
-    .then((result) => {
-      // memindahkan result ke data hasil, untuk di pakai di luar fecth
-      dataHasil = result;
-      // Mengganti judul soal sesuai data
-      const judul = document.querySelector(".judul h3");
-      judul.innerHTML = result.judul;
-      // Menggati seluruh nomor soal sesuai data yang ada di data base
-      let nomor = "";
-      for (let i = 0; i < result.jumlah_soal; i++) {
-        nomor += `<span>${i + 1}</span>`;
-      }
-      seluruhNoSoal.innerHTML = nomor;
-      seluruhNoSoal.childNodes[soalKe].classList.add("aktif");
-      // Mencetak Lembar Soal Ke documen
-      mencetakLembarSoal(result);
-
-      // Ketika no soal di klik
-      seluruhNoSoal.childNodes.forEach((noSoal) => {
-        noSoal.addEventListener("click", () => {
-          soalKe = parseInt(noSoal.innerHTML) - 1;
-          console.log(soalKe);
-          mencetakLembarSoal(result);
-          gantiNoAktif();
-          aktifKanOpsi();
-        });
-      });
-    });
+    .then((result) => result);
 }
-
 function aktifKanOpsi() {
   // Apakah Nomor ini sudah dijawab sebelumnya
   if (jawabanUser[soalKe] != undefined) {
@@ -147,14 +136,12 @@ function aktifKanOpsi() {
     seluruhOpsi.forEach((opsi) => (opsi.checked = false));
   }
 }
-
 function gantiNoAktif() {
   // Menghapus class aktif pada seluruh no soal
   seluruhNoSoal.childNodes.forEach((soal) => soal.classList.remove("aktif"));
   // Memberikan class aktif pada soal yang sedang tampil
   seluruhNoSoal.childNodes[soalKe].classList.add("aktif");
 }
-
 function mencetakLembarSoal(result) {
   // Mengganti nomor soal
   const noSoal = document.querySelector(".lembar-soal .nomor-soal");
