@@ -21,13 +21,13 @@ const seluruhOpsi = document.querySelectorAll(".pilihan-ganda li input");
 let selesai = false;
 let dataHasil = "";
 // Ketika tombol info di klik
-const footer = document.querySelector("footer");
+const modal = document.querySelector(".modal");
 document
-  .querySelector(".info")
-  .addEventListener("click", () => (footer.style.display = "flex"));
+  .querySelector(".tombol-user")
+  .addEventListener("click", () => (modal.style.display = "flex"));
 // ketik tombol tutup di klik
-footer.lastElementChild.addEventListener("click", async (element) => {
-  footer.style.display = "none";
+modal.lastElementChild.addEventListener("click", async (element) => {
+  modal.style.display = "none";
   dataHasil = await ambilData();
   console.log(dataHasil);
 
@@ -67,6 +67,7 @@ footer.lastElementChild.addEventListener("click", async (element) => {
   document.querySelector(".hasil").style.display = "none";
   document.querySelector(".jawaban-benar").style.display = "none";
 });
+
 // Ketika tombol selanjutnya, sebelumnya, atau selesai diklik
 const tombol = document.querySelector(".tombol");
 tombol.addEventListener("click", (element) => {
@@ -107,6 +108,7 @@ tombol.addEventListener("click", (element) => {
   gantiNoAktif();
   aktifKanOpsi();
 });
+
 // Ketika pilihan ganda atau opsi diklik
 seluruhOpsi.forEach((opsi) => {
   opsi.addEventListener("click", (element) => {
@@ -120,7 +122,7 @@ seluruhOpsi.forEach((opsi) => {
 });
 
 function ambilData() {
-  return fetch(`soal/${document.querySelector("footer select").value}.json`)
+  return fetch(`soal/Pemrograman Dasar.json`)
     .then((result) => result.json())
     .then((result) => result);
 }

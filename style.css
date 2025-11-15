@@ -17,6 +17,43 @@ header h3,
   text-align: center;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
+ul {
+  display: table;
+}
+ul li {
+  display: table-row;
+}
+ul li input,
+ul li label {
+  display: table-cell;
+  padding: 2px 5px;
+}
+/* Tombol selanjutnya atau sebelumnya */
+.tombol {
+  /* background-color: red; */
+  margin: 20px auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.tombol button {
+  font-size: 30px;
+  border: none;
+  background-color: #1f1f1f1f;
+  height: 50px;
+  width: 50px;
+}
+.tombol-sebelumnya {
+  border-radius: 0 50% 50% 0;
+  box-shadow: inset 2px 0px 15px -10px #000, 2px 2px 10px -3px white;
+  margin-left: -30px;
+}
+.tombol-selanjutnya {
+  border-radius: 50% 0 0 50%;
+  box-shadow: inset -2px 0px 15px -10px #000, -2px -2px 10px -3px white;
+  margin-right: -30px;
+}
+/* Area Tombol atau seluruh no Soal */
 .seluruh-nomor-soal {
   display: flex;
   flex-wrap: wrap;
@@ -45,17 +82,8 @@ header h3,
 .seluruh-nomor-soal .benar {
   background-color: lightgreen;
 }
-.tombol {
-  margin: 20px auto;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
-.tombol-selesai {
-  margin: 0px auto;
-  background-color: #f04431;
-  color: white;
-}
+
+/* Area Jawaban benar dan hasil */
 .jawaban-benar,
 .hasil {
   display: none;
@@ -70,26 +98,43 @@ header h3,
   border: dotted 2px grey;
   width: fit-content;
 }
+.tombol-selesai {
+  margin: 0px auto;
+  background-color: #f04431;
+  color: white;
+}
 
-ul {
-  display: table;
+/* Tombol Tombol Untuk Modal */
+.tombol-modal {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-ul li {
-  display: table-row;
+.tombol-modal div {
+  background-color: #1f1f1f1f;
+  height: 50px;
+  width: 50px;
+  background-size: 25px;
+  background-repeat: no-repeat;
+  background-position: center;
 }
-ul li input,
-ul li label {
-  display: table-cell;
-  padding: 2px 5px;
+.tombol-modal div.tombol-user {
+  background-image: url("img/user.png");
+  border-radius: 0 50% 50% 0;
+  box-shadow: inset 2px 0px 15px -10px #000, 2px 2px 10px -3px white;
+  margin-left: -30px;
 }
-.info {
+.tombol-modal div.tombol-pengaturan {
+  background-image: url("img/settings.png");
+  border-radius: 50% 0 0 50%;
+  box-shadow: inset -2px 0px 15px -10px #000, -2px -2px 10px -3px white;
+  margin-right: -30px;
+}
+/* .tombol-user {
   width: 30px;
   height: 30px;
   padding: 5px;
   box-shadow: inset -5px 5px 5px #fff, inset 1px -1px 6px #000;
-  position: absolute;
-  top: 10px;
-  left: 10px;
   border-radius: 50%;
   transition: 0.1s;
   background-image: url("img/settings.png");
@@ -97,15 +142,17 @@ ul li label {
   background-position: center;
   background-repeat: no-repeat;
 }
-.info:active {
+.tombol-user:active {
   top: 7.5px;
   left: 7.5px;
   width: 35px;
   height: 35px;
   background-size: 30px;
   box-shadow: inset -3px 3px 5px #fff, inset 1px -1px 3px #000;
-}
-footer {
+} */
+
+/* Modal */
+.modal {
   background-color: rgba(0, 0, 0, 0.542);
   position: fixed;
   right: 0;
@@ -114,7 +161,7 @@ footer {
   left: 0;
   display: flex;
 }
-footer section {
+.modal section {
   background-color: #ebebeb;
   margin: auto;
   display: flex;
@@ -124,23 +171,23 @@ footer section {
   border-radius: 20px;
   box-shadow: 10px 10px 25px -20px #000, inset 1px 1px 5px -2px #000;
 }
-footer section img[alt="Rendi Alviana"] {
+.modal .modal-user img[alt="Rendi Alviana"] {
   width: 100px;
   border-radius: 50%;
   border: double 2px black;
 }
-footer section h2 {
+.modal .modal-user h2 {
   margin: 10px 0 0;
 }
-footer section p {
+.modal .modal-user p {
   margin: 0 0 30px;
   font-family: system-ui, sans-serif;
 }
-.sosial-media img {
+.modal-user .sosial-media img {
   width: 30px;
   margin: 5px;
 }
-.sosial-media a {
+.modal-user .sosial-media a {
   text-decoration: none;
 }
 .tutup {

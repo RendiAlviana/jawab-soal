@@ -7,10 +7,15 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <!-- Awal Program Utama -->
     <header class="judul"><h3>***</h3></header>
-    <hr />
     <section class="lembar-soal">
-      <h4 class="nomor-soal">999</h4>
+      <hr />
+      <div class="tombol-modal">
+        <div class="tombol-user"></div>
+        <h4 class="nomor-soal">999</h4>
+        <div class="tombol-pengaturan"></div>
+      </div>
       <hr />
       <p class="soal">***</p>
       <ul type="none" class="pilihan-ganda">
@@ -39,23 +44,38 @@
       </p>
       <hr />
     </section>
+    <section class="tombol">
+      <button type="button" class="tombol-sebelumnya">&lt</button>
+      <button type="button" class="tombol-selanjutnya">&gt</button>
+    </section>
     <section class="seluruh-nomor-soal">
       <span>?</span> <span>?</span> <span>?</span>
-    </section>
-    <section class="tombol">
-      <button type="button" class="tombol-sebelumnya">Sebelumnya</button>
-      <button type="button" class="tombol-selesai">Selesai</button>
-      <button type="button" class="tombol-selanjutnya">Selanjutnya</button>
     </section>
     <section class="hasil">
       <span>Nilai Anda : <span class="nilai"> 57</span>/100</span>
     </section>
-    <div class="info"></div>
-    <footer>
-      <section>
+    <button type="button" class="tombol-selesai">Selesai</button>
+    <!-- Akhir Program Utama -->
+
+    <!-- Modal -->
+    <div class="modal">
+      <section class="modal-user">
         <img src="img/rendi.png" alt="Rendi Alviana" />
         <h2>Rendi Alviana</h2>
         <p>Siswa TAV | SMK Negeri 3 Kuningan</p>
+        <div class="sosial-media">
+          <a href="https://github.com/rendiAlviana">
+            <img src="img/github-sign.png" alt="github" />
+          </a>
+          <a href="https://www.tiktok.com/@projects_ra"
+            ><img src="img/tik-tok (1).png" alt="tiktok" />
+          </a>
+          <a href="https://www.instagram.com/_renlvin">
+            <img src="img/instagram.png" alt="instagram" />
+          </a>
+        </div>
+      </section>
+      <!-- <section class="modal-pengaturan">
         <p>Pilih soal:</p>
         <select name="pilih-soal">
           <option value="Elektronika Dasar">
@@ -72,20 +92,9 @@
           </option>
           <option value="custom">silahkan edit di file custom.json</option>
         </select>
-        <div class="sosial-media">
-          <a href="https://github.com/rendiAlviana">
-            <img src="img/github-sign.png" alt="github" />
-          </a>
-          <a href="https://www.tiktok.com/@projects_ra"
-            ><img src="img/tik-tok (1).png" alt="tiktok" />
-          </a>
-          <a href="https://www.instagram.com/_renlvin">
-            <img src="img/instagram.png" alt="instagram" />
-          </a>
-        </div>
-      </section>
+      </section> -->
       <div class="tutup"></div>
-    </footer>
+    </div>
     <script src="script.js"></script>
   </body>
 </html>
