@@ -1,0 +1,161 @@
+html {
+  background-color: #ebebeb;
+}
+body {
+  max-width: 600px;
+  margin: 0 auto;
+  border: dotted 2px gray;
+  border-top: none;
+  border-radius: 0px 0px 10px 10px;
+  padding: 30px;
+  user-select: none;
+  font-family: Arial, Helvetica, sans-serif;
+  position: relative;
+}
+header h3,
+.lembar-soal .nomor-soal {
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.seluruh-nomor-soal {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.seluruh-nomor-soal span {
+  display: inline-block;
+  height: 30px;
+  width: 30px;
+  border: dotted 1px gray;
+  margin: 3px;
+  text-align: center;
+  line-height: 30px;
+  border-radius: 5px;
+}
+.seluruh-nomor-soal .aktif {
+  border: double 2px black;
+}
+.seluruh-nomor-soal .terpilih {
+  background-color: lightskyblue;
+}
+.seluruh-nomor-soal .salah {
+  background-color: crimson;
+  color: white;
+}
+.seluruh-nomor-soal .benar {
+  background-color: lightgreen;
+}
+.tombol {
+  margin: 20px auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.tombol-selesai {
+  margin: 0px auto;
+  background-color: #f04431;
+  color: white;
+}
+.jawaban-benar,
+.hasil {
+  display: none;
+}
+.hasil {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  margin: 30px auto 0;
+  padding: 10px;
+  border: dotted 2px grey;
+  width: fit-content;
+}
+
+ul {
+  display: table;
+}
+ul li {
+  display: table-row;
+}
+ul li input,
+ul li label {
+  display: table-cell;
+  padding: 2px 5px;
+}
+.info {
+  width: 30px;
+  height: 30px;
+  padding: 5px;
+  box-shadow: inset -5px 5px 5px #fff, inset 1px -1px 6px #000;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  border-radius: 50%;
+  transition: 0.1s;
+  background-image: url("img/settings.png");
+  background-size: 25px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.info:active {
+  top: 7.5px;
+  left: 7.5px;
+  width: 35px;
+  height: 35px;
+  background-size: 30px;
+  box-shadow: inset -3px 3px 5px #fff, inset 1px -1px 3px #000;
+}
+footer {
+  background-color: rgba(0, 0, 0, 0.542);
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  display: flex;
+}
+footer section {
+  background-color: #ebebeb;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 10px 10px 25px -20px #000, inset 1px 1px 5px -2px #000;
+}
+footer section img[alt="Rendi Alviana"] {
+  width: 100px;
+  border-radius: 50%;
+  border: double 2px black;
+}
+footer section h2 {
+  margin: 10px 0 0;
+}
+footer section p {
+  margin: 0 0 30px;
+  font-family: system-ui, sans-serif;
+}
+.sosial-media img {
+  width: 30px;
+  margin: 5px;
+}
+.sosial-media a {
+  text-decoration: none;
+}
+.tutup {
+  font-size: 25px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+select {
+  padding: 5px;
+  border-radius: 80px;
+  margin: -25px 0 45px;
+  max-width: 300px;
+  /* font-size: 1px; */
+}
