@@ -20,54 +20,93 @@ const seluruhNoSoal = document.querySelector(".seluruh-nomor-soal");
 const seluruhOpsi = document.querySelectorAll(".pilihan-ganda li input");
 let selesai = false;
 let dataHasil = "";
-// Ketika tombol info di klik
-const modal = document.querySelector(".modal");
-document
-  .querySelector(".tombol-user")
-  .addEventListener("click", () => (modal.style.display = "flex"));
-// ketik tombol tutup di klik
-modal.lastElementChild.addEventListener("click", async (element) => {
-  modal.style.display = "none";
-  dataHasil = await ambilData();
-  console.log(dataHasil);
 
-  // Mengganti judul soal sesuai data
-  const judul = document.querySelector(".judul h3");
-  judul.innerHTML = dataHasil.judul;
-  // Menggati seluruh nomor soal sesuai data yang ada di data base
-  let nomor = "";
-  for (let i = 0; i < dataHasil.jumlah_soal; i++) {
-    nomor += `<span>${i + 1}</span>`;
-  }
-  seluruhNoSoal.innerHTML = nomor;
-  seluruhNoSoal.childNodes[soalKe].classList.add("aktif");
-  // Mencetak Lembar Soal Ke documen
-  mencetakLembarSoal(dataHasil);
-
-  // Ketika no soal di klik
-  seluruhNoSoal.childNodes.forEach((noSoal) => {
-    noSoal.addEventListener("click", () => {
-      soalKe = parseInt(noSoal.innerHTML) - 1;
-      console.log(soalKe);
-      mencetakLembarSoal(dataHasil);
-      gantiNoAktif();
-      aktifKanOpsi();
+// ==== Algoritma untuk kebutuhan modal secara umum =====
+// Ketika Halaman dibuka modal pengaturan langsung terbuka
+document.getElementById("modalPengaturan").style.display = "flex";
+// Ketika tombol modal diklik maka tampilkan modal terkait
+const seluruhTombolModal = document.querySelectorAll(".tombol-modal");
+const seluruhModal = document.querySelectorAll(".modal");
+seluruhTombolModal.forEach((tombolModal) => {
+  tombolModal.addEventListener("click", () => {
+    seluruhModal.forEach((modal) => {
+      if (tombolModal.dataset.namaTombol == modal.dataset.namaModal)
+        modal.style.display = "flex";
     });
   });
+});
+// ketik tombol tutup-modal di klik
+const tutupModal = document.querySelectorAll(".tutup-modal");
+tutupModal.forEach((tutup) => {
+  tutup.addEventListener("click", () => {
+    tutup.parentElement.style.display = "none";
+  });
+});
+// ===========================================================
 
-  // Riset Lembar Soal
-  soalKe = 0;
-  jawabanUser = [];
+// ------- Modal Pengaturan -------
+// ketika tombol batal di klik
+document.querySelector(".tombol-batal").addEventListener("click", function () {
+  this.parentElement.parentElement.parentElement.style.display = "none";
+});
+// Ketika tombol simpan diklik
+document
+  .querySelector(".tombol-simpan")
+  .addEventListener("click", async function () {
+    soalKe = 0;
+    this.parentElement.parentElement.parentElement.style.display = "none";
+    dataHasil = await ambilData();
+    console.log(dataHasil);
+
+    // Mengganti judul soal sesuai data
+    document.querySelector(".judul h3").innerHTML = dataHasil.judul;
+    // Menggati seluruh nomor soal sesuai data yang ada di data base
+    let nomor = "";
+    for (let i = 0; i < dataHasil.jumlah_soal; i++)
+      nomor += `<span>${i + 1}</span>`;
+
+    seluruhNoSoal.innerHTML = nomor;
+    seluruhNoSoal.childNodes[soalKe].classList.add("aktif");
+    // Mencetak Lembar Soal Ke documen
+    mencetakLembarSoal(dataHasil);
+    gantiNoAktif();
+
+    // Ketika no soal di klik
+    seluruhNoSoal.childNodes.forEach((noSoal) => {
+      noSoal.addEventListener("click", () => {
+        soalKe = parseInt(noSoal.innerHTML) - 1;
+        console.log(soalKe);
+        mencetakLembarSoal(dataHasil);
+        gantiNoAktif();
+        aktifKanOpsi();
+      });
+    });
+
+    // Riset Lembar Soal
+    soalKe = 0;
+    jawabanUser = [];
+    seluruhOpsi.forEach((opsi) => {
+      opsi.checked = false;
+      opsi.disabled = false;
+    });
+    selesai = false;
+    document.querySelector(".tombol-selesai").style.display = "block";
+    document.querySelector(".hasil").style.display = "none";
+    document.querySelector(".jawaban-benar").style.display = "none";
+  });
+
+// =========================================================
+// Ketika tombol batal-radio diklik
+batalRadio.addEventListener("click", () => {
   seluruhOpsi.forEach((opsi) => {
     opsi.checked = false;
-    opsi.disabled = false;
   });
-  selesai = false;
-  document.querySelector(".tombol-selesai").style.display = "inline";
-  document.querySelector(".hasil").style.display = "none";
-  document.querySelector(".jawaban-benar").style.display = "none";
+  jawabanUser[soalKe] = undefined;
+  seluruhNoSoal.childNodes[soalKe].classList.remove("terpilih");
+  setTimeout(() => {
+    batalRadio.style.display = "none";
+  }, 50);
 });
-
 // Ketika tombol selanjutnya, sebelumnya, atau selesai diklik
 const tombol = document.querySelector(".tombol");
 tombol.addEventListener("click", (element) => {
@@ -111,18 +150,19 @@ tombol.addEventListener("click", (element) => {
 
 // Ketika pilihan ganda atau opsi diklik
 seluruhOpsi.forEach((opsi) => {
-  opsi.addEventListener("click", (element) => {
+  opsi.addEventListener("click", function (element) {
     jawabanUser[soalKe] = [
       element.target.id,
       element.target.nextElementSibling.innerHTML,
     ];
     seluruhNoSoal.childNodes[soalKe].classList.add("terpilih");
+    batalRadio.style.display = "block";
     console.log(jawabanUser[soalKe][0]);
   });
 });
 
 function ambilData() {
-  return fetch(`soal/Pemrograman Dasar.json`)
+  return fetch(`soal/${document.querySelector("select").value}.json`)
     .then((result) => result.json())
     .then((result) => result);
 }

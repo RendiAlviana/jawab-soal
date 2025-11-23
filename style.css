@@ -10,7 +10,7 @@ body {
   padding: 30px;
   user-select: none;
   font-family: Arial, Helvetica, sans-serif;
-  position: relative;
+  /* position: relative; */
 }
 header h3,
 .lembar-soal .nomor-soal {
@@ -28,6 +28,13 @@ ul li label {
   display: table-cell;
   padding: 2px 5px;
 }
+#batalRadio {
+  padding: 5px 10px;
+  border-radius: 5px;
+  background-color: orange;
+  font-weight: bold;
+  display: none;
+}
 /* Tombol selanjutnya atau sebelumnya */
 .tombol {
   /* background-color: red; */
@@ -40,8 +47,8 @@ ul li label {
   font-size: 30px;
   border: none;
   background-color: #1f1f1f1f;
-  height: 50px;
-  width: 50px;
+  height: 40px;
+  width: 40px;
 }
 .tombol-sebelumnya {
   border-radius: 0 50% 50% 0;
@@ -58,6 +65,8 @@ ul li label {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  padding: 0 20px;
+  margin-top: -60px;
 }
 .seluruh-nomor-soal span {
   display: inline-block;
@@ -98,19 +107,26 @@ ul li label {
   border: dotted 2px grey;
   width: fit-content;
 }
+
 .tombol-selesai {
-  margin: 0px auto;
+  margin: 20px auto 0;
+  padding: 3px 5px;
+  border-radius: 5px;
   background-color: #f04431;
   color: white;
 }
+.tombol-selesai:active {
+  background-color: aqua;
+  color: black;
+}
 
-/* Tombol Tombol Untuk Modal */
-.tombol-modal {
+/* Tombol Tombol Untuk Modal User dan Pengaturan */
+.tombol-modal-user-pengaturan {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.tombol-modal div {
+.tombol-modal-user-pengaturan div {
   background-color: #1f1f1f1f;
   height: 50px;
   width: 50px;
@@ -118,13 +134,13 @@ ul li label {
   background-repeat: no-repeat;
   background-position: center;
 }
-.tombol-modal div.tombol-user {
+.tombol-modal-user-pengaturan div.tombol-user {
   background-image: url("img/user.png");
   border-radius: 0 50% 50% 0;
   box-shadow: inset 2px 0px 15px -10px #000, 2px 2px 10px -3px white;
   margin-left: -30px;
 }
-.tombol-modal div.tombol-pengaturan {
+.tombol-modal-user-pengaturan div.tombol-pengaturan {
   background-image: url("img/settings.png");
   border-radius: 50% 0 0 50%;
   box-shadow: inset -2px 0px 15px -10px #000, -2px -2px 10px -3px white;
@@ -151,7 +167,7 @@ ul li label {
   box-shadow: inset -3px 3px 5px #fff, inset 1px -1px 3px #000;
 } */
 
-/* Modal */
+/* Modal Secara Umum*/
 .modal {
   background-color: rgba(0, 0, 0, 0.542);
   position: fixed;
@@ -160,37 +176,22 @@ ul li label {
   top: 0;
   left: 0;
   display: flex;
+  justify-content: center;
+  align-items: center;
+  display: none;
 }
-.modal section {
+.modal .content-modal {
   background-color: #ebebeb;
-  margin: auto;
+  margin: 0 20px;
+  height: fit-content;
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 20px;
-  border-radius: 20px;
+  border-radius: 10px;
   box-shadow: 10px 10px 25px -20px #000, inset 1px 1px 5px -2px #000;
 }
-.modal .modal-user img[alt="Rendi Alviana"] {
-  width: 100px;
-  border-radius: 50%;
-  border: double 2px black;
-}
-.modal .modal-user h2 {
-  margin: 10px 0 0;
-}
-.modal .modal-user p {
-  margin: 0 0 30px;
-  font-family: system-ui, sans-serif;
-}
-.modal-user .sosial-media img {
-  width: 30px;
-  margin: 5px;
-}
-.modal-user .sosial-media a {
-  text-decoration: none;
-}
-.tutup {
+.tutup-modal {
   font-size: 25px;
   position: absolute;
   right: 0;
@@ -199,10 +200,49 @@ ul li label {
   left: 0;
   z-index: -1;
 }
+
+/* Modal Pengaturan */
+.tombol-dipengaturan {
+  margin-top: 20px;
+  /* background-color: red; */
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  gap: 20px;
+}
+.tombol-dipengaturan button {
+  padding: 3px 10px;
+  border-radius: 3px;
+  color: #ebebeb;
+}
+.tombol-simpan {
+  background-color: red;
+}
+
+.tombol-batal {
+  background-color: #1f1f1f;
+}
 select {
-  padding: 5px;
-  border-radius: 80px;
-  margin: -25px 0 45px;
-  max-width: 300px;
-  /* font-size: 1px; */
+  width: 90%;
+}
+
+/* Modal User */
+.modal img[alt="Rendi Alviana"] {
+  width: 100px;
+  border-radius: 50%;
+  border: double 2px black;
+}
+.modal h2 {
+  margin: 10px 0 0;
+}
+.modal p {
+  margin: 0 0 30px;
+  font-family: system-ui, sans-serif;
+}
+.sosial-media img {
+  width: 30px;
+  margin: 5px;
+}
+.sosial-media a {
+  text-decoration: none;
 }
