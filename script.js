@@ -14,6 +14,18 @@ Pesan :
 
   Hubungi saya di DM Instagram, jika ada bug atau saran tentang program ini !!
 */
+
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
 let soalKe = 0;
 let jawabanUser = [];
 const seluruhNoSoal = document.querySelector(".seluruh-nomor-soal");
@@ -107,7 +119,7 @@ batalRadio.addEventListener("click", () => {
     batalRadio.style.display = "none";
   }, 50);
 });
-// Ketika tombol selanjutnya, sebelumnya, atau selesai diklik
+// Ketika tombol selanjutnya atau sebelumnya
 const tombol = document.querySelector(".tombol");
 tombol.addEventListener("click", (element) => {
   // Ketika tombol selanjutnya atau sebelumnya di klik
@@ -116,12 +128,20 @@ tombol.addEventListener("click", (element) => {
   if (soalKe < 0) soalKe = dataHasil.jumlah_soal - 1;
   if (soalKe > dataHasil.jumlah_soal - 1) soalKe = 0;
   console.log(soalKe);
-  // Ketika tombol selesai di klik
-  if (element.target.classList.contains("tombol-selesai")) {
-    if (confirm("Rek ntosan bae sugan?")) {
+  mencetakLembarSoal(dataHasil);
+  gantiNoAktif();
+  aktifKanOpsi();
+});
+
+// Ketika tombol selesai di klik
+document
+  .querySelector(".tombol-selesai")
+  .addEventListener("click", function () {
+    if (confirm("Ntos yakin, Henteu????")) {
+      batalRadio.style.display = "none";
       soalKe = 0;
       seluruhOpsi.forEach((opsi) => (opsi.disabled = true));
-      element.target.style.display = "none";
+      this.style.display = "none";
       selesai = true;
       let nilai = 0;
       seluruhNoSoal.childNodes.forEach((noSoal, index) => {
@@ -141,12 +161,11 @@ tombol.addEventListener("click", (element) => {
       if (nilai > 75) nilaiUser.style.color = "lightgreen";
       else nilaiUser.style.color = "red";
       nilaiUser.parentElement.parentElement.style.display = "block";
+      mencetakLembarSoal(dataHasil);
+      gantiNoAktif();
+      aktifKanOpsi();
     }
-  }
-  mencetakLembarSoal(dataHasil);
-  gantiNoAktif();
-  aktifKanOpsi();
-});
+  });
 
 // Ketika pilihan ganda atau opsi diklik
 seluruhOpsi.forEach((opsi) => {
@@ -173,9 +192,11 @@ function aktifKanOpsi() {
       // Jika ya maka radio opsi aktif sesuai jawaban yang telah dipilih sebelumnya
       if (opsi.id == jawabanUser[soalKe][0]) opsi.checked = true;
     });
+    if (!selesai) batalRadio.style.display = "block";
   } else {
     // Jika belum maka radio opsi mati semua
     seluruhOpsi.forEach((opsi) => (opsi.checked = false));
+    batalRadio.style.display = "none";
   }
 }
 function gantiNoAktif() {

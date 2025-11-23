@@ -1,0 +1,27 @@
+[
+  {
+    "file_soal_ke": 1,
+    "nama_file": "custom.json",
+    "nama_yang_tampil": "Custom"
+  },
+  {
+    "file_soal_ke": 2,
+    "nama_file": "Elektronika Dasar.json",
+    "nama_yang_tampil": "Elektronika Dasar"
+  },
+  {
+    "file_soal_ke": 3,
+    "nama_file": "HTML CSS dan JavaScript.json",
+    "nama_yang_tampil": "HTML,CSS, & JAVASCRIPT"
+  },
+  {
+    "file_soal_ke": 4,
+    "nama_file": "Pemrograman Dasar.json",
+    "nama_yang_tampil": "Pemograman Dasar"
+  },
+  {
+    "file_soal_ke": 5,
+    "nama_file": "Gerbang Logika.json",
+    "nama_yang_tampil": "Gerbang Logika"
+  }
+]
