@@ -1,8 +1,8 @@
 [
   {
     "file_soal_ke": 1,
-    "nama_file": "custom.json",
-    "nama_yang_tampil": "Custom"
+    "nama_file": "Gerbang Logika.json",
+    "nama_yang_tampil": "Gerbang Logika"
   },
   {
     "file_soal_ke": 2,
@@ -21,7 +21,22 @@
   },
   {
     "file_soal_ke": 5,
-    "nama_file": "Gerbang Logika.json",
-    "nama_yang_tampil": "Gerbang Logika"
+    "nama_file": "custom.json",
+    "nama_yang_tampil": "Custom"
+  },
+  {
+    "file_soal_ke": 6,
+    "nama_file": "audio.json",
+    "nama_yang_tampil": "60 Soal Elektronika Audio"
+  },
+  {
+    "file_soal_ke": 7,
+    "nama_file": "Elektronika Part2.json",
+    "nama_yang_tampil": "60 Soal Elektronika Part 2"
+  },
+  {
+    "file_soal_ke": 8,
+    "nama_file": "Programing.json",
+    "nama_yang_tampil": "60 Soal PG Programing dan Coding"
   }
 ]

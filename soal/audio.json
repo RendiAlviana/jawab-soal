@@ -1,0 +1,666 @@
+{
+  "judul": "60 Soal Pilihan Ganda Elektronika Audio",
+  "jumlah_soal": 60,
+  "soal": [
+    {
+      "nomor": 1,
+      "pertanyaan": "Frekuensi suara yang dapat didengar oleh telinga manusia normal berada dalam rentang...",
+      "pilihan": {
+        "a": "2 Hz hingga 20 kHz",
+        "b": "20 Hz hingga 20 kHz",
+        "c": "20 kHz hingga 200 kHz",
+        "d": "20 Hz hingga 2 kHz"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "nomor": 2,
+      "pertanyaan": "Satuan yang digunakan untuk mengukur tingkat kenyaringan (intensity) suara adalah...",
+      "pilihan": {
+        "a": "Hertz (Hz)",
+        "b": "Ohm (Ω)",
+        "c": "Decibel (dB)",
+        "d": "Farad (F)"
+      },
+      "jawaban_benar": "c"
+    },
+    {
+      "nomor": 3,
+      "pertanyaan": "Komponen utama dalam rangkaian Power Amplifier kelas AB yang berfungsi sebagai penguat akhir (final stage) adalah...",
+      "pilihan": {
+        "a": "Kapasitor keramik",
+        "b": "Resistor metal film",
+        "c": "Transistor daya",
+        "d": "Dioda Zener"
+      },
+      "jawaban_benar": "c"
+    },
+    {
+      "nomor": 4,
+      "pertanyaan": "Istilah yang menggambarkan rasio antara sinyal berguna (signal) dengan derau yang tidak diinginkan (noise) pada sebuah sistem audio adalah...",
+      "pilihan": {
+        "a": "Harmonic Distortion (THD)",
+        "b": "Signal-to-Noise Ratio (SNR)",
+        "c": "Frequency Response",
+        "d": "Impedance Matching"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "nomor": 5,
+      "pertanyaan": "Fungsi utama dari Kapasitor Kopling (Coupling Capacitor) dalam rangkaian audio adalah...",
+      "pilihan": {
+        "a": "Membatasi arus DC dan melewatkan sinyal AC",
+        "b": "Menurunkan tegangan DC",
+        "c": "Memperkuat sinyal AC",
+        "d": "Menyaring frekuensi tinggi"
+      },
+      "jawaban_benar": "a"
+    },
+    {
+      "nomor": 6,
+      "pertanyaan": "Apa yang dimaksud dengan impedansi speaker?",
+      "pilihan": {
+        "a": "Resistansi DC murni kumparan speaker",
+        "b": "Tahanan total (gabungan resistansi dan reaktansi) yang dilihat oleh amplifier",
+        "c": "Daya maksimum yang dapat ditangani speaker",
+        "d": "Efisiensi speaker dalam mengubah listrik menjadi suara"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "nomor": 7,
+      "pertanyaan": "Penguat Kelas A dikenal memiliki efisiensi yang rendah, tetapi kualitas suara (linearitas) yang tinggi, hal ini disebabkan karena...",
+      "pilihan": {
+        "a": "Transistor beroperasi di wilayah saturasi",
+        "b": "Transistor beroperasi selama kurang dari setengah siklus sinyal input",
+        "c": "Transistor selalu aktif dan mengalirkan arus bias tinggi",
+        "d": "Menggunakan dua transistor secara push-pull"
+      },
+      "jawaban_benar": "c"
+    },
+    {
+      "nomor": 8,
+      "pertanyaan": "Dalam sistem tiga jalur (three-way speaker), komponen apa yang berfungsi untuk memisahkan sinyal audio menjadi frekuensi rendah, menengah, dan tinggi sebelum masuk ke masing-masing driver?",
+      "pilihan": {
+        "a": "Volume control",
+        "b": "Tone control",
+        "c": "Crossover network",
+        "d": "Bass reflex port"
+      },
+      "jawaban_benar": "c"
+    },
+    {
+      "nomor": 9,
+      "pertanyaan": "Apa peran utama dari Op-Amp (Operational Amplifier) dalam rangkaian Pre-Amplifier?",
+      "pilihan": {
+        "a": "Mengubah sinyal AC menjadi DC",
+        "b": "Mengatur impedansi output speaker",
+        "c": "Menguatkan tegangan sinyal audio kecil dari sumber",
+        "d": "Menghilangkan distorsi harmonik"
+      },
+      "jawaban_benar": "c"
+    },
+    {
+      "nomor": 10,
+      "pertanyaan": "Jarak ideal antara dua speaker stereo untuk mendapatkan efek stereo yang baik biasanya diukur...",
+      "pilihan": {
+        "a": "Sama dengan jarak pendengar ke salah satu speaker",
+        "b": "Dua kali jarak pendengar ke salah satu speaker",
+        "c": "Setengah jarak pendengar ke salah satu speaker",
+        "d": "Tidak berpengaruh, asalkan diletakkan sejajar"
+      },
+      "jawaban_benar": "a"
+    },
+    {
+      "nomor": 11,
+      "pertanyaan": "Penguat Kelas B (Class B Amplifier) memiliki efisiensi yang lebih tinggi daripada Kelas A, tetapi rentan terhadap jenis distorsi yang disebut...",
+      "pilihan": {
+        "a": "Slew Rate Limiting",
+        "b": "Crossover Distortion",
+        "c": "Intermodulation Distortion",
+        "d": "Clipping"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "nomor": 12,
+      "pertanyaan": "Fungsi dari rangkaian 'Tone Control' (misalnya Bass dan Treble) pada sistem audio adalah...",
+      "pilihan": {
+        "a": "Mengubah total volume output",
+        "b": "Meningkatkan atau menurunkan gain pada rentang frekuensi tertentu",
+        "c": "Menjaga daya output tetap konstan",
+        "d": "Menyesuaikan impedansi input"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "nomor": 13,
+      "pertanyaan": "Apa yang terjadi pada sinyal audio ketika Power Amplifier mengalami 'Clipping'?",
+      "pilihan": {
+        "a": "Frekuensi rendah ditingkatkan secara artifisial",
+        "b": "Bentuk gelombang sinyal menjadi datar di bagian atas dan bawah (terpotong)",
+        "c": "Hanya frekuensi tinggi yang terblokir",
+        "d": "Terjadi noise putih acak"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "nomor": 14,
+      "pertanyaan": "Sebuah speaker **Woofer** dirancang untuk mereproduksi frekuensi...",
+      "pilihan": {
+        "a": "Sangat tinggi (High)",
+        "b": "Menengah (Midrange)",
+        "c": "Rendah (Low)",
+        "d": "Seluruh rentang (Full-range)"
+      },
+      "jawaban_benar": "c"
+    },
+    {
+      "nomor": 15,
+      "pertanyaan": "Mikrofon yang bekerja berdasarkan prinsip elektromagnetik dengan menggunakan kumparan yang bergerak di dalam medan magnet permanen adalah...",
+      "pilihan": {
+        "a": "Mikrofon Kondenser",
+        "b": "Mikrofon Piezoelektrik",
+        "c": "Mikrofon Ribbon",
+        "d": "Mikrofon Dinamik"
+      },
+      "jawaban_benar": "d"
+    },
+    {
+      "nomor": 16,
+      "pertanyaan": "Dalam sistem penguat daya (Power Amplifier), trafo yang berfungsi untuk menurunkan tegangan AC dari PLN dan menyearahkannya adalah...",
+      "pilihan": {
+        "a": "Trafo Output",
+        "b": "Trafo Impedansi",
+        "c": "Trafo Daya (Power Transformer)",
+        "d": "Trafo Pulsa"
+      },
+      "jawaban_benar": "c"
+    },
+    {
+      "nomor": 17,
+      "pertanyaan": "Apa yang menjadi keunggulan utama koneksi audio seimbang (Balanced Audio Connection) menggunakan kabel XLR dibandingkan koneksi tidak seimbang (Unbalanced) menggunakan kabel RCA?",
+      "pilihan": {
+        "a": "Dapat membawa daya yang lebih besar",
+        "b": "Lebih tahan terhadap noise dan interferensi elektromagnetik pada jarak jauh",
+        "c": "Menggunakan tegangan sinyal yang lebih rendah",
+        "d": "Hanya dapat digunakan untuk sinyal digital"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "nomor": 18,
+      "pertanyaan": "Di sebuah rangkaian filter Crossover pasif, kapasitor umumnya digunakan sebagai filter...",
+      "pilihan": {
+        "a": "Low-Pass (melewatkan frekuensi rendah)",
+        "b": "High-Pass (melewatkan frekuensi tinggi)",
+        "c": "Band-Stop (memblokir frekuensi tertentu)",
+        "d": "Band-Pass (melewatkan rentang frekuensi tertentu)"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "nomor": 19,
+      "pertanyaan": "Parameter yang menunjukkan seberapa baik suatu amplifier dapat mereproduksi sinyal kompleks (transien) tanpa distorsi adalah...",
+      "pilihan": {
+        "a": "Total Harmonic Distortion (THD)",
+        "b": "Slew Rate (SR)",
+        "c": "Damping Factor",
+        "d": "Input Sensitivity"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "nomor": 20,
+      "pertanyaan": "Apa fungsi dari Induktor dalam rangkaian filter Crossover?",
+      "pilihan": {
+        "a": "Melewatkan frekuensi tinggi dan memblokir frekuensi rendah",
+        "b": "Melewatkan frekuensi rendah dan memblokir frekuensi tinggi",
+        "c": "Menstabilkan tegangan DC",
+        "d": "Menguatkan sinyal"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "nomor": 21,
+      "pertanyaan": "Istilah **Gain** dalam konteks amplifier audio mengacu pada...",
+      "pilihan": {
+        "a": "Impedansi input amplifier",
+        "b": "Peningkatan (rasio) daya atau tegangan sinyal output terhadap input",
+        "c": "Efisiensi daya amplifier",
+        "d": "Rentang frekuensi yang dapat dilewatkan amplifier"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "nomor": 22,
+      "pertanyaan": "JFET (Junction Field-Effect Transistor) sering digunakan pada tahap input Pre-Amplifier karena keunggulannya dalam...",
+      "pilihan": {
+        "a": "Menghasilkan daya output yang sangat besar",
+        "b": "Memiliki impedansi input yang sangat tinggi",
+        "c": "Mampu beroperasi pada suhu yang sangat tinggi",
+        "d": "Memiliki kecepatan switching yang sangat cepat"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "nomor": 23,
+      "pertanyaan": "Mengapa penting untuk mencocokkan impedansi output amplifier dengan impedansi input speaker (Impedance Matching)?",
+      "pilihan": {
+        "a": "Untuk meminimalkan konsumsi daya total",
+        "b": "Untuk mencegah panas berlebih pada power supply",
+        "c": "Untuk memaksimalkan transfer daya dan meminimalkan distorsi",
+        "d": "Untuk membatasi frekuensi tinggi"
+      },
+      "jawaban_benar": "c"
+    },
+    {
+      "nomor": 24,
+      "pertanyaan": "Komponen aktif yang digunakan dalam skema 'Single-Ended Class A' Power Amplifier tradisional, di mana hanya satu perangkat yang menguatkan seluruh gelombang sinyal, adalah...",
+      "pilihan": {
+        "a": "Dua Transistor BJT dalam konfigurasi push-pull",
+        "b": "Satu Transistor BJT atau tabung vakum",
+        "c": "Sebuah Jembatan Rectifier",
+        "d": "Sistem digital (DAC)"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "nomor": 25,
+      "pertanyaan": "Pada rangkaian Pre-Amplifier untuk Phono (piringan hitam), dibutuhkan rangkaian khusus yang berfungsi untuk mengoreksi karakteristik perekaman yang dikenal sebagai...",
+      "pilihan": {
+        "a": "Tone Control Baxandall",
+        "b": "Fletcher-Munson Compensation",
+        "c": "RIAA Equalization",
+        "d": "Loudness Control"
+      },
+      "jawaban_benar": "c"
+    },
+    {
+      "nomor": 26,
+      "pertanyaan": "Sebuah sirkuit yang berfungsi untuk menjaga level sinyal output tetap konstan meskipun level sinyal input berfluktuasi adalah...",
+      "pilihan": {
+        "a": "Equalizer",
+        "b": "Compressor/Limiter",
+        "c": "Gate/Expander",
+        "d": "Harmonic Exciter"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "nomor": 27,
+      "pertanyaan": "Apa yang dimaksud dengan **Total Harmonic Distortion (THD)**?",
+      "pilihan": {
+        "a": "Perbedaan level antara sinyal paling keras dan paling sunyi",
+        "b": "Jumlah daya yang terbuang sebagai panas",
+        "c": "Persentase tambahan frekuensi harmonik yang tidak diinginkan dalam output amplifier",
+        "d": "Keterlambatan waktu antara sinyal input dan output"
+      },
+      "jawaban_benar": "c"
+    },
+    {
+      "nomor": 28,
+      "pertanyaan": "Di dalam konverter **DAC (Digital to Analog Converter)**, proses yang mengubah data digital (angka biner) menjadi sinyal listrik analog adalah...",
+      "pilihan": {
+        "a": "Sampling",
+        "b": "Quantization",
+        "c": "Rekonstruksi",
+        "d": "Filtering (Anti-aliasing)"
+      },
+      "jawaban_benar": "c"
+    },
+    {
+      "nomor": 29,
+      "pertanyaan": "Mengapa penguat daya Kelas D (Class D Amplifier) memiliki efisiensi yang sangat tinggi (di atas 90%)?",
+      "pilihan": {
+        "a": "Menggunakan trafo daya yang sangat besar",
+        "b": "Transistor output beroperasi sebagai saklar (switching) ON atau OFF",
+        "c": "Menggunakan bias arus tinggi secara terus menerus",
+        "d": "Menggunakan sistem umpan balik (feedback) negatif yang sangat kuat"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "nomor": 30,
+      "pertanyaan": "Sebuah speaker yang memiliki impedansi nominal **4 Ohm** membutuhkan...",
+      "pilihan": {
+        "a": "Arus yang lebih rendah daripada speaker 8 Ohm pada tegangan yang sama",
+        "b": "Tegangan yang lebih tinggi daripada speaker 8 Ohm pada arus yang sama",
+        "c": "Arus yang lebih tinggi daripada speaker 8 Ohm pada tegangan yang sama",
+        "d": "Daya yang lebih kecil daripada speaker 8 Ohm"
+      },
+      "jawaban_benar": "c"
+    },
+    {
+      "nomor": 31,
+      "pertanyaan": "Fungsi dari **Heat Sink** (Pendingin) pada transistor daya Power Amplifier adalah...",
+      "pilihan": {
+        "a": "Meningkatkan gain (penguatan) sinyal",
+        "b": "Menyaring frekuensi tinggi",
+        "c": "Mengefektifkan pembuangan panas untuk menjaga suhu operasi transistor",
+        "d": "Mengatur impedansi output"
+      },
+      "jawaban_benar": "c"
+    },
+    {
+      "nomor": 32,
+      "pertanyaan": "Konfigurasi Transistor Bipolar Junction Transistor (BJT) yang sering digunakan pada tahap akhir Power Amplifier adalah...",
+      "pilihan": {
+        "a": "Common Emitter",
+        "b": "Common Base",
+        "c": "Emitter Follower (Common Collector)",
+        "d": "Darlington Pair"
+      },
+      "jawaban_benar": "c"
+    },
+    {
+      "nomor": 33,
+      "pertanyaan": "Dalam sistem suara profesional, titik '0 dBu' atau '0 dBV' biasanya mengacu pada level tegangan referensi untuk...",
+      "pilihan": {
+        "a": "Titik kliping (clipping) maksimum",
+        "b": "Sinyal analog nominal (standard operating level)",
+        "c": "Batasan kebisingan (noise floor)",
+        "d": "Daya output maksimum speaker"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "nomor": 34,
+      "pertanyaan": "Jika Anda menghubungkan dua speaker **8 Ohm** secara **paralel**, total impedansi yang dilihat oleh amplifier adalah...",
+      "pilihan": {
+        "a": "16 Ohm",
+        "b": "8 Ohm",
+        "c": "4 Ohm",
+        "d": "2 Ohm"
+      },
+      "jawaban_benar": "c"
+    },
+    {
+      "nomor": 35,
+      "pertanyaan": "Apa kekurangan utama dari rangkaian penguat daya Kelas C (Class C Amplifier)?",
+      "pilihan": {
+        "a": "Efisiensi daya yang sangat rendah",
+        "b": "Distorsi harmonik yang sangat tinggi, tidak cocok untuk audio fidelity",
+        "c": "Rentan terhadap crossover distortion",
+        "d": "Membutuhkan tegangan supply yang sangat tinggi"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "nomor": 36,
+      "pertanyaan": "Transduser yang berfungsi mengubah sinyal listrik audio kembali menjadi gelombang suara adalah...",
+      "pilihan": {
+        "a": "Mikrofon",
+        "b": "Transistor",
+        "c": "Speaker",
+        "d": "Kapasitor"
+      },
+      "jawaban_benar": "c"
+    },
+    {
+      "nomor": 37,
+      "pertanyaan": "Penguat yang memiliki bias di tengah, sehingga arus mengalir selama setengah siklus sinyal input, adalah penguat Kelas...",
+      "pilihan": {
+        "a": "Kelas A",
+        "b": "Kelas B",
+        "c": "Kelas C",
+        "d": "Kelas AB"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "nomor": 38,
+      "pertanyaan": "Penguat Operasional (Op-Amp) ideal memiliki karakteristik berikut, **kecuali**...",
+      "pilihan": {
+        "a": "Gain tegangan (A_v) tak terbatas",
+        "b": "Impedansi input tak terbatas",
+        "c": "Impedansi output tak terbatas",
+        "d": "Bandwidth tak terbatas"
+      },
+      "jawaban_benar": "c"
+    },
+    {
+      "nomor": 39,
+      "pertanyaan": "Teknik yang digunakan oleh Op-Amp untuk menstabilkan gain dan mengurangi distorsi adalah...",
+      "pilihan": {
+        "a": "Positive Feedback",
+        "b": "Current Mirror",
+        "c": "Negative Feedback",
+        "d": "Voltage Divider"
+      },
+      "jawaban_benar": "c"
+    },
+    {
+      "nomor": 40,
+      "pertanyaan": "Apa yang dimaksud dengan **Damping Factor** pada Power Amplifier?",
+      "pilihan": {
+        "a": "Kemampuan amplifier untuk meredam resonansi dan mengontrol gerakan speaker",
+        "b": "Rasio antara sinyal digital dan sinyal analog",
+        "c": "Tingkat kebisingan (noise) yang dihasilkan",
+        "d": "Jumlah daya yang diperlukan untuk membuat speaker bergerak"
+      },
+      "jawaban_benar": "a"
+    },
+    {
+      "nomor": 41,
+      "pertanyaan": "Transistor yang digunakan pada tahap akhir Power Amplifier yang memiliki rating daya tinggi disebut...",
+      "pilihan": {
+        "a": "Small Signal Transistor",
+        "b": "Power Transistor (Final Transistor)",
+        "c": "Transistor Kopling",
+        "d": "MOSFET Low Power"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "nomor": 42,
+      "pertanyaan": "Filter Crossover **Orde Pertama** memiliki kemiringan redaman sebesar...",
+      "pilihan": {
+        "a": "6 dB/oktaf",
+        "b": "12 dB/oktaf",
+        "c": "18 dB/oktaf",
+        "d": "24 dB/oktaf"
+      },
+      "jawaban_benar": "a"
+    },
+    {
+      "nomor": 43,
+      "pertanyaan": "Apa fungsi dari rangkaian **Rectifier (Penyearah)** dalam Power Supply unit amplifier?",
+      "pilihan": {
+        "a": "Mengubah tegangan AC menjadi DC berdenyut (pulsating DC)",
+        "b": "Menstabilkan tegangan DC",
+        "c": "Menurunkan tegangan AC",
+        "d": "Meningkatkan frekuensi sinyal"
+      },
+      "jawaban_benar": "a"
+    },
+    {
+      "nomor": 44,
+      "pertanyaan": "Proses konversi sinyal analog menjadi sinyal digital (dalam ADC) yang melibatkan pengukuran amplitudo sinyal pada interval waktu tertentu disebut...",
+      "pilihan": {
+        "a": "Quantization",
+        "b": "Filtering",
+        "c": "Sampling",
+        "d": "Modulation"
+      },
+      "jawaban_benar": "c"
+    },
+    {
+      "nomor": 45,
+      "pertanyaan": "Speaker **Tweeter** dirancang untuk mereproduksi frekuensi...",
+      "pilihan": {
+        "a": "Sangat rendah",
+        "b": "Menengah",
+        "c": "Sangat tinggi",
+        "d": "Rentang suara manusia"
+      },
+      "jawaban_benar": "c"
+    },
+    {
+      "nomor": 46,
+      "pertanyaan": "Dalam sistem audio, sinyal **Line Level** merujuk pada level tegangan...",
+      "pilihan": {
+        "a": "Yang dihasilkan oleh mikrofon (sangat rendah)",
+        "b": "Standar yang digunakan antara komponen audio (misalnya dari Pre-Amp ke Power-Amp)",
+        "c": "Yang menggerakkan speaker (sangat tinggi)",
+        "d": "Yang digunakan untuk sinyal digital"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "nomor": 47,
+      "pertanyaan": "Jenis distorsi yang terjadi ketika amplifier tidak dapat merespons perubahan sinyal input dengan cukup cepat disebut...",
+      "pilihan": {
+        "a": "Crossover Distortion",
+        "b": "Harmonic Distortion",
+        "c": "Slew Rate Limiting",
+        "d": "Intermodulation Distortion"
+      },
+      "jawaban_benar": "c"
+    },
+    {
+      "nomor": 48,
+      "pertanyaan": "Penguat Kelas AB (Class AB Amplifier) adalah kompromi antara Kelas A dan Kelas B, dicapai dengan memberikan bias kecil yang tujuannya adalah...",
+      "pilihan": {
+        "a": "Mengurangi Total Harmonic Distortion (THD)",
+        "b": "Meningkatkan efisiensi di atas 90%",
+        "c": "Menghilangkan Crossover Distortion",
+        "d": "Meningkatkan impedansi input"
+      },
+      "jawaban_benar": "c"
+    },
+    {
+      "nomor": 49,
+      "pertanyaan": "Filter yang berfungsi untuk memotong frekuensi di bawah titik tertentu dan melewatkan frekuensi di atasnya adalah...",
+      "pilihan": {
+        "a": "Low-Pass Filter (LPF)",
+        "b": "High-Pass Filter (HPF)",
+        "c": "Band-Pass Filter (BPF)",
+        "d": "Notch Filter"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "nomor": 50,
+      "pertanyaan": "Dioda Zener sering digunakan dalam Power Supply unit amplifier untuk fungsi...",
+      "pilihan": {
+        "a": "Menyearahkan tegangan AC",
+        "b": "Menghilangkan riak tegangan (ripple)",
+        "c": "Meregulasi/menstabilkan tegangan DC pada level tertentu",
+        "d": "Membatasi arus hubung singkat"
+      },
+      "jawaban_benar": "c"
+    },
+    {
+      "nomor": 51,
+      "pertanyaan": "Jika Anda menggandakan jarak antara mikrofon dan sumber suara, level sinyal yang diterima mikrofon akan turun sekitar...",
+      "pilihan": {
+        "a": "3 dB",
+        "b": "6 dB",
+        "c": "10 dB",
+        "d": "12 dB"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "nomor": 52,
+      "pertanyaan": "Kapasitor besar yang diletakkan setelah rangkaian penyearah (rectifier) di Power Supply unit amplifier berfungsi sebagai...",
+      "pilihan": {
+        "a": "Kapasitor Kopling",
+        "b": "Kapasitor Filter (Penyaring riak)",
+        "c": "Kapasitor Feedback",
+        "d": "Kapasitor Decoupling"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "nomor": 53,
+      "pertanyaan": "Istilah **Headroom** dalam konteks sistem audio mengacu pada...",
+      "pilihan": {
+        "a": "Jarak antara level sinyal nominal dan level kliping (clipping) maksimum",
+        "b": "Rasio antara frekuensi terendah dan frekuensi tertinggi",
+        "c": "Luas area yang dicakup oleh gelombang suara",
+        "d": "Jumlah daya yang dikonsumsi amplifier saat idle"
+      },
+      "jawaban_benar": "a"
+    },
+    {
+      "nomor": 54,
+      "pertanyaan": "Apa fungsi dari **Volume Control** pada Pre-Amplifier?",
+      "pilihan": {
+        "a": "Menyesuaikan gain pada tahap akhir",
+        "b": "Mengubah frekuensi cut-off",
+        "c": "Mengatur atenuasi (pelemah) sinyal input",
+        "d": "Meningkatkan level sinyal rendah"
+      },
+      "jawaban_benar": "c"
+    },
+    {
+      "nomor": 55,
+      "pertanyaan": "Kabel yang biasa digunakan untuk menghubungkan Power Amplifier ke Speaker adalah...",
+      "pilihan": {
+        "a": "Kabel Twisted Pair (UTP)",
+        "b": "Kabel Coaxial (RG-6)",
+        "c": "Kabel Speaker (berdiameter besar untuk meminimalkan resistansi)",
+        "d": "Kabel Fiber Optik"
+      },
+      "jawaban_benar": "c"
+    },
+    {
+      "nomor": 56,
+      "pertanyaan": "Pada Op-Amp, resistor yang menghubungkan output kembali ke input inverting disebut...",
+      "pilihan": {
+        "a": "Input Resistor ($R_{in}$)",
+        "b": "Feedback Resistor ($R_f$)",
+        "c": "Load Resistor ($R_L$)",
+        "d": "Bias Resistor ($R_B$)"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "nomor": 57,
+      "pertanyaan": "Sebuah amplifier dengan Gain sebesar 20 dB berarti penguatannya (rasio tegangan) adalah...",
+      "pilihan": {
+        "a": "1 kali",
+        "b": "10 kali",
+        "c": "100 kali",
+        "d": "1000 kali"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "nomor": 58,
+      "pertanyaan": "Apa yang menjadi masalah utama jika amplifier memiliki **Damping Factor** yang sangat rendah?",
+      "pilihan": {
+        "a": "Output daya maksimum menjadi rendah",
+        "b": "Frekuensi tinggi menjadi dominan",
+        "c": "Kontrol speaker (terutama bass) menjadi buruk, sehingga terjadi 'bunyi ekor'",
+        "d": "Crossover distortion menjadi parah"
+      },
+      "jawaban_benar": "c"
+    },
+    {
+      "nomor": 59,
+      "pertanyaan": "Dalam sistem Audio Digital, **Bit Depth** (kedalaman bit) mempengaruhi...",
+      "pilihan": {
+        "a": "Frekuensi sampling maksimum",
+        "b": "Resolusi amplitudo dan Dynamic Range (SNR teoritis)",
+        "c": "Kecepatan transfer data",
+        "d": "Laju perambatan suara"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "nomor": 60,
+      "pertanyaan": "Filter aktif (Active Filter) dalam sistem audio berbeda dari filter pasif karena ia menggunakan komponen aktif seperti...",
+      "pilihan": {
+        "a": "Resistor dan Induktor",
+        "b": "Op-Amp atau Transistor",
+        "c": "Trafo dan Dioda",
+        "d": "Kapasitor dan Resistor daya"
+      },
+      "jawaban_benar": "b"
+    }
+  ]
+}

@@ -15,6 +15,17 @@ Pesan :
   Hubungi saya di DM Instagram, jika ada bug atau saran tentang program ini !!
 */
 
+fetch("soal/sistem.json")
+  .then((result) => result.json())
+  .then((result) => {
+    let opsiSoal = "";
+    result.forEach((hasil) => {
+      opsiSoal += `<option value="${hasil.nama_file}">
+                    ${hasil.nama_yang_tampil}
+                  </option>`;
+    });
+    document.querySelector("select[name='pilih-soal']").innerHTML = opsiSoal;
+  });
 //
 //
 //
@@ -181,7 +192,7 @@ seluruhOpsi.forEach((opsi) => {
 });
 
 function ambilData() {
-  return fetch(`soal/${document.querySelector("select").value}.json`)
+  return fetch(`soal/${document.querySelector("select").value}`)
     .then((result) => result.json())
     .then((result) => result);
 }

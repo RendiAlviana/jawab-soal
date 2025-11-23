@@ -1,0 +1,666 @@
+{
+  "judul": "60 Soal Pilihan Ganda Programing dan Coding",
+  "jumlah_soal": 60,
+  "soal": [
+    {
+      "nomor": 1,
+      "pertanyaan": "Struktur data yang mengikuti prinsip LIFO (Last-In, First-Out) adalah...",
+      "pilihan": {
+        "a": "Queue",
+        "b": "Stack",
+        "c": "Linked List",
+        "d": "Array"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "nomor": 2,
+      "pertanyaan": "Dalam pemrograman berorientasi objek (OOP), konsep yang memungkinkan sebuah objek mengambil banyak bentuk atau memiliki perilaku yang berbeda-beda adalah...",
+      "pilihan": {
+        "a": "Inheritance",
+        "b": "Encapsulation",
+        "c": "Polymorphism",
+        "d": "Abstraction"
+      },
+      "jawaban_benar": "c"
+    },
+    {
+      "nomor": 3,
+      "pertanyaan": "Algoritma sorting yang bekerja dengan membagi daftar menjadi dua sub-daftar hingga setiap sub-daftar hanya memiliki satu elemen, kemudian menggabungkannya kembali secara terurut, adalah...",
+      "pilihan": {
+        "a": "Bubble Sort",
+        "b": "Insertion Sort",
+        "c": "Merge Sort",
+        "d": "Selection Sort"
+      },
+      "jawaban_benar": "c"
+    },
+    {
+      "nomor": 4,
+      "pertanyaan": "Variabel yang nilainya tidak dapat diubah setelah diinisialisasi dalam program disebut...",
+      "pilihan": {
+        "a": "Mutable",
+        "b": "Pointer",
+        "c": "Constant",
+        "d": "Global"
+      },
+      "jawaban_benar": "c"
+    },
+    {
+      "nomor": 5,
+      "pertanyaan": "Bagian dari kode program yang berfungsi untuk mengulang sekumpulan instruksi selama kondisi tertentu bernilai benar adalah...",
+      "pilihan": {
+        "a": "Conditional Statement (if/else)",
+        "b": "Function/Method",
+        "c": "Loop (Perulangan)",
+        "d": "Variable Declaration"
+      },
+      "jawaban_benar": "c"
+    },
+    {
+      "nomor": 6,
+      "pertanyaan": "Bahasa pemrograman yang paling sering digunakan untuk pengembangan aplikasi Android Native adalah...",
+      "pilihan": {
+        "a": "Swift dan C#",
+        "b": "Java dan Kotlin",
+        "c": "Python dan Ruby",
+        "d": "HTML dan CSS"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "nomor": 7,
+      "pertanyaan": "Dalam Git, perintah yang digunakan untuk mengambil salinan repositori dari server ke mesin lokal adalah...",
+      "pilihan": {
+        "a": "git commit",
+        "b": "git push",
+        "c": "git branch",
+        "d": "git clone"
+      },
+      "jawaban_benar": "d"
+    },
+    {
+      "nomor": 8,
+      "pertanyaan": "Konsep di mana detail implementasi dari sebuah kelas disembunyikan dari pengguna, dan hanya antarmuka yang diperlukan yang ditampilkan, disebut...",
+      "pilihan": {
+        "a": "Inheritance",
+        "b": "Encapsulation",
+        "c": "Polymorphism",
+        "d": "Aggregation"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "nomor": 9,
+      "pertanyaan": "Apa output dari kode perulangan `for (i=0; i<3; i++) { print(i); }` (asumsikan bahasa seperti C/Java/Python)?",
+      "pilihan": {
+        "a": "0, 1, 2, 3",
+        "b": "1, 2, 3",
+        "c": "0, 1, 2",
+        "d": "3, 2, 1, 0"
+      },
+      "jawaban_benar": "c"
+    },
+    {
+      "nomor": 10,
+      "pertanyaan": "Dalam basis data, bahasa yang digunakan untuk mengambil data dari tabel adalah...",
+      "pilihan": {
+        "a": "DDL (Data Definition Language)",
+        "b": "DCL (Data Control Language)",
+        "c": "TCL (Transaction Control Language)",
+        "d": "DML (Data Manipulation Language)"
+      },
+      "jawaban_benar": "d"
+    },
+    {
+      "nomor": 11,
+      "pertanyaan": "Tipe data yang hanya dapat menyimpan nilai **True** atau **False** adalah...",
+      "pilihan": {
+        "a": "Integer",
+        "b": "Float",
+        "c": "Boolean",
+        "d": "Character"
+      },
+      "jawaban_benar": "c"
+    },
+    {
+      "nomor": 12,
+      "pertanyaan": "Dalam bahasa pemrograman C/C++, penggunaan `NULL` atau `nullptr` pada pointer yang tidak menunjuk ke alamat memori yang valid berfungsi untuk...",
+      "pilihan": {
+        "a": "Meningkatkan kecepatan program",
+        "b": "Menginisialisasi pointer agar tidak menunjuk ke memori acak",
+        "c": "Membebaskan memori",
+        "d": "Mengubah tipe data pointer"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "nomor": 13,
+      "pertanyaan": "Framework JavaScript sisi klien (client-side) yang populer dan berfokus pada pembangunan antarmuka pengguna (UI) menggunakan konsep komponen adalah...",
+      "pilihan": {
+        "a": "Node.js",
+        "b": "Django",
+        "c": "React",
+        "d": "Flask"
+      },
+      "jawaban_benar": "c"
+    },
+    {
+      "nomor": 14,
+      "pertanyaan": "Kondisi di mana sebuah fungsi memanggil dirinya sendiri secara berulang-ulang sampai kondisi dasar terpenuhi disebut...",
+      "pilihan": {
+        "a": "Iteration",
+        "b": "Abstraction",
+        "c": "Recursion",
+        "d": "Overloading"
+      },
+      "jawaban_benar": "c"
+    },
+    {
+      "nomor": 15,
+      "pertanyaan": "Bahasa markup yang digunakan untuk mendefinisikan struktur dan konten dari halaman web adalah...",
+      "pilihan": {
+        "a": "CSS",
+        "b": "JavaScript",
+        "c": "SQL",
+        "d": "HTML"
+      },
+      "jawaban_benar": "d"
+    },
+    {
+      "nomor": 16,
+      "pertanyaan": "Sintaks `try...catch` dalam pemrograman berfungsi untuk...",
+      "pilihan": {
+        "a": "Mengimplementasikan perulangan tak terbatas",
+        "b": "Menyembunyikan detail implementasi (encapsulation)",
+        "c": "Menangani dan mengelola kesalahan (Exception Handling)",
+        "d": "Memastikan alokasi memori yang efisien"
+      },
+      "jawaban_benar": "c"
+    },
+    {
+      "nomor": 17,
+      "pertanyaan": "Sebuah kelas dalam OOP yang tidak dapat dibuat objeknya secara langsung (hanya dapat diwariskan) disebut...",
+      "pilihan": {
+        "a": "Concrete Class",
+        "b": "Abstract Class",
+        "c": "Final Class",
+        "d": "Static Class"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "nomor": 18,
+      "pertanyaan": "Struktur data **Queue** mengikuti prinsip...",
+      "pilihan": {
+        "a": "LIFO (Last-In, First-Out)",
+        "b": "FILO (First-In, Last-Out)",
+        "c": "FIFO (First-In, First-Out)",
+        "d": "LILO (Last-In, Last-Out)"
+      },
+      "jawaban_benar": "c"
+    },
+    {
+      "nomor": 19,
+      "pertanyaan": "Dalam pengembangan perangkat lunak, fase di mana persyaratan pengguna dikumpulkan dan didokumentasikan secara rinci adalah...",
+      "pilihan": {
+        "a": "Testing",
+        "b": "Deployment",
+        "c": "Maintenance",
+        "d": "Requirement Analysis"
+      },
+      "jawaban_benar": "d"
+    },
+    {
+      "nomor": 20,
+      "pertanyaan": "Metode yang memiliki nama yang sama dengan nama kelas, dan secara otomatis dipanggil saat objek kelas dibuat, disebut...",
+      "pilihan": {
+        "a": "Destructor",
+        "b": "Setter",
+        "c": "Getter",
+        "d": "Constructor"
+      },
+      "jawaban_benar": "d"
+    },
+    {
+      "nomor": 21,
+      "pertanyaan": "Time complexity terbaik yang mungkin dicapai oleh algoritma pencarian biner (Binary Search) dalam kasus terburuk (Worst Case) adalah...",
+      "pilihan": {
+        "a": "$O(1)$",
+        "b": "$O(n)$",
+        "c": "$O(n^2)$",
+        "d": "$O(log n)$"
+      },
+      "jawaban_benar": "d"
+    },
+    {
+      "nomor": 22,
+      "pertanyaan": "Perbedaan utama antara bahasa pemrograman **Interpreted** (misalnya Python) dan **Compiled** (misalnya C++) adalah...",
+      "pilihan": {
+        "a": "Interpreted lebih cepat",
+        "b": "Compiled dieksekusi baris per baris",
+        "c": "Compiled diubah menjadi machine code sebelum dieksekusi",
+        "d": "Interpreted hanya bisa berjalan di Windows"
+      },
+      "jawaban_benar": "c"
+    },
+    {
+      "nomor": 23,
+      "pertanyaan": "Dalam pemrograman web, **API RESTful** biasanya menggunakan protokol...",
+      "pilihan": {
+        "a": "FTP",
+        "b": "TCP",
+        "c": "HTTP/HTTPS",
+        "d": "SMTP"
+      },
+      "jawaban_benar": "c"
+    },
+    {
+      "nomor": 24,
+      "pertanyaan": "Konsep **Method Overloading** dalam OOP memungkinkan kita memiliki...",
+      "pilihan": {
+        "a": "Dua kelas dengan nama yang sama",
+        "b": "Dua objek dari kelas yang berbeda",
+        "c": "Dua method dengan nama yang sama tetapi signature (parameter) yang berbeda",
+        "d": "Satu method yang dipanggil dari banyak kelas"
+      },
+      "jawaban_benar": "c"
+    },
+    {
+      "nomor": 25,
+      "pertanyaan": "Sistem kontrol versi (Version Control System) yang paling umum digunakan dalam proyek-proyek pengembangan perangkat lunak modern adalah...",
+      "pilihan": {
+        "a": "CVS",
+        "b": "SVN",
+        "c": "Git",
+        "d": "Mercurial"
+      },
+      "jawaban_benar": "c"
+    },
+    {
+      "nomor": 26,
+      "pertanyaan": "Dalam bahasa Python, kata kunci yang digunakan untuk mendefinisikan sebuah fungsi adalah...",
+      "pilihan": {
+        "a": "function",
+        "b": "def",
+        "c": "func",
+        "d": "define"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "nomor": 27,
+      "pertanyaan": "Kesalahan (error) yang terjadi saat program berjalan, biasanya disebabkan oleh input data yang tidak terduga atau masalah sumber daya, disebut...",
+      "pilihan": {
+        "a": "Syntax Error",
+        "b": "Logical Error",
+        "c": "Run-time Error",
+        "d": "Compiler Error"
+      },
+      "jawaban_benar": "c"
+    },
+    {
+      "nomor": 28,
+      "pertanyaan": "Struktur data di mana setiap elemen (node) menunjuk ke node berikutnya dan node sebelumnya adalah...",
+      "pilihan": {
+        "a": "Singly Linked List",
+        "b": "Doubly Linked List",
+        "c": "Array",
+        "d": "Hash Table"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "nomor": 29,
+      "pertanyaan": "Pada model **Waterfall** dalam pengembangan perangkat lunak, setiap fase harus diselesaikan sepenuhnya sebelum fase berikutnya dimulai. Model ini bersifat...",
+      "pilihan": {
+        "a": "Iteratif dan inkremental",
+        "b": "Linear dan sekuensial",
+        "c": "Agile dan fleksibel",
+        "d": "Paralel dan simultan"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "nomor": 30,
+      "pertanyaan": "Dalam bahasa C++, header file mana yang biasanya dibutuhkan untuk menggunakan fungsi input/output dasar seperti `cout` dan `cin`?",
+      "pilihan": {
+        "a": "<stdio.h>",
+        "b": "<cmath>",
+        "c": "<iostream>",
+        "d": "<string>"
+      },
+      "jawaban_benar": "c"
+    },
+    {
+      "nomor": 31,
+      "pertanyaan": "Sistem manajemen basis data yang menyimpan data dalam format key-value, document, atau graph, dan tidak menggunakan skema tabel relasional tradisional, disebut...",
+      "pilihan": {
+        "a": "Relational Database (SQL)",
+        "b": "NoSQL Database",
+        "c": "Data Warehouse",
+        "d": "Spreadsheet"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "nomor": 32,
+      "pertanyaan": "Konsep dalam OOP di mana kelas turunan (child class) mewarisi properti dan metode dari kelas induk (parent class) adalah...",
+      "pilihan": {
+        "a": "Encapsulation",
+        "b": "Polymorphism",
+        "c": "Inheritance",
+        "d": "Binding"
+      },
+      "jawaban_benar": "c"
+    },
+    {
+      "nomor": 33,
+      "pertanyaan": "Algoritma yang sering digunakan untuk mencari jalur terpendek dari satu node ke semua node lain dalam sebuah graf dengan bobot tepi non-negatif adalah...",
+      "pilihan": {
+        "a": "Breadth-First Search (BFS)",
+        "b": "Depth-First Search (DFS)",
+        "c": "Dijkstra's Algorithm",
+        "d": "Kruskal's Algorithm"
+      },
+      "jawaban_benar": "c"
+    },
+    {
+      "nomor": 34,
+      "pertanyaan": "Dalam HTML, tag yang benar untuk membuat hyperlink adalah...",
+      "pilihan": {
+        "a": "<link>",
+        "b": "<href>",
+        "c": "<anchor>",
+        "d": "<a>"
+      },
+      "jawaban_benar": "d"
+    },
+    {
+      "nomor": 35,
+      "pertanyaan": "Proses mengubah kode sumber (source code) menjadi kode mesin (machine code) yang dapat dieksekusi secara langsung oleh CPU disebut...",
+      "pilihan": {
+        "a": "Interpreting",
+        "b": "Debugging",
+        "c": "Compiling",
+        "d": "Linking"
+      },
+      "jawaban_benar": "c"
+    },
+    {
+      "nomor": 36,
+      "pertanyaan": "Dalam Git, apa fungsi dari perintah `git merge`?",
+      "pilihan": {
+        "a": "Menghapus branch",
+        "b": "Menggabungkan riwayat perubahan dari dua branch atau lebih",
+        "c": "Mengambil perubahan dari remote repository",
+        "d": "Melihat status file"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "nomor": 37,
+      "pertanyaan": "Kesalahan yang terjadi karena logika pemrograman yang salah (misalnya, perhitungan yang tidak sesuai), yang tidak menghasilkan *crash* tetapi output yang salah, disebut...",
+      "pilihan": {
+        "a": "Syntax Error",
+        "b": "Logical Error",
+        "c": "Run-time Error",
+        "d": "Type Error"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "nomor": 38,
+      "pertanyaan": "Pada struktur data **Tree**, node yang tidak memiliki anak disebut...",
+      "pilihan": {
+        "a": "Root Node",
+        "b": "Parent Node",
+        "c": "Leaf Node",
+        "d": "Internal Node"
+      },
+      "jawaban_benar": "c"
+    },
+    {
+      "nomor": 39,
+      "pertanyaan": "Metode yang mengizinkan objek dari kelas turunan (subclass) untuk menyediakan implementasi spesifik dari method yang sudah disediakan oleh salah satu kelas induknya (superclass) adalah...",
+      "pilihan": {
+        "a": "Method Overloading",
+        "b": "Method Hiding",
+        "c": "Method Overriding",
+        "d": "Method Binding"
+      },
+      "jawaban_benar": "c"
+    },
+    {
+      "nomor": 40,
+      "pertanyaan": "Bahasa pemrograman yang sangat umum digunakan untuk Data Science, Machine Learning, dan otomatisasi skrip adalah...",
+      "pilihan": {
+        "a": "C#",
+        "b": "Java",
+        "c": "Python",
+        "d": "PHP"
+      },
+      "jawaban_benar": "c"
+    },
+    {
+      "nomor": 41,
+      "pertanyaan": "Dalam pengembangan web, CSS (Cascading Style Sheets) berfungsi untuk...",
+      "pilihan": {
+        "a": "Menambahkan interaktivitas dan logika",
+        "b": "Mendefinisikan struktur halaman",
+        "c": "Mengatur tampilan, tata letak, dan gaya visual halaman",
+        "d": "Mengelola basis data"
+      },
+      "jawaban_benar": "c"
+    },
+    {
+      "nomor": 42,
+      "pertanyaan": "Sintaks yang digunakan untuk membuat array dua dimensi dengan 3 baris dan 4 kolom dalam bahasa C adalah...",
+      "pilihan": {
+        "a": "`int array[4][3];`",
+        "b": "`int array[3][4];`",
+        "c": "`int array(3,4);`",
+        "d": "`int array[12];`"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "nomor": 43,
+      "pertanyaan": "Konsep di mana sebuah objek dapat diperlakukan sebagai instance dari kelas induknya disebut...",
+      "pilihan": {
+        "a": "Has-a relationship",
+        "b": "Is-a relationship",
+        "c": "Uses-a relationship",
+        "d": "Knows-a relationship"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "nomor": 44,
+      "pertanyaan": "Dalam arsitektur perangkat lunak, lapisan (layer) yang bertanggung jawab untuk interaksi dengan basis data dan penyimpanan data adalah...",
+      "pilihan": {
+        "a": "Presentation Layer",
+        "b": "Business Logic Layer",
+        "c": "Data Access Layer (Persistence Layer)",
+        "d": "User Interface Layer"
+      },
+      "jawaban_benar": "c"
+    },
+    {
+      "nomor": 45,
+      "pertanyaan": "Istilah **Idempotence** dalam API merujuk pada operasi yang...",
+      "pilihan": {
+        "a": "Selalu mengembalikan kode status 200 OK",
+        "b": "Dapat dipanggil berulang kali tanpa mengubah hasil akhir (kecuali kali pertama)",
+        "c": "Hanya dapat dipanggil sekali saja",
+        "d": "Memerlukan otentikasi"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "nomor": 46,
+      "pertanyaan": "Apa fungsi dari **Garbage Collector** dalam bahasa pemrograman seperti Java atau Python?",
+      "pilihan": {
+        "a": "Mendeteksi kesalahan sintaks",
+        "b": "Mengkonversi kode menjadi machine code",
+        "c": "Secara otomatis mengelola dan membebaskan memori yang tidak lagi digunakan",
+        "d": "Mengatur input/output"
+      },
+      "jawaban_benar": "c"
+    },
+    {
+      "nomor": 47,
+      "pertanyaan": "Metode pengembangan perangkat lunak yang berfokus pada kolaborasi, pengiriman cepat, dan adaptasi terhadap perubahan adalah...",
+      "pilihan": {
+        "a": "Waterfall",
+        "b": "Spiral",
+        "c": "Agile",
+        "d": "V-Model"
+      },
+      "jawaban_benar": "c"
+    },
+    {
+      "nomor": 48,
+      "pertanyaan": "Sebuah **Hash Table** adalah struktur data yang menggunakan fungsi hash untuk...",
+      "pilihan": {
+        "a": "Mengurutkan elemen secara ascending",
+        "b": "Memecah elemen menjadi bagian-bagian kecil",
+        "c": "Memetakan kunci (key) ke nilai (value) untuk akses cepat",
+        "d": "Membuat perulangan tak terbatas"
+      },
+      "jawaban_benar": "c"
+    },
+    {
+      "nomor": 49,
+      "pertanyaan": "Dalam HTML, atribut yang digunakan untuk memberikan nama unik pada sebuah elemen adalah...",
+      "pilihan": {
+        "a": "class",
+        "b": "style",
+        "c": "id",
+        "d": "src"
+      },
+      "jawaban_benar": "c"
+    },
+    {
+      "nomor": 50,
+      "pertanyaan": "Jenis **Testing** yang dilakukan oleh pengguna akhir (end-user) untuk memverifikasi bahwa sistem memenuhi persyaratan bisnis adalah...",
+      "pilihan": {
+        "a": "Unit Testing",
+        "b": "Integration Testing",
+        "c": "System Testing",
+        "d": "User Acceptance Testing (UAT)"
+      },
+      "jawaban_benar": "d"
+    },
+    {
+      "nomor": 51,
+      "pertanyaan": "Struktur data yang paling efisien untuk operasi penyisipan dan penghapusan di tengah (middle) adalah...",
+      "pilihan": {
+        "a": "Array",
+        "b": "Stack",
+        "c": "Linked List",
+        "d": "Hash Map"
+      },
+      "jawaban_benar": "c"
+    },
+    {
+      "nomor": 52,
+      "pertanyaan": "Dalam bahasa C, perbedaan antara `==` dan `=` adalah...",
+      "pilihan": {
+        "a": "`==` untuk assignment, `=` untuk perbandingan",
+        "b": "`==` untuk perbandingan (equality), `=` untuk assignment",
+        "c": "Keduanya sama fungsinya",
+        "d": "`=` hanya untuk tipe data integer"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "nomor": 53,
+      "pertanyaan": "Dalam OOP, **Interface** mendefinisikan...",
+      "pilihan": {
+        "a": "Implementasi lengkap dari semua method",
+        "b": "Blue-print yang berisi deklarasi method tanpa implementasi (kontrak)",
+        "c": "Variabel instance dari sebuah kelas",
+        "d": "Cara objek dibuat"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "nomor": 54,
+      "pertanyaan": "Bahasa pemrograman yang berjalan di sisi server (server-side) dan sangat populer untuk membangun backend web adalah...",
+      "pilihan": {
+        "a": "HTML",
+        "b": "CSS",
+        "c": "PHP, Python (dengan Django/Flask), Node.js",
+        "d": "Assembly"
+      },
+      "jawaban_benar": "c"
+    },
+    {
+      "nomor": 55,
+      "pertanyaan": "Dalam algoritma, notasi **Big O** ($O$) digunakan untuk menganalisis...",
+      "pilihan": {
+        "a": "Kebenaran (correctness) algoritma",
+        "b": "Kompleksitas ruang (space complexity) dan waktu (time complexity) algoritma",
+        "c": "Jumlah baris kode",
+        "d": "Kesulitan debugging"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "nomor": 56,
+      "pertanyaan": "Apa yang dimaksud dengan **Deadlock** dalam pemrograman concurrent atau sistem operasi?",
+      "pilihan": {
+        "a": "Kesalahan sintaks yang menyebabkan program crash",
+        "b": "Kondisi di mana dua atau lebih proses saling menunggu sumber daya yang dipegang oleh proses lain",
+        "c": "Kondisi di mana memori habis",
+        "d": "Perulangan tak terbatas"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "nomor": 57,
+      "pertanyaan": "Pada CSS, properti yang digunakan untuk mengubah warna teks pada suatu elemen adalah...",
+      "pilihan": {
+        "a": "background-color",
+        "b": "text-color",
+        "c": "color",
+        "d": "font-color"
+      },
+      "jawaban_benar": "c"
+    },
+    {
+      "nomor": 58,
+      "pertanyaan": "Metode **Binary Search** hanya dapat diterapkan pada array atau list yang...",
+      "pilihan": {
+        "a": "Berisi elemen unik",
+        "b": "Sudah diurutkan",
+        "c": "Memiliki ukuran genap",
+        "d": "Hanya berisi angka"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "nomor": 59,
+      "pertanyaan": "Dalam OOP, **Superclass** (kelas induk) adalah...",
+      "pilihan": {
+        "a": "Kelas yang mewarisi properti dari kelas lain",
+        "b": "Kelas yang tidak dapat diwarisi",
+        "c": "Kelas yang menyediakan properti dan metode untuk diwariskan oleh kelas lain",
+        "d": "Kelas yang hanya berisi metode statis"
+      },
+      "jawaban_benar": "c"
+    },
+    {
+      "nomor": 60,
+      "pertanyaan": "Dalam konteks web, **Client-Side Scripting** (misalnya JavaScript) dieksekusi oleh...",
+      "pilihan": {
+        "a": "Server web",
+        "b": "Browser pengguna",
+        "c": "Basis data",
+        "d": "Sistem operasi server"
+      },
+      "jawaban_benar": "b"
+    }
+  ]
+}

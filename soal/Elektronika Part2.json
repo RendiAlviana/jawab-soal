@@ -1,0 +1,666 @@
+{
+  "judul": "60 Soal Pilihan Ganda Elektronika Dasar",
+  "jumlah_soal": 60,
+  "soal": [
+    {
+      "nomor": 1,
+      "pertanyaan": "Satuan standar internasional untuk mengukur **beda potensial** atau **tegangan** listrik adalah...",
+      "pilihan": {
+        "a": "Ampere (A)",
+        "b": "Ohm (Ω)",
+        "c": "Volt (V)",
+        "d": "Farad (F)"
+      },
+      "jawaban_benar": "c"
+    },
+    {
+      "nomor": 2,
+      "pertanyaan": "Dalam suatu rangkaian listrik, hubungan antara tegangan (V), arus (I), dan hambatan (R) dijelaskan oleh **Hukum Ohm**, yaitu...",
+      "pilihan": {
+        "a": "R = V + I",
+        "b": "V = I / R",
+        "c": "I = V * R",
+        "d": "V = I * R"
+      },
+      "jawaban_benar": "d"
+    },
+    {
+      "nomor": 3,
+      "pertanyaan": "Komponen pasif yang berfungsi untuk menyimpan energi dalam bentuk medan listrik adalah...",
+      "pilihan": {
+        "a": "Resistor",
+        "b": "Induktor",
+        "c": "Dioda",
+        "d": "Kapasitor"
+      },
+      "jawaban_benar": "d"
+    },
+    {
+      "nomor": 4,
+      "pertanyaan": "Kutub pada dioda semikonduktor yang berfungsi sebagai anode (positif) adalah...",
+      "pilihan": {
+        "a": "N-Type",
+        "b": "P-Type",
+        "c": "Katoda",
+        "d": "Basis"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "nomor": 5,
+      "pertanyaan": "Fungsi utama dari **Transistor** yang paling mendasar dalam rangkaian elektronika adalah sebagai...",
+      "pilihan": {
+        "a": "Penstabil tegangan",
+        "b": "Penguat (Amplifier) dan Saklar (Switching)",
+        "c": "Penyimpan muatan",
+        "d": "Peredam arus"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "nomor": 6,
+      "pertanyaan": "Jika tiga resistor dengan nilai masing-masing $R_1 = 10 \text{ Omega}$, $R_2 = 20 \text{ Omega}$, dan $R_3 = 30 \text{ Omega}$ dihubungkan secara **seri**, berapa total hambatannya?",
+      "pilihan": {
+        "a": "5 \text{ Omega}",
+        "b": "60 \text{ Omega}",
+        "c": "6 \text{ Omega}",
+        "d": "20 \text{ Omega}"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "nomor": 7,
+      "pertanyaan": "Gerbang logika yang akan menghasilkan output **HIGH** (1) hanya jika **semua** inputnya LOW (0) adalah...",
+      "pilihan": {
+        "a": "Gerbang AND",
+        "b": "Gerbang OR",
+        "c": "Gerbang NOR",
+        "d": "Gerbang NAND"
+      },
+      "jawaban_benar": "c"
+    },
+    {
+      "nomor": 8,
+      "pertanyaan": "Pada rangkaian AC, komponen yang memiliki kemampuan untuk **menghambat arus AC** tetapi **melewatkan arus DC** adalah...",
+      "pilihan": {
+        "a": "Induktor",
+        "b": "Resistor",
+        "c": "Kapasitor",
+        "d": "LED"
+      },
+      "jawaban_benar": "a"
+    },
+    {
+      "nomor": 9,
+      "pertanyaan": "Hukum Kirchhoff I (KCL) menyatakan bahwa...",
+      "pilihan": {
+        "a": "Jumlah tegangan pada loop tertutup adalah nol.",
+        "b": "Jumlah resistansi total adalah jumlah resistansi individu.",
+        "c": "Jumlah arus yang masuk ke suatu titik cabang sama dengan jumlah arus yang keluar dari titik tersebut.",
+        "d": "Tegangan berbanding lurus dengan arus."
+      },
+      "jawaban_benar": "c"
+    },
+    {
+      "nomor": 10,
+      "pertanyaan": "Bahan semikonduktor murni seperti Silikon dan Germanium yang belum didoping disebut semikonduktor...",
+      "pilihan": {
+        "a": "Ekstrinsik",
+        "b": "Intrinsik",
+        "c": "N-Type",
+        "d": "P-Type"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "nomor": 11,
+      "pertanyaan": "Apa fungsi utama dari **Regulator Tegangan** dalam Power Supply unit?",
+      "pilihan": {
+        "a": "Mengubah tegangan AC menjadi DC",
+        "b": "Menurunkan tegangan AC dari PLN",
+        "c": "Menjaga tegangan output DC agar tetap stabil meskipun beban/input berubah",
+        "d": "Meningkatkan arus"
+      },
+      "jawaban_benar": "c"
+    },
+    {
+      "nomor": 12,
+      "pertanyaan": "Pada transistor tipe NPN, terminal yang berfungsi sebagai pengendali arus utama yang mengalir antara kolektor dan emitor adalah...",
+      "pilihan": {
+        "a": "Kolektor",
+        "b": "Emitor",
+        "c": "Basis",
+        "d": "Drain"
+      },
+      "jawaban_benar": "c"
+    },
+    {
+      "nomor": 13,
+      "pertanyaan": "Dalam sistem digital, 1 byte setara dengan...",
+      "pilihan": {
+        "a": "4 bit",
+        "b": "8 bit",
+        "c": "16 bit",
+        "d": "32 bit"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "nomor": 14,
+      "pertanyaan": "Jenis resistor yang nilainya dapat diubah-ubah menggunakan poros putar adalah...",
+      "pilihan": {
+        "a": "Resistor LDR",
+        "b": "Resistor Tetap",
+        "c": "Potensiometer",
+        "d": "Termistor"
+      },
+      "jawaban_benar": "c"
+    },
+    {
+      "nomor": 15,
+      "pertanyaan": "Ketika dioda di-bias maju (forward bias), terminal P dihubungkan ke sumber tegangan...",
+      "pilihan": {
+        "a": "Negatif, dan terminal N ke positif",
+        "b": "Positif, dan terminal N ke negatif",
+        "c": "Keduanya ke ground",
+        "d": "Keduanya ke positif"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "nomor": 16,
+      "pertanyaan": "Rangkaian penyearah (Rectifier) yang hanya memanfaatkan satu siklus (positif atau negatif) dari gelombang AC adalah...",
+      "pilihan": {
+        "a": "Penyearah Gelombang Penuh (Full-wave)",
+        "b": "Penyearah Jembatan (Bridge)",
+        "c": "Penyearah Setengah Gelombang (Half-wave)",
+        "d": "Inverter"
+      },
+      "jawaban_benar": "c"
+    },
+    {
+      "nomor": 17,
+      "pertanyaan": "Nilai hambatan sebuah resistor dengan kode warna **Merah, Merah, Merah, Emas** adalah...",
+      "pilihan": {
+        "a": "$22 \text{ k}Omega$ dengan toleransi 5%",
+        "b": "$2.2 \text{ k}Omega$ dengan toleransi 5%",
+        "c": "$220 Omega$ dengan toleransi 10%",
+        "d": "$22 Omega$ dengan toleransi 5%"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "nomor": 18,
+      "pertanyaan": "Jenis memori digital yang mempertahankan datanya selama daya masih terhubung, tetapi datanya akan hilang saat daya dimatikan adalah...",
+      "pilihan": {
+        "a": "ROM (Read-Only Memory)",
+        "b": "SRAM (Static RAM)",
+        "c": "Hard Disk Drive",
+        "d": "Flash Memory"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "nomor": 19,
+      "pertanyaan": "Apa yang dimaksud dengan **Ripple** dalam konteks Power Supply DC?",
+      "pilihan": {
+        "a": "Arus yang terlalu besar",
+        "b": "Fluktuasi AC kecil yang masih tersisa setelah proses penyearahan dan penyaringan",
+        "c": "Perubahan tiba-tiba pada resistansi beban",
+        "d": "Hilangnya tegangan secara total"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "nomor": 20,
+      "pertanyaan": "Alat ukur yang digunakan untuk mengukur tegangan, arus, dan hambatan sekaligus adalah...",
+      "pilihan": {
+        "a": "Osiloskop",
+        "b": "Generator Sinyal",
+        "c": "Multimeter (AVO Meter)",
+        "d": "Spektrum Analyzer"
+      },
+      "jawaban_benar": "c"
+    },
+    {
+      "nomor": 21,
+      "pertanyaan": "Jika dua kapasitor $C_1 = 10 mu\text{F}$ dan $C_2 = 10 mu\text{F}$ dihubungkan secara **seri**, total kapasitansinya ($C_{\text{total}}$) adalah...",
+      "pilihan": {
+        "a": "$20 mu\text{F}$",
+        "b": "$5 mu\text{F}$",
+        "c": "$10 mu\text{F}$",
+        "d": "$0.2 mu\text{F}$"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "nomor": 22,
+      "pertanyaan": "Komponen yang dapat berfungsi sebagai penguat dengan impedansi input yang sangat tinggi (khususnya FET dan MOSFET) disebut...",
+      "pilihan": {
+        "a": "Bipolar Junction Transistor (BJT)",
+        "b": "Operational Amplifier (Op-Amp)",
+        "c": "Field-Effect Transistor (FET)",
+        "d": "Silicon Controlled Rectifier (SCR)"
+      },
+      "jawaban_benar": "c"
+    },
+    {
+      "nomor": 23,
+      "pertanyaan": "Gerbang logika yang merupakan kebalikan (invers) dari Gerbang AND adalah...",
+      "pilihan": {
+        "a": "Gerbang OR",
+        "b": "Gerbang NOR",
+        "c": "Gerbang XOR",
+        "d": "Gerbang NAND"
+      },
+      "jawaban_benar": "d"
+    },
+    {
+      "nomor": 24,
+      "pertanyaan": "Apa yang terjadi pada kapasitor ketika terhubung dengan tegangan DC dalam waktu yang lama?",
+      "pilihan": {
+        "a": "Bertindak sebagai rangkaian hubung singkat (short circuit)",
+        "b": "Bertindak sebagai rangkaian terbuka (open circuit)",
+        "c": "Menghasilkan arus bolak-balik",
+        "d": "Nilai resistansinya meningkat"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "nomor": 25,
+      "pertanyaan": "Pada BJT (Transistor), konfigurasi yang memberikan gain tegangan tinggi dan gain arus sedang adalah...",
+      "pilihan": {
+        "a": "Common Collector",
+        "b": "Common Base",
+        "c": "Common Emitter",
+        "d": "Darlington Pair"
+      },
+      "jawaban_benar": "c"
+    },
+    {
+      "nomor": 26,
+      "pertanyaan": "Transistor yang biasa digunakan untuk aplikasi switching cepat dan konsumsi daya rendah, terutama pada logika digital, adalah...",
+      "pilihan": {
+        "a": "BJT",
+        "b": "SCR",
+        "c": "Triac",
+        "d": "MOSFET"
+      },
+      "jawaban_benar": "d"
+    },
+    {
+      "nomor": 27,
+      "pertanyaan": "Frekuensi pemotongan (Cut-off Frequency) $f_c$ pada Low-Pass Filter RC pasif dihitung menggunakan rumus...",
+      "pilihan": {
+        "a": "$f_c = 2pi R C$",
+        "b": "$f_c = R / (2pi C)$",
+        "c": "$f_c = 1 / (2pi R C)$",
+        "d": "$f_c = R + C$"
+      },
+      "jawaban_benar": "c"
+    },
+    {
+      "nomor": 28,
+      "pertanyaan": "Komponen yang nilai resistansinya berubah berdasarkan intensitas cahaya yang diterimanya adalah...",
+      "pilihan": {
+        "a": "NTC Thermistor",
+        "b": "Varistor",
+        "c": "LED",
+        "d": "LDR (Light Dependent Resistor)"
+      },
+      "jawaban_benar": "d"
+    },
+    {
+      "nomor": 29,
+      "pertanyaan": "Dalam analisis rangkaian, apa yang disiratkan oleh Hukum Kirchhoff II (KVL)?",
+      "pilihan": {
+        "a": "Konservasi arus",
+        "b": "Konservasi energi (tegangan)",
+        "c": "Hukum Ohm",
+        "d": "Keseimbangan daya"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "nomor": 30,
+      "pertanyaan": "Sebuah rangkaian sekuensial yang berfungsi untuk menyimpan satu bit data disebut...",
+      "pilihan": {
+        "a": "Gerbang Logika",
+        "b": "Multiplexer",
+        "c": "Flip-Flop",
+        "d": "Encoder"
+      },
+      "jawaban_benar": "c"
+    },
+    {
+      "nomor": 31,
+      "pertanyaan": "Tegangan ambang (Cut-in voltage) untuk dioda silikon biasanya sekitar...",
+      "pilihan": {
+        "a": "$0.2 \text{ V}$",
+        "b": "$0.7 \text{ V}$",
+        "c": "$1.5 \text{ V}$",
+        "d": "$5.0 \text{ V}$"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "nomor": 32,
+      "pertanyaan": "Simbol sirkuit yang terdiri dari dua dioda Zener yang dihubungkan back-to-back sering merepresentasikan komponen...",
+      "pilihan": {
+        "a": "SCR",
+        "b": "TRIAC",
+        "c": "DIAC",
+        "d": "Varistor"
+      },
+      "jawaban_benar": "c"
+    },
+    {
+      "nomor": 33,
+      "pertanyaan": "Pada Op-Amp dalam konfigurasi **Non-Inverting Amplifier**, gain tegangan ($A_v$) diberikan oleh rumus...",
+      "pilihan": {
+        "a": "$A_v = -R_f / R_{in}$",
+        "b": "$A_v = 1 + R_f / R_{in}$",
+        "c": "$A_v = R_{in} / R_f$",
+        "d": "$A_v = 1 - R_f / R_{in}$"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "nomor": 34,
+      "pertanyaan": "Induktor berfungsi untuk menyimpan energi dalam bentuk...",
+      "pilihan": {
+        "a": "Medan Listrik",
+        "b": "Medan Magnet",
+        "c": "Panas",
+        "d": "Energi Kimia"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "nomor": 35,
+      "pertanyaan": "Apa yang terjadi pada rangkaian ketika dioda Zener beroperasi di wilayah Breakdown?",
+      "pilihan": {
+        "a": "Arus menurun menjadi nol",
+        "b": "Tegangan melintasi dioda menjadi stabil pada tegangan Zener ($V_z$)",
+        "c": "Dioda terbakar",
+        "d": "Resistansi maju meningkat drastis"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "nomor": 36,
+      "pertanyaan": "Fungsi dari **Decoder** (Dekoder) dalam rangkaian digital adalah...",
+      "pilihan": {
+        "a": "Mengubah sinyal digital menjadi sinyal analog",
+        "b": "Mengubah kode biner N-bit menjadi output unik $2^N$",
+        "c": "Memilih satu dari banyak input",
+        "d": "Mengubah bilangan desimal menjadi biner"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "nomor": 37,
+      "pertanyaan": "Sebuah rangkaian yang nilai outputnya hanya bergantung pada nilai input saat itu (tidak memiliki memori) disebut rangkaian...",
+      "pilihan": {
+        "a": "Siklus",
+        "b": "Kombinasional",
+        "c": "Sekuensial",
+        "d": "Aritmatika"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "nomor": 38,
+      "pertanyaan": "Pada konfigurasi Op-Amp sebagai **Comparator (Komparator)**, umpan balik yang digunakan adalah...",
+      "pilihan": {
+        "a": "Umpan Balik Negatif",
+        "b": "Umpan Balik Positif",
+        "c": "Tanpa Umpan Balik",
+        "d": "Umpan Balik Zero"
+      },
+      "jawaban_benar": "c"
+    },
+    {
+      "nomor": 39,
+      "pertanyaan": "Ketika resistor $R_1$ dan $R_2$ dihubungkan secara **paralel**, arus total ($I_{\text{total}}$) yang mengalir pada rangkaian akan...",
+      "pilihan": {
+        "a": "Sama dengan arus yang mengalir di $R_1$",
+        "b": "Terbagi antara $R_1$ dan $R_2$",
+        "c": "Lebih kecil dari arus pada $R_1$",
+        "d": "Selalu konstan"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "nomor": 40,
+      "pertanyaan": "Apa fungsi utama dari **Transformator** (Trafo) dalam rangkaian Power Supply?",
+      "pilihan": {
+        "a": "Menstabilkan tegangan DC",
+        "b": "Mengubah level tegangan AC (Step-up atau Step-down)",
+        "c": "Menyearahkan tegangan AC",
+        "d": "Menyaring riak tegangan"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "nomor": 41,
+      "pertanyaan": "Gerbang logika yang menghasilkan output LOW (0) jika kedua inputnya SAMA (0,0 atau 1,1) adalah...",
+      "pilihan": {
+        "a": "Gerbang XNOR",
+        "b": "Gerbang XOR",
+        "c": "Gerbang AND",
+        "d": "Gerbang NOR"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "nomor": 42,
+      "pertanyaan": "Induktor dengan kode warna **Coklat, Hitam, Merah, Emas** memiliki nilai induktansi...",
+      "pilihan": {
+        "a": "$10 mu\text{H} pm 5%$",
+        "b": "$100 mu\text{H} pm 5%$",
+        "c": "$1 \text{ mH} pm 5%$",
+        "d": "$10 \text{ mH} pm 5%$"
+      },
+      "jawaban_benar": "c"
+    },
+    {
+      "nomor": 43,
+      "pertanyaan": "Dalam penyearah gelombang penuh dengan Center-Tapped Transformer, berapa jumlah dioda minimum yang dibutuhkan?",
+      "pilihan": {
+        "a": "Satu",
+        "b": "Dua",
+        "c": "Tiga",
+        "d": "Empat"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "nomor": 44,
+      "pertanyaan": "Apa yang dimaksud dengan **Common Mode Rejection Ratio (CMRR)** pada Op-Amp?",
+      "pilihan": {
+        "a": "Kemampuan Op-Amp untuk menguatkan sinyal diferensial",
+        "b": "Kemampuan Op-Amp untuk menolak noise yang muncul pada kedua input secara bersamaan",
+        "c": "Rasio antara impedansi input dan impedansi output",
+        "d": "Kecepatan Op-Amp merespons perubahan input"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "nomor": 45,
+      "pertanyaan": "Komponen yang nilai resistansinya berkurang seiring dengan peningkatan suhu adalah...",
+      "pilihan": {
+        "a": "PTC Thermistor",
+        "b": "NTC Thermistor",
+        "c": "LDR",
+        "d": "Varistor"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "nomor": 46,
+      "pertanyaan": "Jenis rangkaian flip-flop yang paling sederhana dan rentan terhadap masalah balapan (race condition) adalah...",
+      "pilihan": {
+        "a": "D Flip-Flop",
+        "b": "J-K Flip-Flop",
+        "c": "S-R Latch (NAND/NOR)",
+        "d": "T Flip-Flop"
+      },
+      "jawaban_benar": "c"
+    },
+    {
+      "nomor": 47,
+      "pertanyaan": "Dioda LED (Light Emitting Diode) akan menyala hanya jika di-bias secara...",
+      "pilihan": {
+        "a": "Reverse Bias",
+        "b": "Breakdown Bias",
+        "c": "Zero Bias",
+        "d": "Forward Bias"
+      },
+      "jawaban_benar": "d"
+    },
+    {
+      "nomor": 48,
+      "pertanyaan": "Untuk menghilangkan riak (ripple) pada output penyearah DC, komponen pasif yang paling efektif ditambahkan di paralel dengan beban adalah...",
+      "pilihan": {
+        "a": "Induktor kecil",
+        "b": "Resistor variabel",
+        "c": "Kapasitor besar (Filter)",
+        "d": "Dioda Zener"
+      },
+      "jawaban_benar": "c"
+    },
+    {
+      "nomor": 49,
+      "pertanyaan": "Dalam rangkaian pembagi tegangan, dua resistor dihubungkan secara...",
+      "pilihan": {
+        "a": "Paralel",
+        "b": "Seri",
+        "c": "Seri-Paralel",
+        "d": "Jembatan"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "nomor": 50,
+      "pertanyaan": "Simbol $\beta$ (Beta) pada transistor BJT merepresentasikan...",
+      "pilihan": {
+        "a": "Gain tegangan",
+        "b": "Gain arus (rasio $I_c / I_b$)",
+        "c": "Impedansi input",
+        "d": "Efisiensi daya"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "nomor": 51,
+      "pertanyaan": "Konversi bilangan biner (1011) menjadi bilangan desimal adalah...",
+      "pilihan": {
+        "a": "7",
+        "b": "9",
+        "c": "11",
+        "d": "13"
+      },
+      "jawaban_benar": "c"
+    },
+    {
+      "nomor": 52,
+      "pertanyaan": "Komponen yang digunakan untuk melindungi sirkuit dari lonjakan tegangan (voltage spike) mendadak adalah...",
+      "pilihan": {
+        "a": "Induktor",
+        "b": "Varistor",
+        "c": "Resistor Shunt",
+        "d": "Kapasitor Kopling"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "nomor": 53,
+      "pertanyaan": "Perangkat yang berfungsi untuk mengubah sinyal dari domain analog ke domain digital adalah...",
+      "pilihan": {
+        "a": "DAC",
+        "b": "Op-Amp",
+        "c": "ADC",
+        "d": "PLL"
+      },
+      "jawaban_benar": "c"
+    },
+    {
+      "nomor": 54,
+      "pertanyaan": "Jenis noise yang dihasilkan oleh pergerakan acak elektron dalam konduktor, dan proporsional dengan suhu, adalah...",
+      "pilihan": {
+        "a": "Shot Noise",
+        "b": "Flicker Noise",
+        "c": "Thermal Noise (Johnson Noise)",
+        "d": "Burst Noise"
+      },
+      "jawaban_benar": "c"
+    },
+    {
+      "nomor": 55,
+      "pertanyaan": "Prinsip kerja **Optocoupler/Optoisolator** adalah...",
+      "pilihan": {
+        "a": "Menguatkan sinyal menggunakan cahaya",
+        "b": "Mengisolasi dua bagian sirkuit secara elektrik menggunakan cahaya",
+        "c": "Mengubah tegangan menjadi arus",
+        "d": "Menyaring frekuensi tinggi"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "nomor": 56,
+      "pertanyaan": "Pada rangkaian flip-flop J-K, jika input J=1 dan K=1, maka output Q akan...",
+      "pilihan": {
+        "a": "Menjadi 0 (Reset)",
+        "b": "Menjadi 1 (Set)",
+        "c": "Tidak Berubah (Hold)",
+        "d": "Beralih (Toggle)"
+      },
+      "jawaban_benar": "d"
+    },
+    {
+      "nomor": 57,
+      "pertanyaan": "Jika tiga kapasitor $C_1 = 1 mu\text{F}$, $C_2 = 2 mu\text{F}$, dan $C_3 = 3 mu\text{F}$ dihubungkan secara **paralel**, total kapasitansinya adalah...",
+      "pilihan": {
+        "a": "$0.54 mu\text{F}$",
+        "b": "$6 mu\text{F}$",
+        "c": "$1.5 mu\text{F}$",
+        "d": "$0.6 mu\text{F}$"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "nomor": 58,
+      "pertanyaan": "Istilah **Doping** dalam semikonduktor mengacu pada...",
+      "pilihan": {
+        "a": "Proses pemurnian bahan semikonduktor",
+        "b": "Penambahan zat pengotor (impunitas) ke semikonduktor murni untuk mengubah konduktivitasnya",
+        "c": "Proses pemotongan wafer silikon",
+        "d": "Pengaplikasian tegangan pada semikonduktor"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "nomor": 59,
+      "pertanyaan": "Perangkat yang berfungsi sebagai saklar elektronik yang dikendalikan oleh arus, sering digunakan untuk mengontrol daya AC besar seperti lampu atau motor adalah...",
+      "pilihan": {
+        "a": "FET",
+        "b": "BJT",
+        "c": "SCR atau TRIAC",
+        "d": "Dioda Zener"
+      },
+      "jawaban_benar": "c"
+    },
+    {
+      "nomor": 60,
+      "pertanyaan": "Satuan yang digunakan untuk mengukur **daya** listrik dalam rangkaian adalah...",
+      "pilihan": {
+        "a": "Joule (J)",
+        "b": "Watt (W)",
+        "c": "Coulomb (C)",
+        "d": "Henry (H)"
+      },
+      "jawaban_benar": "b"
+    }
+  ]
+}
