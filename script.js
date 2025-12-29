@@ -59,6 +59,7 @@ document.addEventListener("click", function ({ target }) {
     document.querySelector(".tombol-dipengaturan .tombol-simpan").style.display = "block";
   }
 });
+// ===================================================
 
 let soalKe = 0;
 let jawabanUser = [];
@@ -66,6 +67,7 @@ const seluruhNoSoal = document.querySelector(".seluruh-nomor-soal");
 const seluruhOpsi = document.querySelectorAll(".pilihan-ganda li input");
 let selesai = false;
 let dataHasil = "";
+let namaSoalYangTerpilih = "";
 
 // ==== Algoritma untuk kebutuhan modal secara umum =====
 // Ketika Halaman dibuka modal pengaturan langsung terbuka
@@ -86,16 +88,31 @@ tutupModal.forEach((tutup) => {
   tutup.addEventListener("click", () => {
     // modal akan menghilang jika tombol batal sudah ada,
     // dimana tombol batal akan muncul setelah user tekan tombol simpan
-    if (document.querySelector(".tombol-dipengaturan .tombol-batal").style.display == "block") modalDitutup();
+    if (document.querySelector(".tombol-dipengaturan .tombol-batal").style.display == "block") {
+      modalDitutup();
+      const dataAccordionTerpilih = document.querySelector(".data-accordion-terpilih");
+      if (dataAccordionTerpilih) dataAccordionTerpilih.classList.remove("data-accordion-terpilih");
+      document.querySelectorAll(".data-accordion").forEach((data) => {
+        if (data.textContent == namaSoalYangTerpilih) data.classList.add("data-accordion-terpilih");
+      });
+    }
   });
 });
 // ===========================================================
 
 // ------- Modal Pengaturan -------
 // ketika tombol batal di klik
-document.querySelector(".tombol-batal").addEventListener("click", () => modalDitutup());
+document.querySelector(".tombol-batal").addEventListener("click", () => {
+  modalDitutup();
+  const dataAccordionTerpilih = document.querySelector(".data-accordion-terpilih");
+  if (dataAccordionTerpilih) dataAccordionTerpilih.classList.remove("data-accordion-terpilih");
+  document.querySelectorAll(".data-accordion").forEach((data) => {
+    if (data.textContent == namaSoalYangTerpilih) data.classList.add("data-accordion-terpilih");
+  });
+});
 // Ketika tombol simpan diklik
 document.querySelector(".tombol-simpan").addEventListener("click", async function () {
+  namaSoalYangTerpilih = document.querySelector(".data-accordion-terpilih").textContent;
   document.querySelector(".tombol-dipengaturan .tombol-batal").style.display = "block";
   soalKe = 0;
   modalDitutup();
@@ -208,7 +225,6 @@ function modalDitutup() {
     modal.style.display = "none";
   });
 }
-
 function ambilData() {
   return fetch(`soal/${document.querySelector(".data-accordion-terpilih").dataset.file}`)
     .then((result) => result.json())
