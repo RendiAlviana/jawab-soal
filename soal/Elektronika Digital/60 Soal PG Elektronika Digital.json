@@ -1,0 +1,666 @@
+{
+  "judul": "60 Soal Pilihan Ganda Elektronika Digital",
+  "jumlah_soal": 60,
+  "soal": [
+    {
+      "nomor": 1,
+      "pertanyaan": "Sistem bilangan yang hanya menggunakan dua simbol, yaitu 0 dan 1, disebut...",
+      "pilihan": {
+        "a": "Desimal",
+        "b": "Oktal",
+        "c": "Biner",
+        "d": "Heksadesimal"
+      },
+      "jawaban_benar": "c"
+    },
+    {
+      "nomor": 2,
+      "pertanyaan": "Berapa nilai desimal dari bilangan biner 1011?",
+      "pilihan": {
+        "a": "9",
+        "b": "10",
+        "c": "11",
+        "d": "13"
+      },
+      "jawaban_benar": "c"
+    },
+    {
+      "nomor": 3,
+      "pertanyaan": "Gerbang logika yang menghasilkan output 1 hanya jika semua inputnya bernilai 1 adalah...",
+      "pilihan": {
+        "a": "Gerbang OR",
+        "b": "Gerbang AND",
+        "c": "Gerbang XOR",
+        "d": "Gerbang NOR"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "nomor": 4,
+      "pertanyaan": "Gerbang logika yang berfungsi sebagai pembalik (inverter) adalah...",
+      "pilihan": {
+        "a": "Gerbang NOT",
+        "b": "Gerbang NAND",
+        "c": "Gerbang OR",
+        "d": "Gerbang AND"
+      },
+      "jawaban_benar": "a"
+    },
+    {
+      "nomor": 5,
+      "pertanyaan": "Gerbang logika NAND merupakan kombinasi dari gerbang...",
+      "pilihan": {
+        "a": "OR dan NOT",
+        "b": "AND dan NOT",
+        "c": "XOR dan NOT",
+        "d": "NOR dan AND"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "nomor": 6,
+      "pertanyaan": "Berapakah jumlah kombinasi input pada tabel kebenaran jika terdapat 3 variabel input?",
+      "pilihan": {
+        "a": "4",
+        "b": "6",
+        "c": "8",
+        "d": "16"
+      },
+      "jawaban_benar": "c"
+    },
+    {
+      "nomor": 7,
+      "pertanyaan": "Gerbang logika yang menghasilkan output 0 hanya jika semua inputnya bernilai 0 adalah...",
+      "pilihan": {
+        "a": "Gerbang AND",
+        "b": "Gerbang OR",
+        "c": "Gerbang NAND",
+        "d": "Gerbang XOR"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "nomor": 8,
+      "pertanyaan": "Hasil dari operasi Boolean A + A' (A OR NOT A) adalah...",
+      "pilihan": {
+        "a": "0",
+        "b": "1",
+        "c": "A",
+        "d": "A'"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "nomor": 9,
+      "pertanyaan": "Hasil dari operasi Boolean A . 0 (A AND 0) adalah...",
+      "pilihan": {
+        "a": "A",
+        "b": "1",
+        "c": "0",
+        "d": "A'"
+      },
+      "jawaban_benar": "c"
+    },
+    {
+      "nomor": 10,
+      "pertanyaan": "Hukum De Morgan menyatakan bahwa NOT (A AND B) sama dengan...",
+      "pilihan": {
+        "a": "(NOT A) AND (NOT B)",
+        "b": "(NOT A) OR (NOT B)",
+        "c": "A OR B",
+        "d": "A AND B"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "nomor": 11,
+      "pertanyaan": "Gerbang logika yang menghasilkan output 1 jika kedua inputnya berbeda adalah...",
+      "pilihan": {
+        "a": "AND",
+        "b": "OR",
+        "c": "XOR",
+        "d": "XNOR"
+      },
+      "jawaban_benar": "c"
+    },
+    {
+      "nomor": 12,
+      "pertanyaan": "Rangkaian kombinasional yang menjumlahkan dua bit biner disebut...",
+      "pilihan": {
+        "a": "Full Adder",
+        "b": "Half Adder",
+        "c": "Multiplexer",
+        "d": "Encoder"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "nomor": 13,
+      "pertanyaan": "Perbedaan utama antara Half Adder dan Full Adder adalah...",
+      "pilihan": {
+        "a": "Full Adder tidak memiliki Carry Out",
+        "b": "Full Adder memiliki input Carry In (Cin)",
+        "c": "Half Adder menggunakan 3 input",
+        "d": "Full Adder hanya menggunakan gerbang OR"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "nomor": 14,
+      "pertanyaan": "Rangkaian yang memilih salah satu dari beberapa input data untuk diteruskan ke satu output disebut...",
+      "pilihan": {
+        "a": "Demultiplexer",
+        "b": "Encoder",
+        "c": "Decoder",
+        "d": "Multiplexer"
+      },
+      "jawaban_benar": "d"
+    },
+    {
+      "nomor": 15,
+      "pertanyaan": "Rangkaian yang mengubah sinyal input non-biner menjadi kode biner disebut...",
+      "pilihan": {
+        "a": "Encoder",
+        "b": "Decoder",
+        "c": "Multiplexer",
+        "d": "Flip-flop"
+      },
+      "jawaban_benar": "a"
+    },
+    {
+      "nomor": 16,
+      "pertanyaan": "Fungsi dari rangkaian Decoder adalah...",
+      "pilihan": {
+        "a": "Menggabungkan banyak input menjadi satu output",
+        "b": "Mengubah kode biner menjadi output yang dapat dikenali (misal: display)",
+        "c": "Menyimpan data sementara",
+        "d": "Menghitung pulsa clock"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "nomor": 17,
+      "pertanyaan": "Sebuah BCD to 7-Segment Decoder digunakan untuk menggerakkan...",
+      "pilihan": {
+        "a": "Motor DC",
+        "b": "Lampu LED tunggal",
+        "c": "Display angka numerik",
+        "d": "Speaker"
+      },
+      "jawaban_benar": "c"
+    },
+    {
+      "nomor": 18,
+      "pertanyaan": "Elemen dasar penyimpan data 1-bit dalam rangkaian sekuensial adalah...",
+      "pilihan": {
+        "a": "Resistor",
+        "b": "Gerbang AND",
+        "c": "Flip-flop",
+        "d": "Multiplexer"
+      },
+      "jawaban_benar": "c"
+    },
+    {
+      "nomor": 19,
+      "pertanyaan": "Pada SR Flip-flop, kondisi 'terlarang' atau tidak menentu terjadi jika input...",
+      "pilihan": {
+        "a": "S=0, R=0",
+        "b": "S=1, R=0",
+        "c": "S=0, R=1",
+        "d": "S=1, R=1"
+      },
+      "jawaban_benar": "d"
+    },
+    {
+      "nomor": 20,
+      "pertanyaan": "Flip-flop yang tidak memiliki kondisi terlarang dan dapat melakukan operasi 'Toggle' adalah...",
+      "pilihan": {
+        "a": "SR Flip-flop",
+        "b": "JK Flip-flop",
+        "c": "D Flip-flop",
+        "d": "T Flip-flop"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "nomor": 21,
+      "pertanyaan": "D Flip-flop (Data) sering disebut juga sebagai...",
+      "pilihan": {
+        "a": "Inverter Flip-flop",
+        "b": "Delay Flip-flop",
+        "c": "Toggle Flip-flop",
+        "d": "Reset Flip-flop"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "nomor": 22,
+      "pertanyaan": "Apa yang dimaksud dengan sinyal 'Clock' pada rangkaian digital?",
+      "pilihan": {
+        "a": "Sinyal untuk mematikan daya",
+        "b": "Sinyal periodik untuk sinkronisasi perpindahan data",
+        "c": "Sinyal input data utama",
+        "d": "Sinyal penyearah tegangan"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "nomor": 23,
+      "pertanyaan": "Pencacah (Counter) yang perpindahan statusnya terjadi secara bergantian (tidak serempak) disebut...",
+      "pilihan": {
+        "a": "Synchronous Counter",
+        "b": "Asynchronous/Ripple Counter",
+        "c": "Parallel Counter",
+        "d": "Ring Counter"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "nomor": 24,
+      "pertanyaan": "Kumpulan flip-flop yang digunakan untuk menyimpan atau menggeser data biner disebut...",
+      "pilihan": {
+        "a": "Adder",
+        "b": "Register",
+        "c": "Decoder",
+        "d": "Encoder"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "nomor": 25,
+      "pertanyaan": "Register geser SISO adalah singkatan dari...",
+      "pilihan": {
+        "a": "Serial In Serial Out",
+        "b": "Serial In Small Out",
+        "c": "Single In Single Out",
+        "d": "Synchronous In Serial Out"
+      },
+      "jawaban_benar": "a"
+    },
+    {
+      "nomor": 26,
+      "pertanyaan": "Bilangan desimal 10 jika diubah ke biner adalah...",
+      "pilihan": {
+        "a": "1001",
+        "b": "1010",
+        "c": "1100",
+        "d": "1111"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "nomor": 27,
+      "pertanyaan": "Bilangan heksadesimal 'A' setara dengan desimal...",
+      "pilihan": {
+        "a": "10",
+        "b": "11",
+        "c": "12",
+        "d": "15"
+      },
+      "jawaban_benar": "a"
+    },
+    {
+      "nomor": 28,
+      "pertanyaan": "Peta Karnaugh (K-Map) digunakan untuk...",
+      "pilihan": {
+        "a": "Mempercepat clock",
+        "b": "Menyederhanakan fungsi Boolean",
+        "c": "Menyimpan data memori",
+        "d": "Mengubah AC ke DC"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "nomor": 29,
+      "pertanyaan": "Dalam K-Map 4 variabel, terdapat berapa kotak?",
+      "pilihan": {
+        "a": "4",
+        "b": "8",
+        "c": "16",
+        "d": "32"
+      },
+      "jawaban_benar": "c"
+    },
+    {
+      "nomor": 30,
+      "pertanyaan": "Tipe memori yang datanya akan hilang jika aliran listrik diputuskan disebut...",
+      "pilihan": {
+        "a": "ROM",
+        "b": "Volatile (seperti RAM)",
+        "c": "Non-volatile",
+        "d": "EPROM"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "nomor": 31,
+      "pertanyaan": "BCD (Binary Coded Decimal) menggunakan kode berapa bit untuk setiap satu digit desimal?",
+      "pilihan": {
+        "a": "2 bit",
+        "b": "4 bit",
+        "c": "8 bit",
+        "d": "16 bit"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "nomor": 32,
+      "pertanyaan": "Gerbang universal adalah gerbang yang dapat membentuk fungsi logika apa pun. Contohnya adalah...",
+      "pilihan": {
+        "a": "AND dan OR",
+        "b": "NAND dan NOR",
+        "c": "NOT dan AND",
+        "d": "XOR dan XNOR"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "nomor": 33,
+      "pertanyaan": "Berapakah hasil dari 1 + 1 dalam penjumlahan biner?",
+      "pilihan": {
+        "a": "1",
+        "b": "2",
+        "c": "10",
+        "d": "0"
+      },
+      "jawaban_benar": "c"
+    },
+    {
+      "nomor": 34,
+      "pertanyaan": "Digit paling kanan dari sebuah bilangan biner disebut...",
+      "pilihan": {
+        "a": "MSB (Most Significant Bit)",
+        "b": "LSB (Least Significant Bit)",
+        "c": "Parity Bit",
+        "d": "Byte"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "nomor": 35,
+      "pertanyaan": "Apa output dari gerbang XOR jika inputnya A=1 dan B=1?",
+      "pilihan": {
+        "a": "0",
+        "b": "1",
+        "c": "Tidak menentu",
+        "d": "High Impedance"
+      },
+      "jawaban_benar": "a"
+    },
+    {
+      "nomor": 36,
+      "pertanyaan": "Berapa bit dalam satu Byte?",
+      "pilihan": {
+        "a": "4 bit",
+        "b": "8 bit",
+        "c": "16 bit",
+        "d": "32 bit"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "nomor": 37,
+      "pertanyaan": "Rangkaian yang berfungsi mengubah data paralel menjadi seri adalah...",
+      "pilihan": {
+        "a": "PISO Shift Register",
+        "b": "SIPO Shift Register",
+        "c": "Full Adder",
+        "d": "Decoder"
+      },
+      "jawaban_benar": "a"
+    },
+    {
+      "nomor": 38,
+      "pertanyaan": "Pencacah yang menghitung dari besar ke kecil disebut...",
+      "pilihan": {
+        "a": "Up Counter",
+        "b": "Down Counter",
+        "c": "Ring Counter",
+        "d": "Johnson Counter"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "nomor": 39,
+      "pertanyaan": "Sistem bilangan Oktal berbasis...",
+      "pilihan": {
+        "a": "2",
+        "b": "8",
+        "c": "10",
+        "d": "16"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "nomor": 40,
+      "pertanyaan": "Heksadesimal 'F' setara dengan biner...",
+      "pilihan": {
+        "a": "1111",
+        "b": "1010",
+        "c": "1100",
+        "d": "0111"
+      },
+      "jawaban_benar": "a"
+    },
+    {
+      "nomor": 41,
+      "pertanyaan": "Keluarga IC digital yang menggunakan transistor bipolar dan terkenal dengan kecepatan tinggi di masa lalu adalah...",
+      "pilihan": {
+        "a": "CMOS",
+        "b": "TTL",
+        "c": "MOSFET",
+        "d": "EPROM"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "nomor": 42,
+      "pertanyaan": "Keluarga IC digital yang menggunakan konsumsi daya sangat rendah adalah...",
+      "pilihan": {
+        "a": "TTL",
+        "b": "CMOS",
+        "c": "RTL",
+        "d": "DTL"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "nomor": 43,
+      "pertanyaan": "Logika '1' pada sistem digital standar 5V biasanya berada pada rentang tegangan...",
+      "pilihan": {
+        "a": "0V - 0.8V",
+        "b": "2V - 5V",
+        "c": "0V - 5V",
+        "d": "-5V - 0V"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "nomor": 44,
+      "pertanyaan": "Gerbang logika yang merupakan kebalikan dari XOR adalah...",
+      "pilihan": {
+        "a": "AND",
+        "b": "OR",
+        "c": "NOR",
+        "d": "XNOR"
+      },
+      "jawaban_benar": "d"
+    },
+    {
+      "nomor": 45,
+      "pertanyaan": "Kondisi 'Toggle' pada JK Flip-flop terjadi saat...",
+      "pilihan": {
+        "a": "J=0, K=0",
+        "b": "J=1, K=0",
+        "c": "J=0, K=1",
+        "d": "J=1, K=1"
+      },
+      "jawaban_benar": "d"
+    },
+    {
+      "nomor": 46,
+      "pertanyaan": "Memori ROM yang hanya bisa diprogram satu kali oleh pengguna disebut...",
+      "pilihan": {
+        "a": "PROM",
+        "b": "EPROM",
+        "c": "EEPROM",
+        "d": "RAM"
+      },
+      "jawaban_benar": "a"
+    },
+    {
+      "nomor": 47,
+      "pertanyaan": "EPROM dapat dihapus datanya dengan menggunakan...",
+      "pilihan": {
+        "a": "Arus listrik kuat",
+        "b": "Sinar Ultraviolet (UV)",
+        "c": "Magnet",
+        "d": "Air"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "nomor": 48,
+      "pertanyaan": "Rangkaian 'Latch' berbeda dengan Flip-flop karena Latch tidak memiliki...",
+      "pilihan": {
+        "a": "Input data",
+        "b": "Sinyal Clock/Enable",
+        "c": "Output Q",
+        "d": "Gerbang logika"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "nomor": 49,
+      "pertanyaan": "Dalam aljabar Boolean, A . A (A AND A) hasilnya adalah...",
+      "pilihan": {
+        "a": "1",
+        "b": "0",
+        "c": "A",
+        "d": "2A"
+      },
+      "jawaban_benar": "c"
+    },
+    {
+      "nomor": 50,
+      "pertanyaan": "Multiplexer 4-ke-1 membutuhkan berapa jalur pemilih (Select lines)?",
+      "pilihan": {
+        "a": "1",
+        "b": "2",
+        "c": "4",
+        "d": "8"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "nomor": 51,
+      "pertanyaan": "ADC (Analog to Digital Converter) berfungsi untuk...",
+      "pilihan": {
+        "a": "Mengubah sinyal biner ke suara",
+        "b": "Mengubah sinyal kontinu (analog) menjadi kode digital",
+        "c": "Memperkuat sinyal listrik",
+        "d": "Menyimpan file video"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "nomor": 52,
+      "pertanyaan": "DAC (Digital to Analog Converter) berfungsi untuk...",
+      "pilihan": {
+        "a": "Mengubah kode digital menjadi sinyal kontinu (analog)",
+        "b": "Menghitung jumlah bit",
+        "c": "Menyearahkan arus",
+        "d": "Mengatur kecepatan clock"
+      },
+      "jawaban_benar": "a"
+    },
+    {
+      "nomor": 53,
+      "pertanyaan": "Sistem bilangan desimal berbasis...",
+      "pilihan": {
+        "a": "2",
+        "b": "8",
+        "c": "10",
+        "d": "16"
+      },
+      "jawaban_benar": "c"
+    },
+    {
+      "nomor": 54,
+      "pertanyaan": "Gerbang logika yang outputnya akan 0 jika salah satu atau semua inputnya 1 adalah...",
+      "pilihan": {
+        "a": "OR",
+        "b": "AND",
+        "c": "NOR",
+        "d": "NAND"
+      },
+      "jawaban_benar": "c"
+    },
+    {
+      "nomor": 55,
+      "pertanyaan": "Apa hasil dari 1011 AND 1100?",
+      "pilihan": {
+        "a": "1000",
+        "b": "1111",
+        "c": "1011",
+        "d": "0100"
+      },
+      "jawaban_benar": "a"
+    },
+    {
+      "nomor": 56,
+      "pertanyaan": "Apa hasil dari 1010 OR 0101?",
+      "pilihan": {
+        "a": "0000",
+        "b": "1111",
+        "c": "1010",
+        "d": "0101"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "nomor": 57,
+      "pertanyaan": "Istilah 'Fan-out' dalam gerbang logika berarti...",
+      "pilihan": {
+        "a": "Jumlah panas yang dihasilkan",
+        "b": "Kecepatan gerbang",
+        "c": "Jumlah beban input maksimal yang dapat digerakkan oleh satu output gerbang",
+        "d": "Ukuran fisik chip"
+      },
+      "jawaban_benar": "c"
+    },
+    {
+      "nomor": 58,
+      "pertanyaan": "Komponen yang dapat memutus dan menyambung aliran data berdasarkan kontrol (Tri-state) memiliki status High, Low, dan...",
+      "pilihan": {
+        "a": "Very High",
+        "b": "Floating/High Impedance",
+        "c": "Negative",
+        "d": "Ground"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "nomor": 59,
+      "pertanyaan": "Rangkaian Priority Encoder digunakan untuk...",
+      "pilihan": {
+        "a": "Menghitung urutan clock",
+        "b": "Memberikan kode biner pada input dengan prioritas tertinggi",
+        "c": "Mengurangi noise",
+        "d": "Menambah tegangan"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "nomor": 60,
+      "pertanyaan": "Waktu yang dibutuhkan sinyal untuk merambat dari input ke output pada gerbang logika disebut...",
+      "pilihan": {
+        "a": "Hold time",
+        "b": "Setup time",
+        "c": "Propagation Delay",
+        "d": "Rise time"
+      },
+      "jawaban_benar": "c"
+    }
+  ]
+}
