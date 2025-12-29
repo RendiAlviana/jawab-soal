@@ -121,8 +121,8 @@ document.querySelector(".tombol-batal").addEventListener("click", () => {
 document.querySelector(".tombol-simpan").addEventListener("click", async function () {
   namaSoalYangTerpilih = document.querySelector(".data-accordion-terpilih").textContent;
   document.querySelector(".tombol-dipengaturan .tombol-batal").style.display = "block";
-  soalKe = 0;
   modalDitutup();
+
   dataHasil = await ambilData();
   console.log(dataHasil);
 
@@ -131,9 +131,9 @@ document.querySelector(".tombol-simpan").addEventListener("click", async functio
   // Menggati seluruh nomor soal sesuai data yang ada di data base
   let nomor = "";
   for (let i = 0; i < dataHasil.jumlah_soal; i++) nomor += `<span>${i + 1}</span>`;
-
   seluruhNoSoal.innerHTML = nomor;
   seluruhNoSoal.childNodes[soalKe].classList.add("aktif");
+
   // Mencetak Lembar Soal Ke documen
   mencetakLembarSoal(dataHasil);
   gantiNoAktif();
@@ -157,6 +157,7 @@ document.querySelector(".tombol-simpan").addEventListener("click", async functio
     opsi.disabled = false;
   });
   selesai = false;
+  batalRadio.style.display = "none";
   document.querySelector(".tombol-selesai").style.display = "block";
   document.querySelector(".hasil").style.display = "none";
   document.querySelector(".jawaban-benar").style.display = "none";
@@ -259,11 +260,9 @@ function gantiNoAktif() {
 }
 function mencetakLembarSoal(result) {
   // Mengganti nomor soal
-  const noSoal = document.querySelector(".lembar-soal .nomor-soal");
-  noSoal.innerHTML = result.soal[soalKe].nomor;
+  document.querySelector(".lembar-soal .nomor-soal").innerHTML = result.soal[soalKe].nomor;
   // Mengganti soal
-  const soal = document.querySelector(".soal");
-  soal.innerHTML = result.soal[soalKe].pertanyaan.replaceAll("<", "&lt;").replaceAll(">", "&gt;");
+  document.querySelector(".soal").innerHTML = result.soal[soalKe].pertanyaan.replaceAll("<", "&lt;").replaceAll(">", "&gt;");
   // Mengganti pilihan ganda
   const pilihanGanda = document.querySelectorAll(".pilihan-ganda li label");
   pilihanGanda[0].innerHTML = result.soal[soalKe].pilihan.a.replaceAll("<", "&lt;").replaceAll(">", "&gt;");
