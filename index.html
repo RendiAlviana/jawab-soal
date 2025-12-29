@@ -8,60 +8,66 @@
   </head>
   <body>
     <!-- Awal Program Utama -->
-    <header class="judul"><h3>***</h3></header>
-    <section class="lembar-soal">
-      <hr />
-      <div class="tombol-modal-user-pengaturan">
-        <div class="tombol-modal tombol-user" data-nama-tombol="user"></div>
-        <h4 class="nomor-soal">Pilih Terlebih daluhu soalnya! ⇨⇨</h4>
-        <div class="tombol-modal tombol-pengaturan" data-nama-tombol="pengaturan"></div>
-      </div>
-      <hr />
-      <p class="soal">***</p>
-      <ul type="none" class="pilihan-ganda">
-        <li>
-          <input type="radio" name="pilihan-ganda" id="a" />
-          <label for="a">***</label>
-        </li>
-        <li>
-          <input type="radio" name="pilihan-ganda" id="b" />
-          <label for="b">***</label>
-        </li>
-        <li>
-          <input type="radio" name="pilihan-ganda" id="c" />
-          <label for="c">***</label>
-        </li>
-        <li>
-          <input type="radio" name="pilihan-ganda" id="d" />
-          <label for="d">***</label>
-        </li>
-      </ul>
-      <button id="batalRadio">batal</button>
-    </section>
-    <section class="jawaban-benar">
-      <hr />
-      <p>
-        <i>Jawaban yang benar : <b>***</b></i>
-      </p>
-      <hr />
-    </section>
-    <section class="tombol">
-      <button type="button" class="tombol-sebelumnya">⇦</button>
-      <button type="button" class="tombol-selanjutnya">⇨</button>
-    </section>
-    <section class="seluruh-nomor-soal"><span>?</span> <span>?</span> <span>?</span></section>
-    <section class="hasil">
-      <span>Nilai Anda : <span class="nilai"> 57</span>/100</span>
-    </section>
-    <button type="button" class="tombol-selesai">Selesai</button>
+    <main>
+      <header class="judul"><h3>***</h3></header>
+      <section class="lembar-soal">
+        <hr />
+        <div class="tombol-modal-user-pengaturan">
+          <div class="tombol-modal tombol-user" data-nama-tombol="user"></div>
+          <h4 class="nomor-soal">Pilih Terlebih daluhu soalnya! ⇨⇨</h4>
+          <div class="tombol-modal tombol-pengaturan" data-nama-tombol="pengaturan"></div>
+        </div>
+        <hr />
+        <p class="soal">***Soal***</p>
+        <ul type="none" class="pilihan-ganda">
+          <li>
+            <input type="radio" name="pilihan-ganda" id="a" />
+            <label for="a">***</label>
+          </li>
+          <li>
+            <input type="radio" name="pilihan-ganda" id="b" />
+            <label for="b">***</label>
+          </li>
+          <li>
+            <input type="radio" name="pilihan-ganda" id="c" />
+            <label for="c">***</label>
+          </li>
+          <li>
+            <input type="radio" name="pilihan-ganda" id="d" />
+            <label for="d">***</label>
+          </li>
+        </ul>
+        <button id="batalRadio">batal</button>
+      </section>
+      <!-- Akan Muncul Setelah tombol Selesai di klik -->
+      <section class="jawaban-benar">
+        <hr />
+        <p>
+          <i>Jawaban yang benar : <b>***</b></i>
+        </p>
+        <hr />
+      </section>
+      <!-- ================================================ -->
+      <section class="tombol">
+        <button type="button" class="tombol-sebelumnya">⇦</button>
+        <button type="button" class="tombol-selanjutnya">⇨</button>
+      </section>
+      <section class="seluruh-nomor-soal"><span>?</span> <span>?</span> <span>?</span></section>
+      <section class="hasil">
+        <span>Nilai Anda : <span class="nilai"> 57</span>/100</span>
+      </section>
+      <button type="button" class="tombol-selesai">Selesai</button>
+    </main>
     <!-- Akhir Program Utama -->
 
-    <!-- ===== Seluruh Modal ====== -->
+    <!-- ============== Seluruh Modal ====================== -->
     <!-- -- Modal pengaturan -- -->
     <div class="modal" data-nama-modal="pengaturan" id="modalPengaturan">
       <div class="content-modal">
         <p>Pilih soal:</p>
-        <select name="pilih-soal"></select>
+
+        <div class="accordion"></div>
+
         <div class="tombol-dipengaturan">
           <button type="button" class="tombol-batal">Batal</button>
           <button type="button" class="tombol-simpan">Simpan</button>
@@ -87,11 +93,7 @@
       </div>
       <div class="tutup-modal"></div>
     </div>
-
+    <!-- JavaScript -->
     <script src="script.js"></script>
   </body>
 </html>
-
-<!-- <section class="modal-user">
- 
-</section> -->

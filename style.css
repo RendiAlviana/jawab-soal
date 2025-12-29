@@ -1,7 +1,12 @@
-html {
-  background-color: #ebebeb;
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
 }
 body {
+  background-color: #ebebeb;
+}
+main {
   max-width: 600px;
   margin: 0 auto;
   border: dotted 2px gray;
@@ -9,22 +14,26 @@ body {
   border-radius: 0px 0px 10px 10px;
   padding: 30px;
   user-select: none;
-  font-family: Arial, Helvetica, sans-serif;
   /* position: relative; */
+}
+.soal,
+.lembar-soal ul,
+.lembar-soal hr {
+  margin: 10px 0px;
 }
 header h3,
 .lembar-soal .nomor-soal {
   text-align: center;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
-ul {
+.lembar-soal ul {
   display: table;
 }
-ul li {
+.lembar-soal ul li {
   display: table-row;
 }
-ul li input,
-ul li label {
+.lembar-soal ul li input,
+.lembar-soal ul li label {
   display: table-cell;
   padding: 2px 5px;
 }
@@ -146,26 +155,6 @@ ul li label {
   box-shadow: inset -2px 0px 15px -10px #000, -2px -2px 10px -3px white;
   margin-right: -30px;
 }
-/* .tombol-user {
-  width: 30px;
-  height: 30px;
-  padding: 5px;
-  box-shadow: inset -5px 5px 5px #fff, inset 1px -1px 6px #000;
-  border-radius: 50%;
-  transition: 0.1s;
-  background-image: url("img/settings.png");
-  background-size: 25px;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-.tombol-user:active {
-  top: 7.5px;
-  left: 7.5px;
-  width: 35px;
-  height: 35px;
-  background-size: 30px;
-  box-shadow: inset -3px 3px 5px #fff, inset 1px -1px 3px #000;
-} */
 
 /* Modal Secara Umum*/
 .modal {
@@ -202,6 +191,7 @@ ul li label {
 }
 
 /* Modal Pengaturan */
+
 .tombol-dipengaturan {
   margin-top: 20px;
   /* background-color: red; */
@@ -214,6 +204,7 @@ ul li label {
   padding: 3px 10px;
   border-radius: 3px;
   color: #ebebeb;
+  display: none;
 }
 .tombol-simpan {
   background-color: red;
@@ -222,8 +213,89 @@ ul li label {
 .tombol-batal {
   background-color: #1f1f1f;
 }
-select {
-  width: 90%;
+
+.accordion {
+  width: 300px;
+}
+.accordion-item {
+  border-bottom: solid 1px grey;
+  padding: 10px;
+  overflow: hidden;
+  transition: 0.5s ease-out;
+}
+
+.accordion-header {
+  height: 50px;
+  line-height: 50px;
+  padding: 0 10px;
+  font-size: 20px;
+  position: relative;
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+.accordion-header img {
+  width: 25px;
+  position: absolute;
+  right: 15px;
+  top: 15px;
+  transition: 0.5s;
+  font-weight: bold;
+}
+
+.accordion-body {
+  padding: 5px 5px 5px 20px;
+  display: none;
+  animation: pudar 1s forwards;
+}
+
+@keyframes pudar {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.accordion-body li.data-accordion {
+  margin: 5px;
+  padding: 5px;
+  /* background-color: #f04431; */
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.accordion-body .data-accordion-terpilih {
+  color: darkgreen;
+  font-weight: bold;
+  position: relative;
+}
+
+.accordion-body .data-accordion-terpilih::before {
+  content: "";
+  width: 13px;
+  height: 13px;
+  position: absolute;
+  left: -20px;
+  top: 8px;
+  display: inline-block;
+  background-image: url(svg/check.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.accordion-item.accordion-aktif .accordion-body {
+  display: block;
+}
+.accordion-item.accordion-aktif .accordion-header {
+  color: darkblue;
+  border: dotted 1px grey;
+  border-radius: 10px;
+  font-weight: bolder;
+}
+.accordion-item.accordion-aktif .accordion-header img {
+  transform: rotate(180deg);
 }
 
 /* Modal User */
