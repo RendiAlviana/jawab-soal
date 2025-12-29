@@ -26,7 +26,7 @@ fetch("sistem.json")
          <div class="accordion-item">
             <div class="accordion-header">
               ${nama_header}
-              <img src="svg/angle-small-down.svg" alt="icon-accordion" />
+              <img src="svg/angle-small-down.svg" alt="icon-accordion" class="panah"/>
             </div>
             <div class="accordion-body">
               <ul type="none">
@@ -49,10 +49,17 @@ function membuatDataAccordion(nama_header, body) {
 // Argoritma untuk Accordion
 document.addEventListener("click", function ({ target }) {
   if (target.classList.contains("accordion-header")) {
+    // Jika yang diklik header accordion
     const accordionAktif = document.querySelector(".accordion-aktif");
     if (accordionAktif && !target.parentElement.classList.contains("accordion-aktif")) accordionAktif.classList.remove("accordion-aktif");
     target.parentElement.classList.toggle("accordion-aktif");
+  } else if (target.alt === "icon-accordion") {
+    // Jika yang diklik img panah
+    const accordionAktif = document.querySelector(".accordion-aktif");
+    if (accordionAktif && !target.parentElement.parentElement.classList.contains("accordion-aktif")) accordionAktif.classList.remove("accordion-aktif");
+    target.parentElement.parentElement.classList.toggle("accordion-aktif");
   } else if (target.classList.contains("data-accordion")) {
+    // Jika yang diklik data accordion
     const dataAccordionTerpilih = document.querySelector(".data-accordion-terpilih");
     if (dataAccordionTerpilih) dataAccordionTerpilih.classList.remove("data-accordion-terpilih");
     target.classList.add("data-accordion-terpilih");
