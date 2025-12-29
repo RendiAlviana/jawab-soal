@@ -119,24 +119,28 @@ document.querySelector(".tombol-batal").addEventListener("click", () => {
 });
 // Ketika tombol simpan diklik
 document.querySelector(".tombol-simpan").addEventListener("click", async function () {
-  namaSoalYangTerpilih = document.querySelector(".data-accordion-terpilih").textContent;
-  document.querySelector(".tombol-dipengaturan .tombol-batal").style.display = "block";
   modalDitutup();
-
+  // Riset Lembar Soal
+  soalKe = 0;
+  jawabanUser = [];
+  seluruhOpsi.forEach((opsi) => {
+    opsi.checked = false;
+    opsi.disabled = false;
+  });
+  selesai = false;
   dataHasil = await ambilData();
   console.log(dataHasil);
 
   // Mengganti judul soal sesuai data
   document.querySelector(".judul h3").innerHTML = dataHasil.judul;
+
+  // Mencetak Lembar Soal Ke documen
+  mencetakLembarSoal(dataHasil);
   // Menggati seluruh nomor soal sesuai data yang ada di data base
   let nomor = "";
   for (let i = 0; i < dataHasil.jumlah_soal; i++) nomor += `<span>${i + 1}</span>`;
   seluruhNoSoal.innerHTML = nomor;
   seluruhNoSoal.childNodes[soalKe].classList.add("aktif");
-
-  // Mencetak Lembar Soal Ke documen
-  mencetakLembarSoal(dataHasil);
-  gantiNoAktif();
 
   // Ketika no soal di klik
   seluruhNoSoal.childNodes.forEach((noSoal) => {
@@ -149,14 +153,8 @@ document.querySelector(".tombol-simpan").addEventListener("click", async functio
     });
   });
 
-  // Riset Lembar Soal
-  soalKe = 0;
-  jawabanUser = [];
-  seluruhOpsi.forEach((opsi) => {
-    opsi.checked = false;
-    opsi.disabled = false;
-  });
-  selesai = false;
+  namaSoalYangTerpilih = document.querySelector(".data-accordion-terpilih").textContent;
+  document.querySelector(".tombol-dipengaturan .tombol-batal").style.display = "block";
   batalRadio.style.display = "none";
   document.querySelector(".tombol-selesai").style.display = "block";
   document.querySelector(".hasil").style.display = "none";
